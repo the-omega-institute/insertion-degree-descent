@@ -2,9 +2,8 @@
 
 This directory is a self-contained code and evidence package for the
 block-exchange criterion, finite minimum-mask examples, periodic degree-three
-repair, and bounded searches. It is prepared for the repository placeholder
-<https://github.com/the-omega-institute/insertion-degree-descent>; that repository
-has not been created by this task. There is no manuscript or correspondence in
+repair, and bounded searches. It is published at
+<https://github.com/the-omega-institute/insertion-degree-descent>. There is no manuscript or correspondence in
 this directory. All commands below run from this directory and use relative
 paths.
 
