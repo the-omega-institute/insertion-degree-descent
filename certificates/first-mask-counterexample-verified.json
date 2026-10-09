@@ -1,0 +1,1348 @@
+{
+  "u": "ABAABAABAAB",
+  "v": "ABABAAB",
+  "w": "ABABAAABABABAAABAB",
+  "degree": 4,
+  "mask": "UUVVVUUUUVUUUUVUVV",
+  "witness_indices": [
+    115,
+    115,
+    109,
+    230,
+    137,
+    272
+  ],
+  "total_masks": 36,
+  "degree_counts": {
+    "5": 16,
+    "6": 4,
+    "4": 16
+  },
+  "minimum_masks": [
+    "UUVVVUUUUVUUUUVUVV",
+    "UUVVVUUUUVUUUVUUVV",
+    "UUVVVUUUUVUUUVVVUU",
+    "UUVVVUUUUVUUVUUUVV",
+    "VVUUUUVUUVUUUUVUVV",
+    "VVUUUUVUUVUUUVUUVV",
+    "VVUUUUVUUVUUUVVVUU",
+    "VVUUUUVUUVUUVUUUVV",
+    "VVUUUVUUUVUUUUVUVV",
+    "VVUUUVUUUVUUUVUUVV",
+    "VVUUUVUUUVUUUVVVUU",
+    "VVUUUVUUUVUUVUUUVV",
+    "VVUUVUUUUVUUUUVUVV",
+    "VVUUVUUUUVUUUVUUVV",
+    "VVUUVUUUUVUUUVVVUU",
+    "VVUUVUUUUVUUVUUUVV"
+  ],
+  "mask_exchanges": [
+    {
+      "mask": "UUVVVUUUUVUUUUVUVV",
+      "moves": [
+        {
+          "begin": 0,
+          "cut": 2,
+          "end": 5,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 2,
+          "cut": 5,
+          "end": 9,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABABAABAABAAABAB",
+          "degree": 2,
+          "mask": "VVVVUUUUUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 14,
+          "word": "ABABAAABAABAABABAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUUUUUUUVUU"
+        },
+        {
+          "begin": 10,
+          "cut": 14,
+          "end": 15,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 14,
+          "cut": 15,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "UUVVVUUUUVUUUVUUVV",
+      "moves": [
+        {
+          "begin": 0,
+          "cut": 2,
+          "end": 5,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 2,
+          "cut": 5,
+          "end": 9,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABABAABAABAAABAB",
+          "degree": 2,
+          "mask": "VVVVUUUUUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 13,
+          "word": "ABABAAABAABABAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUUVVUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 13,
+          "end": 14,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 13,
+          "cut": 14,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "UUVVVUUUUVUUUVVVUU",
+      "moves": [
+        {
+          "begin": 0,
+          "cut": 2,
+          "end": 5,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 2,
+          "cut": 5,
+          "end": 9,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABABAABAABAAABAB",
+          "degree": 2,
+          "mask": "VVVVUUUUUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 13,
+          "word": "ABABAAABAABABAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUUVVUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 13,
+          "end": 16,
+          "word": "ABABAAABABAABABAAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUVVVVUUUUU"
+        },
+        {
+          "begin": 13,
+          "cut": 16,
+          "end": 18,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "UUVVVUUUUVUUVUUUVV",
+      "moves": [
+        {
+          "begin": 0,
+          "cut": 2,
+          "end": 5,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 2,
+          "cut": 5,
+          "end": 9,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABABAABAABAAABAB",
+          "degree": 2,
+          "mask": "VVVVUUUUUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 12,
+          "word": "ABABAAABAABBAAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUVVUUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 12,
+          "end": 13,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 12,
+          "cut": 13,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUUUVUUVUUUUVUVV",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 6,
+          "end": 7,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 6,
+          "cut": 7,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 7,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABAAABBAABAAABAB",
+          "degree": 3,
+          "mask": "VVUUUUVVUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 14,
+          "word": "ABABAAABAABAABABAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUUUUUUUVUU"
+        },
+        {
+          "begin": 10,
+          "cut": 14,
+          "end": 15,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 14,
+          "cut": 15,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUUUVUUVUUUVUUVV",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 6,
+          "end": 7,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 6,
+          "cut": 7,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 7,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABAAABBAABAAABAB",
+          "degree": 3,
+          "mask": "VVUUUUVVUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 13,
+          "word": "ABABAAABAABABAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUUVVUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 13,
+          "end": 14,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 13,
+          "cut": 14,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUUUVUUVUUUVVVUU",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 6,
+          "end": 7,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 6,
+          "cut": 7,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 7,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABAAABBAABAAABAB",
+          "degree": 3,
+          "mask": "VVUUUUVVUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 13,
+          "word": "ABABAAABAABABAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUUVVUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 13,
+          "end": 16,
+          "word": "ABABAAABABAABABAAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUVVVVUUUUU"
+        },
+        {
+          "begin": 13,
+          "cut": 16,
+          "end": 18,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUUUVUUVUUVUUUVV",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 6,
+          "end": 7,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 6,
+          "cut": 7,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 7,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABAAABBAABAAABAB",
+          "degree": 3,
+          "mask": "VVUUUUVVUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 12,
+          "word": "ABABAAABAABBAAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUVVUUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 12,
+          "end": 13,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 12,
+          "cut": 13,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUUVUUUVUUUUVUVV",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 5,
+          "end": 6,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 6,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 6,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABAABABAABAAABAB",
+          "degree": 3,
+          "mask": "VVUUUUUVVUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 14,
+          "word": "ABABAAABAABAABABAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUUUUUUUVUU"
+        },
+        {
+          "begin": 10,
+          "cut": 14,
+          "end": 15,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 14,
+          "cut": 15,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUUVUUUVUUUVUUVV",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 5,
+          "end": 6,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 6,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 6,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABAABABAABAAABAB",
+          "degree": 3,
+          "mask": "VVUUUUUVVUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 13,
+          "word": "ABABAAABAABABAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUUVVUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 13,
+          "end": 14,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 13,
+          "cut": 14,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUUVUUUVUUUVVVUU",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 5,
+          "end": 6,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 6,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 6,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABAABABAABAAABAB",
+          "degree": 3,
+          "mask": "VVUUUUUVVUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 13,
+          "word": "ABABAAABAABABAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUUVVUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 13,
+          "end": 16,
+          "word": "ABABAAABABAABABAAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUVVVVUUUUU"
+        },
+        {
+          "begin": 13,
+          "cut": 16,
+          "end": 18,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUUVUUUVUUVUUUVV",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 5,
+          "end": 6,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 6,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 6,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABAABABAABAAABAB",
+          "degree": 3,
+          "mask": "VVUUUUUVVUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 12,
+          "word": "ABABAAABAABBAAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUVVUUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 12,
+          "end": 13,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 12,
+          "cut": 13,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUVUUUUVUUUUVUVV",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 4,
+          "end": 5,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 4,
+          "cut": 5,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABABAABAABAAABAB",
+          "degree": 2,
+          "mask": "VVVVUUUUUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 14,
+          "word": "ABABAAABAABAABABAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUUUUUUUVUU"
+        },
+        {
+          "begin": 10,
+          "cut": 14,
+          "end": 15,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 14,
+          "cut": 15,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUVUUUUVUUUVUUVV",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 4,
+          "end": 5,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 4,
+          "cut": 5,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABABAABAABAAABAB",
+          "degree": 2,
+          "mask": "VVVVUUUUUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 13,
+          "word": "ABABAAABAABABAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUUVVUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 13,
+          "end": 14,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 13,
+          "cut": 14,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUVUUUUVUUUVVVUU",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 4,
+          "end": 5,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 4,
+          "cut": 5,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABABAABAABAAABAB",
+          "degree": 2,
+          "mask": "VVVVUUUUUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 13,
+          "word": "ABABAAABAABABAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUUVVUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 13,
+          "end": 16,
+          "word": "ABABAAABABAABABAAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUVVVVUUUUU"
+        },
+        {
+          "begin": 13,
+          "cut": 16,
+          "end": 18,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    },
+    {
+      "mask": "VVUUVUUUUVUUVUUUVV",
+      "moves": [
+        {
+          "begin": 2,
+          "cut": 4,
+          "end": 5,
+          "word": "ABAABAABABABAAABAB",
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV"
+        },
+        {
+          "begin": 4,
+          "cut": 5,
+          "end": 9,
+          "word": "ABABAABAABABAAABAB",
+          "degree": 2,
+          "mask": "VVUUUUUUUUVVVUUUVV"
+        },
+        {
+          "begin": 5,
+          "cut": 9,
+          "end": 10,
+          "word": "ABABABAABAABAAABAB",
+          "degree": 2,
+          "mask": "VVVVUUUUUUUUUUVUVV"
+        },
+        {
+          "begin": 9,
+          "cut": 10,
+          "end": 12,
+          "word": "ABABAAABAABBAAABAB",
+          "degree": 3,
+          "mask": "UUVVVUUUUUUVVUUUVV"
+        },
+        {
+          "begin": 10,
+          "cut": 12,
+          "end": 13,
+          "word": "ABABAAABABAABAABAB",
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV"
+        },
+        {
+          "begin": 12,
+          "cut": 13,
+          "end": 16,
+          "word": "ABABAAABABABAABAAB",
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU"
+        }
+      ]
+    }
+  ],
+  "first_mask_inspection": {
+    "u": "ABAABAABAAB",
+    "v": "ABABAAB",
+    "w": "ABABAAABABABAAABAB",
+    "degree": 4,
+    "first_minimum_mask": "UUVVVUUUUVUUUUVUVV",
+    "selected_minimum_mask": "UUVVVUUUUVUUUUVUVV",
+    "chosen_exchange": null,
+    "candidates": [
+      {
+        "word": "ABAABAABABABAAABAB",
+        "begin": 0,
+        "cut": 2,
+        "end": 5,
+        "mid": 3,
+        "separator": 2,
+        "side": "left",
+        "exchanged_mask": "VVVUUUUUUVUUUUVUVV",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "VVVUUUUUUVUUUUVUVV"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV",
+          "factors": {
+            "u_boundaries": [
+              0,
+              3,
+              5
+            ],
+            "v_boundaries": [
+              0,
+              0,
+              0
+            ],
+            "B_U": "ABA",
+            "A_U": "AB",
+            "B_V": "",
+            "A_V": "",
+            "U_commutes": false,
+            "V_commutes": true
+          }
+        }
+      },
+      {
+        "word": "ABAABAABABABAAABAB",
+        "begin": 2,
+        "cut": 5,
+        "end": 9,
+        "mid": 6,
+        "separator": 2,
+        "side": "right",
+        "exchanged_mask": "UUUUUUVVVVUUUUVUVV",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "UUUUUUVVVVUUUUVUVV"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "UUUUUUUUVVVVVUUUVV",
+          "factors": {
+            "u_boundaries": [
+              2,
+              6,
+              8
+            ],
+            "v_boundaries": [
+              0,
+              0,
+              1
+            ],
+            "B_U": "AABA",
+            "A_U": "AB",
+            "B_V": "",
+            "A_V": "A",
+            "U_commutes": false,
+            "V_commutes": true
+          }
+        }
+      },
+      {
+        "word": "ABABABAABAABAAABAB",
+        "begin": 5,
+        "cut": 9,
+        "end": 10,
+        "mid": 6,
+        "separator": 9,
+        "side": "left",
+        "exchanged_mask": "UUVVVVUUUUUUUUVUVV",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "UUVVVVUUUUUUUUVUVV"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "VVVVUUUUUUUUUUVUVV",
+          "factors": {
+            "u_boundaries": [
+              1,
+              2,
+              6
+            ],
+            "v_boundaries": [
+              4,
+              4,
+              4
+            ],
+            "B_U": "B",
+            "A_U": "AABA",
+            "B_V": "",
+            "A_V": "",
+            "U_commutes": false,
+            "V_commutes": true
+          }
+        }
+      },
+      {
+        "word": "ABABAAABAABAABABAB",
+        "begin": 9,
+        "cut": 10,
+        "end": 14,
+        "mid": 13,
+        "separator": 9,
+        "side": "right",
+        "exchanged_mask": "UUVVVUUUUUUUUVVUVV",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "UUVVVUUUUUUUUVVUVV"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "VVVVVVUUUUUUUUUVUU",
+          "factors": {
+            "u_boundaries": [
+              3,
+              7,
+              8
+            ],
+            "v_boundaries": [
+              6,
+              6,
+              6
+            ],
+            "B_U": "ABAA",
+            "A_U": "B",
+            "B_V": "",
+            "A_V": "",
+            "U_commutes": false,
+            "V_commutes": true
+          }
+        }
+      },
+      {
+        "word": "ABABAAABABAABAABAB",
+        "begin": 10,
+        "cut": 14,
+        "end": 15,
+        "mid": 11,
+        "separator": 14,
+        "side": "left",
+        "exchanged_mask": "UUVVVUUUUVVUUUUUVV",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "UUVVVUUUUVVUUUUUVV"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "VVUUUUVVVUUUUUUUVV",
+          "factors": {
+            "u_boundaries": [
+              5,
+              6,
+              10
+            ],
+            "v_boundaries": [
+              5,
+              5,
+              5
+            ],
+            "B_U": "A",
+            "A_U": "ABAA",
+            "B_V": "",
+            "A_V": "",
+            "U_commutes": false,
+            "V_commutes": true
+          }
+        }
+      },
+      {
+        "word": "ABABAAABABABAABAAB",
+        "begin": 14,
+        "cut": 15,
+        "end": 16,
+        "mid": 15,
+        "separator": 14,
+        "side": "right",
+        "exchanged_mask": "UUVVVUUUUVUUUUUVVV",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "UUVVVUUUUVUUUUUVVV"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "VVVVVVUUUVUUUUUUUU",
+          "factors": {
+            "u_boundaries": [
+              7,
+              8,
+              9
+            ],
+            "v_boundaries": [
+              7,
+              7,
+              7
+            ],
+            "B_U": "B",
+            "A_U": "A",
+            "B_V": "",
+            "A_V": "",
+            "U_commutes": false,
+            "V_commutes": true
+          }
+        }
+      }
+    ],
+    "status": "first_mask_failure",
+    "index_convention": "zero-based, half-open"
+  },
+  "exact_predecessors": [
+    {
+      "source_mask": "UUVVVUUUUVUUUVUUVV",
+      "begin": 9,
+      "cut": 10,
+      "end": 13,
+      "word": "ABABAAABAABABAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUUVVUUVV"
+    },
+    {
+      "source_mask": "UUVVVUUUUVUUUVVVUU",
+      "begin": 9,
+      "cut": 10,
+      "end": 13,
+      "word": "ABABAAABAABABAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUUVVUUVV"
+    },
+    {
+      "source_mask": "UUVVVUUUUVUUUVVVUU",
+      "begin": 10,
+      "cut": 13,
+      "end": 16,
+      "word": "ABABAAABABAABABAAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUVVVVUUUUU"
+    },
+    {
+      "source_mask": "UUVVVUUUUVUUVUUUVV",
+      "begin": 9,
+      "cut": 10,
+      "end": 12,
+      "word": "ABABAAABAABBAAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUVVUUUVV"
+    },
+    {
+      "source_mask": "VVUUUUVUUVUUUUVUVV",
+      "begin": 7,
+      "cut": 9,
+      "end": 10,
+      "word": "ABABAAABBAABAAABAB",
+      "degree": 3,
+      "mask": "VVUUUUVVUUUUUUVUVV"
+    },
+    {
+      "source_mask": "VVUUUUVUUVUUUVUUVV",
+      "begin": 7,
+      "cut": 9,
+      "end": 10,
+      "word": "ABABAAABBAABAAABAB",
+      "degree": 3,
+      "mask": "VVUUUUVVUUUUUUVUVV"
+    },
+    {
+      "source_mask": "VVUUUUVUUVUUUVUUVV",
+      "begin": 9,
+      "cut": 10,
+      "end": 13,
+      "word": "ABABAAABAABABAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUUVVUUVV"
+    },
+    {
+      "source_mask": "VVUUUUVUUVUUUVVVUU",
+      "begin": 7,
+      "cut": 9,
+      "end": 10,
+      "word": "ABABAAABBAABAAABAB",
+      "degree": 3,
+      "mask": "VVUUUUVVUUUUUUVUVV"
+    },
+    {
+      "source_mask": "VVUUUUVUUVUUUVVVUU",
+      "begin": 9,
+      "cut": 10,
+      "end": 13,
+      "word": "ABABAAABAABABAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUUVVUUVV"
+    },
+    {
+      "source_mask": "VVUUUUVUUVUUUVVVUU",
+      "begin": 10,
+      "cut": 13,
+      "end": 16,
+      "word": "ABABAAABABAABABAAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUVVVVUUUUU"
+    },
+    {
+      "source_mask": "VVUUUUVUUVUUVUUUVV",
+      "begin": 7,
+      "cut": 9,
+      "end": 10,
+      "word": "ABABAAABBAABAAABAB",
+      "degree": 3,
+      "mask": "VVUUUUVVUUUUUUVUVV"
+    },
+    {
+      "source_mask": "VVUUUUVUUVUUVUUUVV",
+      "begin": 9,
+      "cut": 10,
+      "end": 12,
+      "word": "ABABAAABAABBAAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUVVUUUVV"
+    },
+    {
+      "source_mask": "VVUUUVUUUVUUUUVUVV",
+      "begin": 6,
+      "cut": 9,
+      "end": 10,
+      "word": "ABABAABABAABAAABAB",
+      "degree": 3,
+      "mask": "VVUUUUUVVUUUUUVUVV"
+    },
+    {
+      "source_mask": "VVUUUVUUUVUUUVUUVV",
+      "begin": 6,
+      "cut": 9,
+      "end": 10,
+      "word": "ABABAABABAABAAABAB",
+      "degree": 3,
+      "mask": "VVUUUUUVVUUUUUVUVV"
+    },
+    {
+      "source_mask": "VVUUUVUUUVUUUVUUVV",
+      "begin": 9,
+      "cut": 10,
+      "end": 13,
+      "word": "ABABAAABAABABAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUUVVUUVV"
+    },
+    {
+      "source_mask": "VVUUUVUUUVUUUVVVUU",
+      "begin": 6,
+      "cut": 9,
+      "end": 10,
+      "word": "ABABAABABAABAAABAB",
+      "degree": 3,
+      "mask": "VVUUUUUVVUUUUUVUVV"
+    },
+    {
+      "source_mask": "VVUUUVUUUVUUUVVVUU",
+      "begin": 9,
+      "cut": 10,
+      "end": 13,
+      "word": "ABABAAABAABABAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUUVVUUVV"
+    },
+    {
+      "source_mask": "VVUUUVUUUVUUUVVVUU",
+      "begin": 10,
+      "cut": 13,
+      "end": 16,
+      "word": "ABABAAABABAABABAAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUVVVVUUUUU"
+    },
+    {
+      "source_mask": "VVUUUVUUUVUUVUUUVV",
+      "begin": 6,
+      "cut": 9,
+      "end": 10,
+      "word": "ABABAABABAABAAABAB",
+      "degree": 3,
+      "mask": "VVUUUUUVVUUUUUVUVV"
+    },
+    {
+      "source_mask": "VVUUUVUUUVUUVUUUVV",
+      "begin": 9,
+      "cut": 10,
+      "end": 12,
+      "word": "ABABAAABAABBAAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUVVUUUVV"
+    },
+    {
+      "source_mask": "VVUUVUUUUVUUUVUUVV",
+      "begin": 9,
+      "cut": 10,
+      "end": 13,
+      "word": "ABABAAABAABABAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUUVVUUVV"
+    },
+    {
+      "source_mask": "VVUUVUUUUVUUUVVVUU",
+      "begin": 9,
+      "cut": 10,
+      "end": 13,
+      "word": "ABABAAABAABABAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUUVVUUVV"
+    },
+    {
+      "source_mask": "VVUUVUUUUVUUUVVVUU",
+      "begin": 10,
+      "cut": 13,
+      "end": 16,
+      "word": "ABABAAABABAABABAAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUVVVVUUUUU"
+    },
+    {
+      "source_mask": "VVUUVUUUUVUUVUUUVV",
+      "begin": 9,
+      "cut": 10,
+      "end": 12,
+      "word": "ABABAAABAABBAAABAB",
+      "degree": 3,
+      "mask": "UUVVVUUUUUUVVUUUVV"
+    }
+  ]
+}

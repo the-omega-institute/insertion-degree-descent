@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "boundary_assignments": 64,
+    "pairs": 3076,
+    "outputs": 27826,
+    "dp_checks": 27826,
+    "transport_checks": 213608,
+    "block_criterion_checks": 67512,
+    "unary_pairs": 16068,
+    "unary_move_checks": 1354880,
+    "witness_move_checks": 954,
+    "rule_witnesses": 215,
+    "symbolic_bad_masks_verified": 12,
+    "infinite_family_instances": 81,
+    "family_complete_mask_lists": 6
+  },
+  "elapsed_seconds": 6.715
+}

@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "pairs": 70710,
+  "outputs": 20001166,
+  "higher": 19443384,
+  "source_position_masks": 924551040,
+  "degree_three_outputs": 8861068,
+  "degree_three_minimum_masks": 33306824,
+  "bad_degree_three_masks": 0,
+  "bad_nonperiodic_masks": 0,
+  "strong_vector_failures": 0,
+  "shift_rule_failures": 0,
+  "elapsed_seconds": 37.5132
+}

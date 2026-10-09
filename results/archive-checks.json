@@ -1,0 +1,92 @@
+{
+  "numerical_domains": {
+    "binary_full": {
+      "pairs": 1835012,
+      "higher": 415262716
+    },
+    "ternary_full8": {
+      "pairs": 63972,
+      "higher": 726198
+    },
+    "ternary_modulo_renaming": {
+      "pairs": 1395066,
+      "higher": 135331916
+    },
+    "four_modulo_renaming": {
+      "pairs": 508982,
+      "higher": 24145502
+    }
+  },
+  "first_all_degrees_through16": {
+    "masks": 121670,
+    "nodes": 2306288203,
+    "bad": 0
+  },
+  "first_all_degrees_exact17": {
+    "masks": 127858,
+    "nodes": 6254062825,
+    "bad": 0
+  },
+  "memo4-18.log": {
+    "masks": 75582,
+    "nodes": 279632995,
+    "bad": 1
+  },
+  "memo5-18.log": {
+    "masks": 92378,
+    "nodes": 8962639586,
+    "bad": 0
+  },
+  "last4-19.log": {
+    "masks": 125970,
+    "nodes": 532910127,
+    "bad": 0
+  },
+  "last4-20.log": {
+    "masks": 203490,
+    "nodes": 1212060756,
+    "bad": 1
+  },
+  "first_degree3_through30": {
+    "masks": 3365856,
+    "nodes": 139406910,
+    "bad": 0
+  },
+  "arbitrary_degree3_through26": {
+    "masks": 1184040,
+    "nodes": 69396022,
+    "bad": 305
+  },
+  "arbitrary_degree3_through30": {
+    "masks": 3365856,
+    "nodes": 266866735,
+    "bad": 1512
+  },
+  "full_identifications": {
+    "status": "PASS",
+    "instances": 221,
+    "coarsenings": 8110169,
+    "degree_three_coarsenings": 6702697,
+    "degree_counts": {
+      "1": 1407472,
+      "2": 0,
+      "3": 6702697
+    },
+    "elapsed_seconds": 13.7917
+  },
+  "structured": {
+    "complete": true,
+    "pairs": 70710,
+    "outputs": 20001166,
+    "higher": 19443384,
+    "source_position_masks": 924551040,
+    "degree_three_outputs": 8861068,
+    "degree_three_minimum_masks": 33306824,
+    "bad_degree_three_masks": 0,
+    "bad_nonperiodic_masks": 0,
+    "strong_vector_failures": 0,
+    "shift_rule_failures": 0,
+    "elapsed_seconds": 37.5132
+  },
+  "status": "PASS"
+}

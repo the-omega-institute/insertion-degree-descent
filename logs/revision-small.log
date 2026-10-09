@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "literal_tables": {
+    "table1_masks": 16,
+    "table2_remainders": 7,
+    "tab:successors_witness_rows": 4,
+    "tab:firstfailure_witness_rows": 5,
+    "tab:lastfailure_witness_rows": 5,
+    "tab:lastcert_complete_mask_entries": 24,
+    "tab:packedcert_complete_mask_entries": 29,
+    "packed_successor_rows": 6,
+    "separator_rule_rows": 4
+  },
+  "core": {
+    "unary_gap_formula_checks": 1904,
+    "outputs": 2338,
+    "alternative_masks": 6172,
+    "criterion_and_constrained_dp_exchanges": 2832,
+    "unary_exchanges": 1936,
+    "empty_segment_states": 18,
+    "boundary_assignments": 64
+  },
+  "prefix_profile": {
+    "failed_triples": 168,
+    "with_successful_candidate": 116,
+    "successful_profile": 94,
+    "without_successful_candidate": 52,
+    "ordinary_profile_without_candidate": 52
+  },
+  "elapsed_seconds": 3.054
+}

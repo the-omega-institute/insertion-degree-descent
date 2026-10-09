@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "input_sha256": "431669ea454609eac39190f0c4f70df217e7ec46a6b2cb6eda1bb711961fe28b",
+  "witness_tuples": 305,
+  "distinct_source_output_mask_instances": 221,
+  "maximum_length": 26,
+  "coarsening_witness_cuts_checked": 8778,
+  "shifted_degree_vectors": {
+    "(2, 1, 1, 2)": 221
+  },
+  "period_and_middle_run_lengths": {
+    "(3, 1)": 211,
+    "(4, 1)": 10
+  },
+  "elapsed_seconds": 0.891
+}

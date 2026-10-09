@@ -1,0 +1,8 @@
+{"length":9,"degree":5,"masks":1,"nodes":105,"pruned_low":105,"pruned_earlier":0,"bad":0,"total_masks":1,"total_nodes":105,"total_bad":0,"elapsed":0.000234542}
+{"length":10,"degree":5,"masks":11,"nodes":3007,"pruned_low":3001,"pruned_earlier":0,"bad":0,"total_masks":12,"total_nodes":3112,"total_bad":0,"elapsed":0.00195363}
+{"length":11,"degree":5,"masks":66,"nodes":36439,"pruned_low":36362,"pruned_earlier":14,"bad":0,"total_masks":78,"total_nodes":39551,"total_bad":0,"elapsed":0.023342}
+{"length":12,"degree":5,"masks":286,"nodes":398055,"pruned_low":397179,"pruned_earlier":249,"bad":0,"total_masks":364,"total_nodes":437606,"total_bad":0,"elapsed":0.302481}
+{"length":13,"degree":5,"masks":1001,"nodes":3096219,"pruned_low":3090425,"pruned_earlier":2073,"bad":0,"total_masks":1365,"total_nodes":3533825,"total_bad":0,"elapsed":2.85991}
+{"length":14,"degree":5,"masks":3003,"nodes":22106233,"pruned_low":22072005,"pruned_earlier":14125,"bad":0,"total_masks":4368,"total_nodes":25640058,"total_bad":0,"elapsed":24.2695}
+{"length":15,"degree":5,"masks":8008,"nodes":132539411,"pruned_low":132374819,"pruned_earlier":75402,"bad":0,"total_masks":12376,"total_nodes":158179469,"total_bad":0,"elapsed":172.453}
+{"length":16,"degree":5,"masks":19448,"nodes":772155307,"pruned_low":771420736,"pruned_earlier":348140,"bad":0,"total_masks":31824,"total_nodes":930334776,"total_bad":0,"elapsed":1189.13}

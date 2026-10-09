@@ -1,0 +1,384 @@
+{
+  "u": "ABABABBABAB",
+  "v": "ABABABBAB",
+  "w": "ABABABBABAABBABABABB",
+  "degree": 4,
+  "mask": "UUUUUUUVVVUUVVVUVVVU",
+  "witness_indices": [
+    323,
+    327,
+    327,
+    288,
+    439,
+    1
+  ],
+  "total_masks": 8,
+  "degree_counts": {
+    "5": 6,
+    "4": 2
+  },
+  "minimum_masks": [
+    "UUUUUUUVVVUUVVVUVVUV",
+    "UUUUUUUVVVUUVVVUVVVU"
+  ],
+  "mask_exchanges": [
+    {
+      "mask": "UUUUUUUVVVUUVVVUVVUV",
+      "moves": [
+        {
+          "begin": 0,
+          "cut": 7,
+          "end": 10,
+          "word": "ABAABABABBABBABABABB",
+          "degree": 2,
+          "mask": "VVVUUUUUUVVVVVUUUUUV"
+        },
+        {
+          "begin": 7,
+          "cut": 10,
+          "end": 12,
+          "word": "ABABABBABABABABABABB",
+          "degree": 2,
+          "mask": "VVVVVVVUUUUUUVUUUUUV"
+        },
+        {
+          "begin": 10,
+          "cut": 12,
+          "end": 15,
+          "word": "ABABABBABABABABABABB",
+          "degree": 2,
+          "mask": "VVVVVVVUUUUUUVUUUUUV"
+        },
+        {
+          "begin": 12,
+          "cut": 15,
+          "end": 16,
+          "word": "ABABABBABAABABABBABB",
+          "degree": 2,
+          "mask": "UUUUUUUUUUVVVVVVVVUV"
+        },
+        {
+          "begin": 15,
+          "cut": 16,
+          "end": 18,
+          "word": "ABABABBABAABBABBAABB",
+          "degree": 3,
+          "mask": "UUUUUUUVVVUUVVVVVUUV"
+        },
+        {
+          "begin": 16,
+          "cut": 18,
+          "end": 19,
+          "word": "ABABABBABAABBABABBAB",
+          "degree": 2,
+          "mask": "UUUUUUUUUUVUVVVVVVVV"
+        }
+      ]
+    },
+    {
+      "mask": "UUUUUUUVVVUUVVVUVVVU",
+      "moves": [
+        {
+          "begin": 0,
+          "cut": 7,
+          "end": 10,
+          "word": "ABAABABABBABBABABABB",
+          "degree": 2,
+          "mask": "VVVUUUUUUVVVVVUUUUUV"
+        },
+        {
+          "begin": 7,
+          "cut": 10,
+          "end": 12,
+          "word": "ABABABBABABABABABABB",
+          "degree": 2,
+          "mask": "VVVVVVVUUUUUUVUUUUUV"
+        },
+        {
+          "begin": 10,
+          "cut": 12,
+          "end": 15,
+          "word": "ABABABBABABABABABABB",
+          "degree": 2,
+          "mask": "VVVVVVVUUUUUUVUUUUUV"
+        },
+        {
+          "begin": 12,
+          "cut": 15,
+          "end": 16,
+          "word": "ABABABBABAABABABBABB",
+          "degree": 2,
+          "mask": "UUUUUUUUUUVVVVVVVVUV"
+        },
+        {
+          "begin": 15,
+          "cut": 16,
+          "end": 19,
+          "word": "ABABABBABAABBABBABAB",
+          "degree": 2,
+          "mask": "VVVVVVVUUUVVUUUUUUUU"
+        },
+        {
+          "begin": 16,
+          "cut": 19,
+          "end": 20,
+          "word": "ABABABBABAABBABABBAB",
+          "degree": 2,
+          "mask": "UUUUUUUUUUVUVVVVVVVV"
+        }
+      ]
+    }
+  ],
+  "last_mask_inspection": {
+    "u": "ABABABBABAB",
+    "v": "ABABABBAB",
+    "w": "ABABABBABAABBABABABB",
+    "degree": 4,
+    "first_minimum_mask": "UUUUUUUVVVUUVVVUVVUV",
+    "selected_minimum_mask": "UUUUUUUVVVUUVVVUVVVU",
+    "chosen_exchange": null,
+    "candidates": [
+      {
+        "word": "ABAABABABBABBABABABB",
+        "begin": 0,
+        "cut": 7,
+        "end": 10,
+        "mid": 3,
+        "separator": 7,
+        "side": "left",
+        "exchanged_mask": "VVVUUUUUUUUUVVVUVVVU",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "VVVUUUUUUUUUVVVUVVUV"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "VVVUUUUUUVVVVVUUUUUV",
+          "factors": {
+            "u_boundaries": [
+              0,
+              0,
+              6
+            ],
+            "v_boundaries": [
+              0,
+              3,
+              4
+            ],
+            "B_U": "",
+            "A_U": "ABABAB",
+            "B_V": "ABA",
+            "A_V": "B",
+            "U_commutes": true,
+            "V_commutes": false
+          }
+        }
+      },
+      {
+        "word": "ABABABBABABABABABABB",
+        "begin": 7,
+        "cut": 10,
+        "end": 12,
+        "mid": 9,
+        "separator": 7,
+        "side": "right",
+        "exchanged_mask": "UUUUUUUUUVVVVVVUVVVU",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "UUUUUUUUUVVVVVVUVVUV"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "VVVVVVVUUUUUUVUUUUUV",
+          "factors": {
+            "u_boundaries": [
+              0,
+              2,
+              5
+            ],
+            "v_boundaries": [
+              7,
+              7,
+              7
+            ],
+            "B_U": "AB",
+            "A_U": "ABA",
+            "B_V": "",
+            "A_V": "",
+            "U_commutes": false,
+            "V_commutes": true
+          }
+        }
+      },
+      {
+        "word": "ABABABBABABABABABABB",
+        "begin": 10,
+        "cut": 12,
+        "end": 15,
+        "mid": 13,
+        "separator": 12,
+        "side": "left",
+        "exchanged_mask": "UUUUUUUVVVVVVUUUVVVU",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "UUUUUUUVVVVVVUUUVVUV"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "VVVVVVVUUUUUUVUUUUUV",
+          "factors": {
+            "u_boundaries": [
+              3,
+              6,
+              7
+            ],
+            "v_boundaries": [
+              7,
+              7,
+              8
+            ],
+            "B_U": "BAB",
+            "A_U": "B",
+            "B_V": "",
+            "A_V": "A",
+            "U_commutes": false,
+            "V_commutes": true
+          }
+        }
+      },
+      {
+        "word": "ABABABBABAABABABBABB",
+        "begin": 12,
+        "cut": 15,
+        "end": 16,
+        "mid": 13,
+        "separator": 12,
+        "side": "right",
+        "exchanged_mask": "UUUUUUUVVVUUUVVVVVVU",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "UUUUUUUVVVUUUVVVVVUV"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "UUUUUUUUUUVVVVVVVVUV",
+          "factors": {
+            "u_boundaries": [
+              10,
+              10,
+              10
+            ],
+            "v_boundaries": [
+              2,
+              3,
+              6
+            ],
+            "B_U": "",
+            "A_U": "",
+            "B_V": "A",
+            "A_V": "BAB",
+            "U_commutes": true,
+            "V_commutes": false
+          }
+        }
+      },
+      {
+        "word": "ABABABBABAABBABBABAB",
+        "begin": 15,
+        "cut": 16,
+        "end": 19,
+        "mid": 18,
+        "separator": 16,
+        "side": "left",
+        "exchanged_mask": "UUUUUUUVVVUUVVVVVVUU",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "UUUUUUUVVVUUVVVVVVUU"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "VVVVVVVUUUVVUUUUUUUU",
+          "factors": {
+            "u_boundaries": [
+              6,
+              9,
+              10
+            ],
+            "v_boundaries": [
+              9,
+              9,
+              9
+            ],
+            "B_U": "BAB",
+            "A_U": "A",
+            "B_V": "",
+            "A_V": "",
+            "U_commutes": false,
+            "V_commutes": true
+          }
+        }
+      },
+      {
+        "word": "ABABABBABAABBABABBAB",
+        "begin": 16,
+        "cut": 19,
+        "end": 20,
+        "mid": 17,
+        "separator": 16,
+        "side": "right",
+        "exchanged_mask": "UUUUUUUVVVUUVVVUUVVV",
+        "degree": 2,
+        "exact": false,
+        "commuting_minimum": {
+          "degree": 3,
+          "mask": "UUUUUUUVVVUUVVVUUVVV"
+        },
+        "noncommuting_minimum": {
+          "degree": 2,
+          "mask": "UUUUUUUUUUVUVVVVVVVV",
+          "factors": {
+            "u_boundaries": [
+              11,
+              11,
+              11
+            ],
+            "v_boundaries": [
+              5,
+              6,
+              9
+            ],
+            "B_U": "",
+            "A_U": "",
+            "B_V": "B",
+            "A_V": "BAB",
+            "U_commutes": true,
+            "V_commutes": false
+          }
+        }
+      }
+    ],
+    "status": "selected_mask_failure",
+    "index_convention": "zero-based, half-open"
+  },
+  "exact_predecessors": [
+    {
+      "source_mask": "UUUUUUUVVVUUVVVUVVUV",
+      "begin": 15,
+      "cut": 16,
+      "end": 18,
+      "word": "ABABABBABAABBABBAABB",
+      "degree": 3,
+      "mask": "UUUUUUUVVVUUVVVVVUUV"
+    }
+  ]
+}

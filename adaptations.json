@@ -1,0 +1,11 @@
+{
+  "changes": [
+    "Python input/output paths are relative to this self-contained root.",
+    "check_small.py accepts optional external --tex; no manuscript is distributed.",
+    "independent_core.py extracts unmodified generic functions from the independent review; profile and boundary checks import that module.",
+    "All C++ sources are copied unchanged.",
+    "independent_certificates.py retains the independent review leaf/cut algorithms and adapts paths; asserts explicit completed ranges.",
+    "independent_lemma_check.py removes paper and external-PDF hash dependencies, retaining the mathematical check.",
+    "Revision reruns: independent degree-three generation through twenty, full structured degree-three sample, all length-twenty-six identifications, finite production checks, and Python audits. Generation above twenty and large higher-degree searches remain archived."
+  ]
+}

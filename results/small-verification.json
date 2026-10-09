@@ -1,0 +1,7403 @@
+{
+  "method": "all U-position combinations; both projections checked",
+  "python": "3.14.4",
+  "script_sha256": "fd128bfcefbba7747adef79f1248c5287d59e223f09201ba07da030d0be83c98",
+  "proposition5": {
+    "u": "01010",
+    "v": "01010101",
+    "w": "0010110011010",
+    "degree": 4,
+    "masks": [
+      "UVVVUVUVUVVVU",
+      "UVVVUVUVVUVVU",
+      "UVVVUVVUUVVVU",
+      "UVVVUVVUVUVVU",
+      "UVVVVUUVUVVVU",
+      "UVVVVUUVVUVVU",
+      "UVVVVUVUUVVVU",
+      "UVVVVUVUVUVVU",
+      "VUVVUVUVUVVVU",
+      "VUVVUVUVVUVVU",
+      "VUVVUVVUUVVVU",
+      "VUVVUVVUVUVVU",
+      "VUVVVUUVUVVVU",
+      "VUVVVUUVVUVVU",
+      "VUVVVUVUUVVVU",
+      "VUVVVUVUVUVVU"
+    ],
+    "mask_runs": [
+      5,
+      5,
+      4,
+      5,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      4,
+      5,
+      4,
+      4,
+      4,
+      5
+    ],
+    "first": "UVVVUVVUUVVVU",
+    "last": "VUVVVUVUUVVVU",
+    "selected": "UVVVVUVUUVVVU",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          0,
+          1,
+          5
+        ],
+        "separator_length": 4,
+        "word": "0101010011010",
+        "transported": "VVVVUUVUUVVVU",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVUVVUUUU",
+          "VVVVVVVUUVUUU",
+          "VVVVVVVUVUUUU"
+        ],
+        "all_masks": [
+          "UUVVVVUVUVVVU",
+          "UUVVVVUVVUVVU",
+          "UUVVVVVUUVVVU",
+          "UUVVVVVUVUVVU",
+          "VVUUVVUVUVVVU",
+          "VVUUVVUVVUVVU",
+          "VVUUVVVUUVVVU",
+          "VVUUVVVUVUVVU",
+          "VVVVUUUVUVVVU",
+          "VVVVUUUVVUVVU",
+          "VVVVUUVUUVVVU",
+          "VVVVUUVUVUVVU",
+          "VVVVVVUVUVUUU",
+          "VVVVVVUVVUUUU",
+          "VVVVVVVUUVUUU",
+          "VVVVVVVUVUUUU"
+        ],
+        "contiguous_u_remainders": [
+          "10011010",
+          "01011010"
+        ]
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          1,
+          5,
+          6
+        ],
+        "separator_length": 4,
+        "word": "0101010011010",
+        "transported": "UUVVVVVUUVVVU",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVUVVUUUU",
+          "VVVVVVVUUVUUU",
+          "VVVVVVVUVUUUU"
+        ],
+        "all_masks": [
+          "UUVVVVUVUVVVU",
+          "UUVVVVUVVUVVU",
+          "UUVVVVVUUVVVU",
+          "UUVVVVVUVUVVU",
+          "VVUUVVUVUVVVU",
+          "VVUUVVUVVUVVU",
+          "VVUUVVVUUVVVU",
+          "VVUUVVVUVUVVU",
+          "VVVVUUUVUVVVU",
+          "VVVVUUUVVUVVU",
+          "VVVVUUVUUVVVU",
+          "VVVVUUVUVUVVU",
+          "VVVVVVUVUVUUU",
+          "VVVVVVUVVUUUU",
+          "VVVVVVVUUVUUU",
+          "VVVVVVVUVUUUU"
+        ],
+        "contiguous_u_remainders": [
+          "10011010",
+          "01011010"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          5,
+          6,
+          7
+        ],
+        "separator_length": 1,
+        "word": "0010101011010",
+        "transported": "UVVVVVUUUVVVU",
+        "degree": 2,
+        "minimum_masks": [
+          "UVVVVVVVVUUUU",
+          "VUVVVVVVVUUUU"
+        ],
+        "all_masks": [
+          "UVUUVVVVUVVVU",
+          "UVUUVVVVVUVVU",
+          "UVVVUUVVUVVVU",
+          "UVVVUUVVVUVVU",
+          "UVVVVVUUUVVVU",
+          "UVVVVVUUVUVVU",
+          "UVVVVVVVUVUUU",
+          "UVVVVVVVVUUUU",
+          "VUUUVVVVUVVVU",
+          "VUUUVVVVVUVVU",
+          "VUVVUUVVUVVVU",
+          "VUVVUUVVVUVVU",
+          "VUVVVVUUUVVVU",
+          "VUVVVVUUVUVVU",
+          "VUVVVVVVUVUUU",
+          "VUVVVVVVVUUUU"
+        ],
+        "contiguous_u_remainders": [
+          "01011010",
+          "00111010"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          6,
+          7,
+          9
+        ],
+        "separator_length": 1,
+        "word": "0010110101010",
+        "transported": "UVVVVUUUVVVVU",
+        "degree": 2,
+        "minimum_masks": [
+          "VUUUUVVVVVVVU"
+        ],
+        "all_masks": [
+          "UVUUUVVVVVVVU",
+          "UVUUVUVVVVVVU",
+          "UVVVUVUUVVVVU",
+          "UVVVUVVVUUVVU",
+          "UVVVUVVVVVUUU",
+          "UVVVVUUUVVVVU",
+          "UVVVVUVVUUVVU",
+          "UVVVVUVVVVUUU",
+          "VUUUUVVVVVVVU",
+          "VUUUVUVVVVVVU",
+          "VUVVUVUUVVVVU",
+          "VUVVUVVVUUVVU",
+          "VUVVUVVVVVUUU",
+          "VUVVVUUUVVVVU",
+          "VUVVVUVVUUVVU",
+          "VUVVVUVVVVUUU"
+        ],
+        "contiguous_u_remainders": [
+          "00101110",
+          "00101101"
+        ]
+      },
+      {
+        "separator": 3,
+        "direction": "L",
+        "bounds": [
+          7,
+          9,
+          12
+        ],
+        "separator_length": 3,
+        "word": "0010110101010",
+        "transported": "UVVVVUVVVVUUU",
+        "degree": 2,
+        "minimum_masks": [
+          "VUUUUVVVVVVVU"
+        ],
+        "all_masks": [
+          "UVUUUVVVVVVVU",
+          "UVUUVUVVVVVVU",
+          "UVVVUVUUVVVVU",
+          "UVVVUVVVUUVVU",
+          "UVVVUVVVVVUUU",
+          "UVVVVUUUVVVVU",
+          "UVVVVUVVUUVVU",
+          "UVVVVUVVVVUUU",
+          "VUUUUVVVVVVVU",
+          "VUUUVUVVVVVVU",
+          "VUVVUVUUVVVVU",
+          "VUVVUVVVUUVVU",
+          "VUVVUVVVVVUUU",
+          "VUVVVUUUVVVVU",
+          "VUVVVUVVUUVVU",
+          "VUVVVUVVVVUUU"
+        ],
+        "contiguous_u_remainders": [
+          "00101110",
+          "00101101"
+        ]
+      },
+      {
+        "separator": 3,
+        "direction": "R",
+        "bounds": [
+          9,
+          12,
+          13
+        ],
+        "separator_length": 3,
+        "word": "0010110010101",
+        "transported": "UVVVVUVUUUVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VUUUUVUVVVVVV",
+          "VUUUUVVUVVVVV",
+          "VUUUVUUVVVVVV"
+        ],
+        "all_masks": [
+          "UVUUUVUVVVVVV",
+          "UVUUUVVUVVVVV",
+          "UVUUVUUVVVVVV",
+          "UVUUVUVUVVVVV",
+          "UVVVUVUVUUVVV",
+          "UVVVUVUVVVUUV",
+          "UVVVUVVUUUVVV",
+          "UVVVUVVUVVUUV",
+          "UVVVVUUVUUVVV",
+          "UVVVVUUVVVUUV",
+          "UVVVVUVUUUVVV",
+          "UVVVVUVUVVUUV",
+          "VUUUUVUVVVVVV",
+          "VUUUUVVUVVVVV",
+          "VUUUVUUVVVVVV",
+          "VUUUVUVUVVVVV",
+          "VUVVUVUVUUVVV",
+          "VUVVUVUVVVUUV",
+          "VUVVUVVUUUVVV",
+          "VUVVUVVUVVUUV",
+          "VUVVVUUVUUVVV",
+          "VUVVVUUVVVUUV",
+          "VUVVVUVUUUVVV",
+          "VUVVVUVUVVUUV"
+        ],
+        "contiguous_u_remainders": [
+          "00101101"
+        ]
+      }
+    ]
+  },
+  "proposition5_first": {
+    "u": "01010",
+    "v": "01010101",
+    "w": "0010110011010",
+    "degree": 4,
+    "masks": [
+      "UVVVUVUVUVVVU",
+      "UVVVUVUVVUVVU",
+      "UVVVUVVUUVVVU",
+      "UVVVUVVUVUVVU",
+      "UVVVVUUVUVVVU",
+      "UVVVVUUVVUVVU",
+      "UVVVVUVUUVVVU",
+      "UVVVVUVUVUVVU",
+      "VUVVUVUVUVVVU",
+      "VUVVUVUVVUVVU",
+      "VUVVUVVUUVVVU",
+      "VUVVUVVUVUVVU",
+      "VUVVVUUVUVVVU",
+      "VUVVVUUVVUVVU",
+      "VUVVVUVUUVVVU",
+      "VUVVVUVUVUVVU"
+    ],
+    "mask_runs": [
+      5,
+      5,
+      4,
+      5,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      4,
+      5,
+      4,
+      4,
+      4,
+      5
+    ],
+    "first": "UVVVUVVUUVVVU",
+    "last": "VUVVVUVUUVVVU",
+    "selected": "UVVVUVVUUVVVU",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          0,
+          1,
+          4
+        ],
+        "separator_length": 3,
+        "word": "0100110011010",
+        "transported": "VVVUUVVUUVVVU",
+        "degree": 3,
+        "minimum_masks": [
+          "VVVUUVVUUVVVU"
+        ],
+        "all_masks": [
+          "VVUVUVUVUVVVU",
+          "VVUVUVUVVUVVU",
+          "VVUVUVVUUVVVU",
+          "VVUVUVVUVUVVU",
+          "VVUVVUUVUVVVU",
+          "VVUVVUUVVUVVU",
+          "VVUVVUVUUVVVU",
+          "VVUVVUVUVUVVU",
+          "VVVUUVUVUVVVU",
+          "VVVUUVUVVUVVU",
+          "VVVUUVVUUVVVU",
+          "VVVUUVVUVUVVU",
+          "VVVUVUUVUVVVU",
+          "VVVUVUUVVUVVU",
+          "VVVUVUVUUVVVU",
+          "VVVUVUVUVUVVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          1,
+          4,
+          5
+        ],
+        "separator_length": 3,
+        "word": "0101010011010",
+        "transported": "UUVVVVVUUVVVU",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVUVVUUUU",
+          "VVVVVVVUUVUUU",
+          "VVVVVVVUVUUUU"
+        ],
+        "all_masks": [
+          "UUVVVVUVUVVVU",
+          "UUVVVVUVVUVVU",
+          "UUVVVVVUUVVVU",
+          "UUVVVVVUVUVVU",
+          "VVUUVVUVUVVVU",
+          "VVUUVVUVVUVVU",
+          "VVUUVVVUUVVVU",
+          "VVUUVVVUVUVVU",
+          "VVVVUUUVUVVVU",
+          "VVVVUUUVVUVVU",
+          "VVVVUUVUUVVVU",
+          "VVVVUUVUVUVVU",
+          "VVVVVVUVUVUUU",
+          "VVVVVVUVVUUUU",
+          "VVVVVVVUUVUUU",
+          "VVVVVVVUVUUUU"
+        ],
+        "contiguous_u_remainders": [
+          "10011010",
+          "01011010"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          4,
+          5,
+          7
+        ],
+        "separator_length": 2,
+        "word": "0010101011010",
+        "transported": "UVVVVVUUUVVVU",
+        "degree": 2,
+        "minimum_masks": [
+          "UVVVVVVVVUUUU",
+          "VUVVVVVVVUUUU"
+        ],
+        "all_masks": [
+          "UVUUVVVVUVVVU",
+          "UVUUVVVVVUVVU",
+          "UVVVUUVVUVVVU",
+          "UVVVUUVVVUVVU",
+          "UVVVVVUUUVVVU",
+          "UVVVVVUUVUVVU",
+          "UVVVVVVVUVUUU",
+          "UVVVVVVVVUUUU",
+          "VUUUVVVVUVVVU",
+          "VUUUVVVVVUVVU",
+          "VUVVUUVVUVVVU",
+          "VUVVUUVVVUVVU",
+          "VUVVVVUUUVVVU",
+          "VUVVVVUUVUVVU",
+          "VUVVVVVVUVUUU",
+          "VUVVVVVVVUUUU"
+        ],
+        "contiguous_u_remainders": [
+          "01011010",
+          "00111010"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          5,
+          7,
+          9
+        ],
+        "separator_length": 2,
+        "word": "0010101101010",
+        "transported": "UVVVUUUVVVVVU",
+        "degree": 3,
+        "minimum_masks": [
+          "UVVVUUUVVVVVU",
+          "UVVVVVUVVVUUU",
+          "UVVVVVVUUUVVU",
+          "UVVVVVVUVVUUU",
+          "VUUUVVUVVVVVU",
+          "VUUUVVVUVVVVU",
+          "VUVVUUUVVVVVU",
+          "VUVVVVUVVVUUU",
+          "VUVVVVVUUUVVU",
+          "VUVVVVVUVVUUU"
+        ],
+        "all_masks": [
+          "UVUUVVUVVVVVU",
+          "UVUUVVVUVVVVU",
+          "UVVVUUUVVVVVU",
+          "UVVVUUVUVVVVU",
+          "UVVVVVUVUUVVU",
+          "UVVVVVUVVVUUU",
+          "UVVVVVVUUUVVU",
+          "UVVVVVVUVVUUU",
+          "VUUUVVUVVVVVU",
+          "VUUUVVVUVVVVU",
+          "VUVVUUUVVVVVU",
+          "VUVVUUVUVVVVU",
+          "VUVVVVUVUUVVU",
+          "VUVVVVUVVVUUU",
+          "VUVVVVVUUUVVU",
+          "VUVVVVVUVVUUU"
+        ],
+        "contiguous_u_remainders": [
+          "01101010",
+          "00101011"
+        ]
+      },
+      {
+        "separator": 3,
+        "direction": "L",
+        "bounds": [
+          7,
+          9,
+          12
+        ],
+        "separator_length": 3,
+        "word": "0010110101010",
+        "transported": "UVVVUVVVVVUUU",
+        "degree": 2,
+        "minimum_masks": [
+          "VUUUUVVVVVVVU"
+        ],
+        "all_masks": [
+          "UVUUUVVVVVVVU",
+          "UVUUVUVVVVVVU",
+          "UVVVUVUUVVVVU",
+          "UVVVUVVVUUVVU",
+          "UVVVUVVVVVUUU",
+          "UVVVVUUUVVVVU",
+          "UVVVVUVVUUVVU",
+          "UVVVVUVVVVUUU",
+          "VUUUUVVVVVVVU",
+          "VUUUVUVVVVVVU",
+          "VUVVUVUUVVVVU",
+          "VUVVUVVVUUVVU",
+          "VUVVUVVVVVUUU",
+          "VUVVVUUUVVVVU",
+          "VUVVVUVVUUVVU",
+          "VUVVVUVVVVUUU"
+        ],
+        "contiguous_u_remainders": [
+          "00101110",
+          "00101101"
+        ]
+      },
+      {
+        "separator": 3,
+        "direction": "R",
+        "bounds": [
+          9,
+          12,
+          13
+        ],
+        "separator_length": 3,
+        "word": "0010110010101",
+        "transported": "UVVVUVVUUUVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VUUUUVUVVVVVV",
+          "VUUUUVVUVVVVV",
+          "VUUUVUUVVVVVV"
+        ],
+        "all_masks": [
+          "UVUUUVUVVVVVV",
+          "UVUUUVVUVVVVV",
+          "UVUUVUUVVVVVV",
+          "UVUUVUVUVVVVV",
+          "UVVVUVUVUUVVV",
+          "UVVVUVUVVVUUV",
+          "UVVVUVVUUUVVV",
+          "UVVVUVVUVVUUV",
+          "UVVVVUUVUUVVV",
+          "UVVVVUUVVVUUV",
+          "UVVVVUVUUUVVV",
+          "UVVVVUVUVVUUV",
+          "VUUUUVUVVVVVV",
+          "VUUUUVVUVVVVV",
+          "VUUUVUUVVVVVV",
+          "VUUUVUVUVVVVV",
+          "VUVVUVUVUUVVV",
+          "VUVVUVUVVVUUV",
+          "VUVVUVVUUUVVV",
+          "VUVVUVVUVVUUV",
+          "VUVVVUUVUUVVV",
+          "VUVVVUUVVVUUV",
+          "VUVVVUVUUUVVV",
+          "VUVVVUVUVVUUV"
+        ],
+        "contiguous_u_remainders": [
+          "00101101"
+        ]
+      }
+    ]
+  },
+  "rules": {
+    "First": {
+      "u": "011001",
+      "v": "1001",
+      "w": "0101011001",
+      "degree": 3,
+      "masks": [
+        "UVVUVUVUUU",
+        "UVVUVVUUUU"
+      ],
+      "mask_runs": [
+        4,
+        3
+      ],
+      "first": "UVVUVVUUUU",
+      "last": "UVVUVVUUUU",
+      "selected": "UVVUVVUUUU",
+      "moves": [
+        {
+          "separator": 1,
+          "direction": "L",
+          "bounds": [
+            0,
+            1,
+            3
+          ],
+          "separator_length": 2,
+          "word": "1001011001",
+          "transported": "VVUUVVUUUU",
+          "degree": 1,
+          "minimum_masks": [
+            "VVVVUUUUUU"
+          ],
+          "all_masks": [
+            "VUVUVUVUUU",
+            "VUVUVVUUUU",
+            "VVUUVUVUUU",
+            "VVUUVVUUUU",
+            "VVVVUUUUUU"
+          ],
+          "contiguous_u_remainders": [
+            "1001"
+          ]
+        },
+        {
+          "separator": 1,
+          "direction": "R",
+          "bounds": [
+            1,
+            3,
+            4
+          ],
+          "separator_length": 2,
+          "word": "0110011001",
+          "transported": "UUVVVVUUUU",
+          "degree": 1,
+          "minimum_masks": [
+            "UUUUUUVVVV"
+          ],
+          "all_masks": [
+            "UUUUUUVVVV",
+            "UUUUUVUVVV",
+            "UUVVVUVUUU",
+            "UUVVVVUUUU",
+            "UVUVVUVUUU",
+            "UVUVVVUUUU"
+          ],
+          "contiguous_u_remainders": [
+            "1001",
+            "0110"
+          ]
+        },
+        {
+          "separator": 2,
+          "direction": "L",
+          "bounds": [
+            3,
+            4,
+            6
+          ],
+          "separator_length": 2,
+          "word": "0100111001",
+          "transported": "UVVVVUUUUU",
+          "degree": 2,
+          "minimum_masks": [
+            "UVVVVUUUUU"
+          ],
+          "all_masks": [
+            "UVVVUUVUUU",
+            "UVVVUVUUUU",
+            "UVVVVUUUUU"
+          ],
+          "contiguous_u_remainders": []
+        },
+        {
+          "separator": 2,
+          "direction": "R",
+          "bounds": [
+            4,
+            6,
+            10
+          ],
+          "separator_length": 2,
+          "word": "0101100101",
+          "transported": "UVVUUUUUVV",
+          "degree": 2,
+          "minimum_masks": [
+            "UVVUUUUUVV"
+          ],
+          "all_masks": [
+            "UVVUUUUUVV",
+            "UVVUUUVVUU",
+            "UVVUUVUVUU"
+          ],
+          "contiguous_u_remainders": [
+            "0101"
+          ]
+        }
+      ],
+      "selected_separators": [
+        1
+      ]
+    },
+    "Last": {
+      "u": "01201",
+      "v": "012",
+      "w": "01201021",
+      "degree": 3,
+      "masks": [
+        "UUUVVUVU"
+      ],
+      "mask_runs": [
+        3
+      ],
+      "first": "UUUVVUVU",
+      "last": "UUUVVUVU",
+      "selected": "UUUVVUVU",
+      "moves": [
+        {
+          "separator": 1,
+          "direction": "L",
+          "bounds": [
+            0,
+            3,
+            5
+          ],
+          "separator_length": 2,
+          "word": "01012021",
+          "transported": "VVUUUUVU",
+          "degree": 2,
+          "minimum_masks": [
+            "VVUUUUVU"
+          ],
+          "all_masks": [
+            "UUVVUUVU",
+            "VVUUUUVU"
+          ],
+          "contiguous_u_remainders": []
+        },
+        {
+          "separator": 1,
+          "direction": "R",
+          "bounds": [
+            3,
+            5,
+            6
+          ],
+          "separator_length": 2,
+          "word": "01200121",
+          "transported": "UUUUVVVU",
+          "degree": 2,
+          "minimum_masks": [
+            "UUUUVVVU"
+          ],
+          "all_masks": [
+            "UUUUVVVU",
+            "UUUVUVVU"
+          ],
+          "contiguous_u_remainders": []
+        },
+        {
+          "separator": 2,
+          "direction": "L",
+          "bounds": [
+            5,
+            6,
+            7
+          ],
+          "separator_length": 1,
+          "word": "01201201",
+          "transported": "UUUVVVUU",
+          "degree": 1,
+          "minimum_masks": [
+            "VVVUUUUU"
+          ],
+          "all_masks": [
+            "UUUVVVUU",
+            "VVVUUUUU"
+          ],
+          "contiguous_u_remainders": [
+            "201",
+            "012"
+          ]
+        },
+        {
+          "separator": 2,
+          "direction": "R",
+          "bounds": [
+            6,
+            7,
+            8
+          ],
+          "separator_length": 1,
+          "word": "01201012",
+          "transported": "UUUVVUUV",
+          "degree": 1,
+          "minimum_masks": [
+            "UUUUUVVV"
+          ],
+          "all_masks": [
+            "UUUUUVVV",
+            "UUUVVUUV"
+          ],
+          "contiguous_u_remainders": [
+            "012"
+          ]
+        }
+      ],
+      "selected_separators": [
+        2
+      ]
+    },
+    "Shortest": {
+      "u": "0011001",
+      "v": "0011",
+      "w": "00110010101",
+      "degree": 3,
+      "masks": [
+        "UUUUVVVUVUU"
+      ],
+      "mask_runs": [
+        3
+      ],
+      "first": "UUUUVVVUVUU",
+      "last": "UUUUVVVUVUU",
+      "selected": "UUUUVVVUVUU",
+      "moves": [
+        {
+          "separator": 1,
+          "direction": "L",
+          "bounds": [
+            0,
+            4,
+            7
+          ],
+          "separator_length": 3,
+          "word": "00100110101",
+          "transported": "VVVUUUUUVUU",
+          "degree": 2,
+          "minimum_masks": [
+            "VVVUUUUUVUU"
+          ],
+          "all_masks": [
+            "UUUVVUVUVUU",
+            "UUUVVVUUVUU",
+            "VVVUUUUUVUU"
+          ],
+          "contiguous_u_remainders": []
+        },
+        {
+          "separator": 1,
+          "direction": "R",
+          "bounds": [
+            4,
+            7,
+            8
+          ],
+          "separator_length": 3,
+          "word": "00110001101",
+          "transported": "UUUUUVVVVUU",
+          "degree": 2,
+          "minimum_masks": [
+            "UUUUUVVVVUU"
+          ],
+          "all_masks": [
+            "UUUUUVVVVUU",
+            "UUUUVUVVVUU",
+            "UUUUVVUVVUU"
+          ],
+          "contiguous_u_remainders": []
+        },
+        {
+          "separator": 2,
+          "direction": "L",
+          "bounds": [
+            7,
+            8,
+            9
+          ],
+          "separator_length": 1,
+          "word": "00110011001",
+          "transported": "UUUUVVVVUUU",
+          "degree": 1,
+          "minimum_masks": [
+            "VVVVUUUUUUU"
+          ],
+          "all_masks": [
+            "UUUUVVVVUUU",
+            "VVVVUUUUUUU"
+          ],
+          "contiguous_u_remainders": [
+            "1001",
+            "0011"
+          ]
+        },
+        {
+          "separator": 2,
+          "direction": "R",
+          "bounds": [
+            8,
+            9,
+            11
+          ],
+          "separator_length": 1,
+          "word": "00110010011",
+          "transported": "UUUUVVVUUUV",
+          "degree": 1,
+          "minimum_masks": [
+            "UUUUUUUVVVV"
+          ],
+          "all_masks": [
+            "UUUUUUUVVVV",
+            "UUUUVVVUUUV",
+            "UUUUVVVUUVU"
+          ],
+          "contiguous_u_remainders": [
+            "0011"
+          ]
+        }
+      ],
+      "selected_separators": [
+        2
+      ]
+    },
+    "Longest": {
+      "u": "0101010",
+      "v": "010",
+      "w": "0100110010",
+      "degree": 3,
+      "masks": [
+        "UUUVUVUVUU",
+        "UUUVUVVUUU",
+        "UUUVVUUVUU",
+        "UUUVVUVUUU",
+        "UUVUUVUVUU",
+        "UUVUUVVUUU",
+        "UUVUVUUVUU",
+        "UUVUVUVUUU"
+      ],
+      "mask_runs": [
+        4,
+        3,
+        3,
+        3,
+        4,
+        3,
+        4,
+        4
+      ],
+      "first": "UUUVUVVUUU",
+      "last": "UUVUUVVUUU",
+      "selected": "UUUVUVVUUU",
+      "moves": [
+        {
+          "separator": 1,
+          "direction": "L",
+          "bounds": [
+            0,
+            3,
+            4
+          ],
+          "separator_length": 1,
+          "word": "0010110010",
+          "transported": "VUUUUVVUUU",
+          "degree": 2,
+          "minimum_masks": [
+            "VUUUUVVUUU"
+          ],
+          "all_masks": [
+            "UVUUUVUVUU",
+            "UVUUUVVUUU",
+            "UVUUVUUVUU",
+            "UVUUVUVUUU",
+            "VUUUUVUVUU",
+            "VUUUUVVUUU",
+            "VUUUVUUVUU",
+            "VUUUVUVUUU"
+          ],
+          "contiguous_u_remainders": []
+        },
+        {
+          "separator": 1,
+          "direction": "R",
+          "bounds": [
+            3,
+            4,
+            5
+          ],
+          "separator_length": 1,
+          "word": "0101010010",
+          "transported": "UUUUVVVUUU",
+          "degree": 1,
+          "minimum_masks": [
+            "UUUUUUUVVV"
+          ],
+          "all_masks": [
+            "UUUUUUUVVV",
+            "UUUUUUVUVV",
+            "UUUUVVUVUU",
+            "UUUUVVVUUU",
+            "UUVVUUUVUU",
+            "UUVVUUVUUU",
+            "VVUUUUUVUU",
+            "VVUUUUVUUU"
+          ],
+          "contiguous_u_remainders": [
+            "010"
+          ]
+        },
+        {
+          "separator": 2,
+          "direction": "L",
+          "bounds": [
+            4,
+            5,
+            7
+          ],
+          "separator_length": 2,
+          "word": "0100101010",
+          "transported": "UUUVVVUUUU",
+          "degree": 1,
+          "minimum_masks": [
+            "VVVUUUUUUU"
+          ],
+          "all_masks": [
+            "UUUVUUUUVV",
+            "UUUVUUVVUU",
+            "UUUVVVUUUU",
+            "UUVUUUUUVV",
+            "UUVUUUVVUU",
+            "UUVUVVUUUU",
+            "VVUVUUUUUU",
+            "VVVUUUUUUU"
+          ],
+          "contiguous_u_remainders": [
+            "010"
+          ]
+        },
+        {
+          "separator": 2,
+          "direction": "R",
+          "bounds": [
+            5,
+            7,
+            10
+          ],
+          "separator_length": 2,
+          "word": "0100101010",
+          "transported": "UUUVUUUUVV",
+          "degree": 1,
+          "minimum_masks": [
+            "VVVUUUUUUU"
+          ],
+          "all_masks": [
+            "UUUVUUUUVV",
+            "UUUVUUVVUU",
+            "UUUVVVUUUU",
+            "UUVUUUUUVV",
+            "UUVUUUVVUU",
+            "UUVUVVUUUU",
+            "VVUVUUUUUU",
+            "VVVUUUUUUU"
+          ],
+          "contiguous_u_remainders": [
+            "010"
+          ]
+        }
+      ],
+      "selected_separators": [
+        2
+      ]
+    }
+  },
+  "proposition7": {
+    "u": "ABAABAABAAB",
+    "v": "ABABAAB",
+    "w": "ABABAAABABABAAABAB",
+    "degree": 4,
+    "masks": [
+      "UUVVUUVUUVUUUUVUVV",
+      "UUVVUUVUUVUUUVUUVV",
+      "UUVVUUVUUVUUUVVVUU",
+      "UUVVUUVUUVUUVUUUVV",
+      "UUVVUUVUUVUUVUVVUU",
+      "UUVVUUVUUVUUVVUVUU",
+      "UUVVUVUUUVUUUUVUVV",
+      "UUVVUVUUUVUUUVUUVV",
+      "UUVVUVUUUVUUUVVVUU",
+      "UUVVUVUUUVUUVUUUVV",
+      "UUVVUVUUUVUUVUVVUU",
+      "UUVVUVUUUVUUVVUVUU",
+      "UUVVVUUUUVUUUUVUVV",
+      "UUVVVUUUUVUUUVUUVV",
+      "UUVVVUUUUVUUUVVVUU",
+      "UUVVVUUUUVUUVUUUVV",
+      "UUVVVUUUUVUUVUVVUU",
+      "UUVVVUUUUVUUVVUVUU",
+      "VVUUUUVUUVUUUUVUVV",
+      "VVUUUUVUUVUUUVUUVV",
+      "VVUUUUVUUVUUUVVVUU",
+      "VVUUUUVUUVUUVUUUVV",
+      "VVUUUUVUUVUUVUVVUU",
+      "VVUUUUVUUVUUVVUVUU",
+      "VVUUUVUUUVUUUUVUVV",
+      "VVUUUVUUUVUUUVUUVV",
+      "VVUUUVUUUVUUUVVVUU",
+      "VVUUUVUUUVUUVUUUVV",
+      "VVUUUVUUUVUUVUVVUU",
+      "VVUUUVUUUVUUVVUVUU",
+      "VVUUVUUUUVUUUUVUVV",
+      "VVUUVUUUUVUUUVUUVV",
+      "VVUUVUUUUVUUUVVVUU",
+      "VVUUVUUUUVUUVUUUVV",
+      "VVUUVUUUUVUUVUVVUU",
+      "VVUUVUUUUVUUVVUVUU"
+    ],
+    "mask_runs": [
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5
+    ],
+    "first": "UUVVVUUUUVUUUUVUVV",
+    "last": "VVUUVUUUUVUUVUUUVV",
+    "selected": "UUVVVUUUUVUUUUVUVV",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          0,
+          2,
+          5
+        ],
+        "separator_length": 3,
+        "word": "ABAABAABABABAAABAB",
+        "transported": "VVVUUUUUUVUUUUVUVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUUVVVVVUUUVV"
+        ],
+        "all_masks": [
+          "UUUUUUUUVVVVUUVUVV",
+          "UUUUUUUUVVVVUVUUVV",
+          "UUUUUUUUVVVVUVVVUU",
+          "UUUUUUUUVVVVVUUUVV",
+          "UUUUUUUUVVVVVUVVUU",
+          "UUUUUUUUVVVVVVUVUU",
+          "UUUUUUVVUUVVUUVUVV",
+          "UUUUUUVVUUVVUVUUVV",
+          "UUUUUUVVUUVVUVVVUU",
+          "UUUUUUVVUUVVVUUUVV",
+          "UUUUUUVVUUVVVUVVUU",
+          "UUUUUUVVUUVVVVUVUU",
+          "UUUUUUVVVVUUUUVUVV",
+          "UUUUUUVVVVUUUVUUVV",
+          "UUUUUUVVVVUUUVVVUU",
+          "UUUUUUVVVVUUVUUUVV",
+          "UUUUUUVVVVUUVUVVUU",
+          "UUUUUUVVVVUUVVUVUU",
+          "UUUUUVUVUUVVUUVUVV",
+          "UUUUUVUVUUVVUVUUVV",
+          "UUUUUVUVUUVVUVVVUU",
+          "UUUUUVUVUUVVVUUUVV",
+          "UUUUUVUVUUVVVUVVUU",
+          "UUUUUVUVUUVVVVUVUU",
+          "UUUUUVUVVVUUUUVUVV",
+          "UUUUUVUVVVUUUVUUVV",
+          "UUUUUVUVVVUUUVVVUU",
+          "UUUUUVUVVVUUVUUUVV",
+          "UUUUUVUVVVUUVUVVUU",
+          "UUUUUVUVVVUUVVUVUU",
+          "UUUVVUVUUVUUUUVUVV",
+          "UUUVVUVUUVUUUVUUVV",
+          "UUUVVUVUUVUUUVVVUU",
+          "UUUVVUVUUVUUVUUUVV",
+          "UUUVVUVUUVUUVUVVUU",
+          "UUUVVUVUUVUUVVUVUU",
+          "UUUVVVUUUVUUUUVUVV",
+          "UUUVVVUUUVUUUVUUVV",
+          "UUUVVVUUUVUUUVVVUU",
+          "UUUVVVUUUVUUVUUUVV",
+          "UUUVVVUUUVUUVUVVUU",
+          "UUUVVVUUUVUUVVUVUU",
+          "UUVUVUVUUVUUUUVUVV",
+          "UUVUVUVUUVUUUVUUVV",
+          "UUVUVUVUUVUUUVVVUU",
+          "UUVUVUVUUVUUVUUUVV",
+          "UUVUVUVUUVUUVUVVUU",
+          "UUVUVUVUUVUUVVUVUU",
+          "UUVUVVUUUVUUUUVUVV",
+          "UUVUVVUUUVUUUVUUVV",
+          "UUVUVVUUUVUUUVVVUU",
+          "UUVUVVUUUVUUVUUUVV",
+          "UUVUVVUUUVUUVUVVUU",
+          "UUVUVVUUUVUUVVUVUU",
+          "VVUVUUUUUVUUUUVUVV",
+          "VVUVUUUUUVUUUVUUVV",
+          "VVUVUUUUUVUUUVVVUU",
+          "VVUVUUUUUVUUVUUUVV",
+          "VVUVUUUUUVUUVUVVUU",
+          "VVUVUUUUUVUUVVUVUU",
+          "VVVUUUUUUVUUUUVUVV",
+          "VVVUUUUUUVUUUVUUVV",
+          "VVVUUUUUUVUUUVVVUU",
+          "VVVUUUUUUVUUVUUUVV",
+          "VVVUUUUUUVUUVUVVUU",
+          "VVVUUUUUUVUUVVUVUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          2,
+          5,
+          9
+        ],
+        "separator_length": 3,
+        "word": "ABAABAABABABAAABAB",
+        "transported": "UUUUUUVVVVUUUUVUVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUUVVVVVUUUVV"
+        ],
+        "all_masks": [
+          "UUUUUUUUVVVVUUVUVV",
+          "UUUUUUUUVVVVUVUUVV",
+          "UUUUUUUUVVVVUVVVUU",
+          "UUUUUUUUVVVVVUUUVV",
+          "UUUUUUUUVVVVVUVVUU",
+          "UUUUUUUUVVVVVVUVUU",
+          "UUUUUUVVUUVVUUVUVV",
+          "UUUUUUVVUUVVUVUUVV",
+          "UUUUUUVVUUVVUVVVUU",
+          "UUUUUUVVUUVVVUUUVV",
+          "UUUUUUVVUUVVVUVVUU",
+          "UUUUUUVVUUVVVVUVUU",
+          "UUUUUUVVVVUUUUVUVV",
+          "UUUUUUVVVVUUUVUUVV",
+          "UUUUUUVVVVUUUVVVUU",
+          "UUUUUUVVVVUUVUUUVV",
+          "UUUUUUVVVVUUVUVVUU",
+          "UUUUUUVVVVUUVVUVUU",
+          "UUUUUVUVUUVVUUVUVV",
+          "UUUUUVUVUUVVUVUUVV",
+          "UUUUUVUVUUVVUVVVUU",
+          "UUUUUVUVUUVVVUUUVV",
+          "UUUUUVUVUUVVVUVVUU",
+          "UUUUUVUVUUVVVVUVUU",
+          "UUUUUVUVVVUUUUVUVV",
+          "UUUUUVUVVVUUUVUUVV",
+          "UUUUUVUVVVUUUVVVUU",
+          "UUUUUVUVVVUUVUUUVV",
+          "UUUUUVUVVVUUVUVVUU",
+          "UUUUUVUVVVUUVVUVUU",
+          "UUUVVUVUUVUUUUVUVV",
+          "UUUVVUVUUVUUUVUUVV",
+          "UUUVVUVUUVUUUVVVUU",
+          "UUUVVUVUUVUUVUUUVV",
+          "UUUVVUVUUVUUVUVVUU",
+          "UUUVVUVUUVUUVVUVUU",
+          "UUUVVVUUUVUUUUVUVV",
+          "UUUVVVUUUVUUUVUUVV",
+          "UUUVVVUUUVUUUVVVUU",
+          "UUUVVVUUUVUUVUUUVV",
+          "UUUVVVUUUVUUVUVVUU",
+          "UUUVVVUUUVUUVVUVUU",
+          "UUVUVUVUUVUUUUVUVV",
+          "UUVUVUVUUVUUUVUUVV",
+          "UUVUVUVUUVUUUVVVUU",
+          "UUVUVUVUUVUUVUUUVV",
+          "UUVUVUVUUVUUVUVVUU",
+          "UUVUVUVUUVUUVVUVUU",
+          "UUVUVVUUUVUUUUVUVV",
+          "UUVUVVUUUVUUUVUUVV",
+          "UUVUVVUUUVUUUVVVUU",
+          "UUVUVVUUUVUUVUUUVV",
+          "UUVUVVUUUVUUVUVVUU",
+          "UUVUVVUUUVUUVVUVUU",
+          "VVUVUUUUUVUUUUVUVV",
+          "VVUVUUUUUVUUUVUUVV",
+          "VVUVUUUUUVUUUVVVUU",
+          "VVUVUUUUUVUUVUUUVV",
+          "VVUVUUUUUVUUVUVVUU",
+          "VVUVUUUUUVUUVVUVUU",
+          "VVVUUUUUUVUUUUVUVV",
+          "VVVUUUUUUVUUUVUUVV",
+          "VVVUUUUUUVUUUVVVUU",
+          "VVVUUUUUUVUUVUUUVV",
+          "VVVUUUUUUVUUVUVVUU",
+          "VVVUUUUUUVUUVVUVUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          5,
+          9,
+          10
+        ],
+        "separator_length": 1,
+        "word": "ABABABAABAABAAABAB",
+        "transported": "UUVVVVUUUUUUUUVUVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVUUUUUUUUUUVUVV",
+          "VVVVUUUUUUUUUVUUVV",
+          "VVVVUUUUUUUUUVVVUU",
+          "VVVVUUUUUUUUVUUUVV"
+        ],
+        "all_masks": [
+          "UUVVVVUUUUUUUUVUVV",
+          "UUVVVVUUUUUUUVUUVV",
+          "UUVVVVUUUUUUUVVVUU",
+          "UUVVVVUUUUUUVUUUVV",
+          "UUVVVVUUUUUUVUVVUU",
+          "UUVVVVUUUUUUVVUVUU",
+          "VVUUVVUUUUUUUUVUVV",
+          "VVUUVVUUUUUUUVUUVV",
+          "VVUUVVUUUUUUUVVVUU",
+          "VVUUVVUUUUUUVUUUVV",
+          "VVUUVVUUUUUUVUVVUU",
+          "VVUUVVUUUUUUVVUVUU",
+          "VVVVUUUUUUUUUUVUVV",
+          "VVVVUUUUUUUUUVUUVV",
+          "VVVVUUUUUUUUUVVVUU",
+          "VVVVUUUUUUUUVUUUVV",
+          "VVVVUUUUUUUUVUVVUU",
+          "VVVVUUUUUUUUVVUVUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          9,
+          10,
+          14
+        ],
+        "separator_length": 1,
+        "word": "ABABAAABAABAABABAB",
+        "transported": "UUVVVUUUUUUUUVVUVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVUUUUUUUUUVUU"
+        ],
+        "all_masks": [
+          "UUVVUUVUUUUUUVVUVV",
+          "UUVVUUVUUUVVVUUVUU",
+          "UUVVUUVVVVUUUUUVUU",
+          "UUVVUVUUUUUUUVVUVV",
+          "UUVVUVUUUUVVVUUVUU",
+          "UUVVUVUVVVUUUUUVUU",
+          "UUVVVUUUUUUUUVVUVV",
+          "UUVVVUUUUUVVVUUVUU",
+          "UUVVVUUVVVUUUUUVUU",
+          "VVUUUUVUUUUUUVVUVV",
+          "VVUUUUVUUUVVVUUVUU",
+          "VVUUUUVVVVUUUUUVUU",
+          "VVUUUVUUUUUUUVVUVV",
+          "VVUUUVUUUUVVVUUVUU",
+          "VVUUUVUVVVUUUUUVUU",
+          "VVUUVUUUUUUUUVVUVV",
+          "VVUUVUUUUUVVVUUVUU",
+          "VVUUVUUVVVUUUUUVUU",
+          "VVVVUVVUUUUUUUUVUU",
+          "VVVVVUVUUUUUUUUVUU",
+          "VVVVVVUUUUUUUUUVUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "L",
+        "bounds": [
+          10,
+          14,
+          15
+        ],
+        "separator_length": 1,
+        "word": "ABABAAABABAABAABAB",
+        "transported": "UUVVVUUUUVVUUUUUVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVUUUUVVVUUUUUUUVV"
+        ],
+        "all_masks": [
+          "UUVVUUVUUVUVUUUUVV",
+          "UUVVUUVUUVUVUUVVUU",
+          "UUVVUUVUUVUVUVUVUU",
+          "UUVVUUVUUVVUUUUUVV",
+          "UUVVUUVUUVVUUUVVUU",
+          "UUVVUUVUUVVUUVUVUU",
+          "UUVVUUVVVUUUUUUUVV",
+          "UUVVUUVVVUUUUUVVUU",
+          "UUVVUUVVVUUUUVUVUU",
+          "UUVVUVUUUVUVUUUUVV",
+          "UUVVUVUUUVUVUUVVUU",
+          "UUVVUVUUUVUVUVUVUU",
+          "UUVVUVUUUVVUUUUUVV",
+          "UUVVUVUUUVVUUUVVUU",
+          "UUVVUVUUUVVUUVUVUU",
+          "UUVVUVUVVUUUUUUUVV",
+          "UUVVUVUVVUUUUUVVUU",
+          "UUVVUVUVVUUUUVUVUU",
+          "UUVVVUUUUVUVUUUUVV",
+          "UUVVVUUUUVUVUUVVUU",
+          "UUVVVUUUUVUVUVUVUU",
+          "UUVVVUUUUVVUUUUUVV",
+          "UUVVVUUUUVVUUUVVUU",
+          "UUVVVUUUUVVUUVUVUU",
+          "UUVVVUUVVUUUUUUUVV",
+          "UUVVVUUVVUUUUUVVUU",
+          "UUVVVUUVVUUUUVUVUU",
+          "VVUUUUVUUVUVUUUUVV",
+          "VVUUUUVUUVUVUUVVUU",
+          "VVUUUUVUUVUVUVUVUU",
+          "VVUUUUVUUVVUUUUUVV",
+          "VVUUUUVUUVVUUUVVUU",
+          "VVUUUUVUUVVUUVUVUU",
+          "VVUUUUVVVUUUUUUUVV",
+          "VVUUUUVVVUUUUUVVUU",
+          "VVUUUUVVVUUUUVUVUU",
+          "VVUUUVUUUVUVUUUUVV",
+          "VVUUUVUUUVUVUUVVUU",
+          "VVUUUVUUUVUVUVUVUU",
+          "VVUUUVUUUVVUUUUUVV",
+          "VVUUUVUUUVVUUUVVUU",
+          "VVUUUVUUUVVUUVUVUU",
+          "VVUUUVUVVUUUUUUUVV",
+          "VVUUUVUVVUUUUUVVUU",
+          "VVUUUVUVVUUUUVUVUU",
+          "VVUUVUUUUVUVUUUUVV",
+          "VVUUVUUUUVUVUUVVUU",
+          "VVUUVUUUUVUVUVUVUU",
+          "VVUUVUUUUVVUUUUUVV",
+          "VVUUVUUUUVVUUUVVUU",
+          "VVUUVUUUUVVUUVUVUU",
+          "VVUUVUUVVUUUUUUUVV",
+          "VVUUVUUVVUUUUUVVUU",
+          "VVUUVUUVVUUUUVUVUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "R",
+        "bounds": [
+          14,
+          15,
+          16
+        ],
+        "separator_length": 1,
+        "word": "ABABAAABABABAABAAB",
+        "transported": "UUVVVUUUUVUUUUUVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVUUUVUUUUUUUU"
+        ],
+        "all_masks": [
+          "UUVVUUVUUVUUUUUVVV",
+          "UUVVUUVUUVUUVVVUUU",
+          "UUVVUUVVVUVVUUUUUU",
+          "UUVVUVUUUVUUUUUVVV",
+          "UUVVUVUUUVUUVVVUUU",
+          "UUVVUVUVVUVVUUUUUU",
+          "UUVVVUUUUVUUUUUVVV",
+          "UUVVVUUUUVUUVVVUUU",
+          "UUVVVUUVVUVVUUUUUU",
+          "VVUUUUVUUVUUUUUVVV",
+          "VVUUUUVUUVUUVVVUUU",
+          "VVUUUUVVVUVVUUUUUU",
+          "VVUUUVUUUVUUUUUVVV",
+          "VVUUUVUUUVUUVVVUUU",
+          "VVUUUVUVVUVVUUUUUU",
+          "VVUUVUUUUVUUUUUVVV",
+          "VVUUVUUUUVUUVVVUUU",
+          "VVUUVUUVVUVVUUUUUU",
+          "VVVVUVVUUVUUUUUUUU",
+          "VVVVVUVUUVUUUUUUUU",
+          "VVVVVVUUUVUUUUUUUU"
+        ],
+        "contiguous_u_remainders": []
+      }
+    ]
+  },
+  "proposition7_other": {
+    "u": "ABAABAABAAB",
+    "v": "ABABAAB",
+    "w": "ABABAAABABABAAABAB",
+    "degree": 4,
+    "masks": [
+      "UUVVUUVUUVUUUUVUVV",
+      "UUVVUUVUUVUUUVUUVV",
+      "UUVVUUVUUVUUUVVVUU",
+      "UUVVUUVUUVUUVUUUVV",
+      "UUVVUUVUUVUUVUVVUU",
+      "UUVVUUVUUVUUVVUVUU",
+      "UUVVUVUUUVUUUUVUVV",
+      "UUVVUVUUUVUUUVUUVV",
+      "UUVVUVUUUVUUUVVVUU",
+      "UUVVUVUUUVUUVUUUVV",
+      "UUVVUVUUUVUUVUVVUU",
+      "UUVVUVUUUVUUVVUVUU",
+      "UUVVVUUUUVUUUUVUVV",
+      "UUVVVUUUUVUUUVUUVV",
+      "UUVVVUUUUVUUUVVVUU",
+      "UUVVVUUUUVUUVUUUVV",
+      "UUVVVUUUUVUUVUVVUU",
+      "UUVVVUUUUVUUVVUVUU",
+      "VVUUUUVUUVUUUUVUVV",
+      "VVUUUUVUUVUUUVUUVV",
+      "VVUUUUVUUVUUUVVVUU",
+      "VVUUUUVUUVUUVUUUVV",
+      "VVUUUUVUUVUUVUVVUU",
+      "VVUUUUVUUVUUVVUVUU",
+      "VVUUUVUUUVUUUUVUVV",
+      "VVUUUVUUUVUUUVUUVV",
+      "VVUUUVUUUVUUUVVVUU",
+      "VVUUUVUUUVUUVUUUVV",
+      "VVUUUVUUUVUUVUVVUU",
+      "VVUUUVUUUVUUVVUVUU",
+      "VVUUVUUUUVUUUUVUVV",
+      "VVUUVUUUUVUUUVUUVV",
+      "VVUUVUUUUVUUUVVVUU",
+      "VVUUVUUUUVUUVUUUVV",
+      "VVUUVUUUUVUUVUVVUU",
+      "VVUUVUUUUVUUVVUVUU"
+    ],
+    "mask_runs": [
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5
+    ],
+    "first": "UUVVVUUUUVUUUUVUVV",
+    "last": "VVUUVUUUUVUUVUUUVV",
+    "selected": "UUVVVUUUUVUUUVUUVV",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          0,
+          2,
+          5
+        ],
+        "separator_length": 3,
+        "word": "ABAABAABABABAAABAB",
+        "transported": "VVVUUUUUUVUUUVUUVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUUVVVVVUUUVV"
+        ],
+        "all_masks": [
+          "UUUUUUUUVVVVUUVUVV",
+          "UUUUUUUUVVVVUVUUVV",
+          "UUUUUUUUVVVVUVVVUU",
+          "UUUUUUUUVVVVVUUUVV",
+          "UUUUUUUUVVVVVUVVUU",
+          "UUUUUUUUVVVVVVUVUU",
+          "UUUUUUVVUUVVUUVUVV",
+          "UUUUUUVVUUVVUVUUVV",
+          "UUUUUUVVUUVVUVVVUU",
+          "UUUUUUVVUUVVVUUUVV",
+          "UUUUUUVVUUVVVUVVUU",
+          "UUUUUUVVUUVVVVUVUU",
+          "UUUUUUVVVVUUUUVUVV",
+          "UUUUUUVVVVUUUVUUVV",
+          "UUUUUUVVVVUUUVVVUU",
+          "UUUUUUVVVVUUVUUUVV",
+          "UUUUUUVVVVUUVUVVUU",
+          "UUUUUUVVVVUUVVUVUU",
+          "UUUUUVUVUUVVUUVUVV",
+          "UUUUUVUVUUVVUVUUVV",
+          "UUUUUVUVUUVVUVVVUU",
+          "UUUUUVUVUUVVVUUUVV",
+          "UUUUUVUVUUVVVUVVUU",
+          "UUUUUVUVUUVVVVUVUU",
+          "UUUUUVUVVVUUUUVUVV",
+          "UUUUUVUVVVUUUVUUVV",
+          "UUUUUVUVVVUUUVVVUU",
+          "UUUUUVUVVVUUVUUUVV",
+          "UUUUUVUVVVUUVUVVUU",
+          "UUUUUVUVVVUUVVUVUU",
+          "UUUVVUVUUVUUUUVUVV",
+          "UUUVVUVUUVUUUVUUVV",
+          "UUUVVUVUUVUUUVVVUU",
+          "UUUVVUVUUVUUVUUUVV",
+          "UUUVVUVUUVUUVUVVUU",
+          "UUUVVUVUUVUUVVUVUU",
+          "UUUVVVUUUVUUUUVUVV",
+          "UUUVVVUUUVUUUVUUVV",
+          "UUUVVVUUUVUUUVVVUU",
+          "UUUVVVUUUVUUVUUUVV",
+          "UUUVVVUUUVUUVUVVUU",
+          "UUUVVVUUUVUUVVUVUU",
+          "UUVUVUVUUVUUUUVUVV",
+          "UUVUVUVUUVUUUVUUVV",
+          "UUVUVUVUUVUUUVVVUU",
+          "UUVUVUVUUVUUVUUUVV",
+          "UUVUVUVUUVUUVUVVUU",
+          "UUVUVUVUUVUUVVUVUU",
+          "UUVUVVUUUVUUUUVUVV",
+          "UUVUVVUUUVUUUVUUVV",
+          "UUVUVVUUUVUUUVVVUU",
+          "UUVUVVUUUVUUVUUUVV",
+          "UUVUVVUUUVUUVUVVUU",
+          "UUVUVVUUUVUUVVUVUU",
+          "VVUVUUUUUVUUUUVUVV",
+          "VVUVUUUUUVUUUVUUVV",
+          "VVUVUUUUUVUUUVVVUU",
+          "VVUVUUUUUVUUVUUUVV",
+          "VVUVUUUUUVUUVUVVUU",
+          "VVUVUUUUUVUUVVUVUU",
+          "VVVUUUUUUVUUUUVUVV",
+          "VVVUUUUUUVUUUVUUVV",
+          "VVVUUUUUUVUUUVVVUU",
+          "VVVUUUUUUVUUVUUUVV",
+          "VVVUUUUUUVUUVUVVUU",
+          "VVVUUUUUUVUUVVUVUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          2,
+          5,
+          9
+        ],
+        "separator_length": 3,
+        "word": "ABAABAABABABAAABAB",
+        "transported": "UUUUUUVVVVUUUVUUVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUUVVVVVUUUVV"
+        ],
+        "all_masks": [
+          "UUUUUUUUVVVVUUVUVV",
+          "UUUUUUUUVVVVUVUUVV",
+          "UUUUUUUUVVVVUVVVUU",
+          "UUUUUUUUVVVVVUUUVV",
+          "UUUUUUUUVVVVVUVVUU",
+          "UUUUUUUUVVVVVVUVUU",
+          "UUUUUUVVUUVVUUVUVV",
+          "UUUUUUVVUUVVUVUUVV",
+          "UUUUUUVVUUVVUVVVUU",
+          "UUUUUUVVUUVVVUUUVV",
+          "UUUUUUVVUUVVVUVVUU",
+          "UUUUUUVVUUVVVVUVUU",
+          "UUUUUUVVVVUUUUVUVV",
+          "UUUUUUVVVVUUUVUUVV",
+          "UUUUUUVVVVUUUVVVUU",
+          "UUUUUUVVVVUUVUUUVV",
+          "UUUUUUVVVVUUVUVVUU",
+          "UUUUUUVVVVUUVVUVUU",
+          "UUUUUVUVUUVVUUVUVV",
+          "UUUUUVUVUUVVUVUUVV",
+          "UUUUUVUVUUVVUVVVUU",
+          "UUUUUVUVUUVVVUUUVV",
+          "UUUUUVUVUUVVVUVVUU",
+          "UUUUUVUVUUVVVVUVUU",
+          "UUUUUVUVVVUUUUVUVV",
+          "UUUUUVUVVVUUUVUUVV",
+          "UUUUUVUVVVUUUVVVUU",
+          "UUUUUVUVVVUUVUUUVV",
+          "UUUUUVUVVVUUVUVVUU",
+          "UUUUUVUVVVUUVVUVUU",
+          "UUUVVUVUUVUUUUVUVV",
+          "UUUVVUVUUVUUUVUUVV",
+          "UUUVVUVUUVUUUVVVUU",
+          "UUUVVUVUUVUUVUUUVV",
+          "UUUVVUVUUVUUVUVVUU",
+          "UUUVVUVUUVUUVVUVUU",
+          "UUUVVVUUUVUUUUVUVV",
+          "UUUVVVUUUVUUUVUUVV",
+          "UUUVVVUUUVUUUVVVUU",
+          "UUUVVVUUUVUUVUUUVV",
+          "UUUVVVUUUVUUVUVVUU",
+          "UUUVVVUUUVUUVVUVUU",
+          "UUVUVUVUUVUUUUVUVV",
+          "UUVUVUVUUVUUUVUUVV",
+          "UUVUVUVUUVUUUVVVUU",
+          "UUVUVUVUUVUUVUUUVV",
+          "UUVUVUVUUVUUVUVVUU",
+          "UUVUVUVUUVUUVVUVUU",
+          "UUVUVVUUUVUUUUVUVV",
+          "UUVUVVUUUVUUUVUUVV",
+          "UUVUVVUUUVUUUVVVUU",
+          "UUVUVVUUUVUUVUUUVV",
+          "UUVUVVUUUVUUVUVVUU",
+          "UUVUVVUUUVUUVVUVUU",
+          "VVUVUUUUUVUUUUVUVV",
+          "VVUVUUUUUVUUUVUUVV",
+          "VVUVUUUUUVUUUVVVUU",
+          "VVUVUUUUUVUUVUUUVV",
+          "VVUVUUUUUVUUVUVVUU",
+          "VVUVUUUUUVUUVVUVUU",
+          "VVVUUUUUUVUUUUVUVV",
+          "VVVUUUUUUVUUUVUUVV",
+          "VVVUUUUUUVUUUVVVUU",
+          "VVVUUUUUUVUUVUUUVV",
+          "VVVUUUUUUVUUVUVVUU",
+          "VVVUUUUUUVUUVVUVUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          5,
+          9,
+          10
+        ],
+        "separator_length": 1,
+        "word": "ABABABAABAABAAABAB",
+        "transported": "UUVVVVUUUUUUUVUUVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVUUUUUUUUUUVUVV",
+          "VVVVUUUUUUUUUVUUVV",
+          "VVVVUUUUUUUUUVVVUU",
+          "VVVVUUUUUUUUVUUUVV"
+        ],
+        "all_masks": [
+          "UUVVVVUUUUUUUUVUVV",
+          "UUVVVVUUUUUUUVUUVV",
+          "UUVVVVUUUUUUUVVVUU",
+          "UUVVVVUUUUUUVUUUVV",
+          "UUVVVVUUUUUUVUVVUU",
+          "UUVVVVUUUUUUVVUVUU",
+          "VVUUVVUUUUUUUUVUVV",
+          "VVUUVVUUUUUUUVUUVV",
+          "VVUUVVUUUUUUUVVVUU",
+          "VVUUVVUUUUUUVUUUVV",
+          "VVUUVVUUUUUUVUVVUU",
+          "VVUUVVUUUUUUVVUVUU",
+          "VVVVUUUUUUUUUUVUVV",
+          "VVVVUUUUUUUUUVUUVV",
+          "VVVVUUUUUUUUUVVVUU",
+          "VVVVUUUUUUUUVUUUVV",
+          "VVVVUUUUUUUUVUVVUU",
+          "VVVVUUUUUUUUVVUVUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          9,
+          10,
+          13
+        ],
+        "separator_length": 1,
+        "word": "ABABAAABAABABAABAB",
+        "transported": "UUVVVUUUUUUUVVUUVV",
+        "degree": 3,
+        "minimum_masks": [
+          "UUVVVUUUUUUUVVUUVV",
+          "UUVVVUUUUUUUVVVVUU",
+          "UUVVVUUUUUVVUUUUVV",
+          "VVUUUUVUUUUUVVUUVV",
+          "VVUUUUVUUUUUVVVVUU",
+          "VVUUUUVUUUVVUUUUVV",
+          "VVUUUVUUUUUUVVUUVV",
+          "VVUUUVUUUUUUVVVVUU",
+          "VVUUUVUUUUVVUUUUVV",
+          "VVUUVUUUUUUUVVUUVV",
+          "VVUUVUUUUUUUVVVVUU",
+          "VVUUVUUUUUVVUUUUVV"
+        ],
+        "all_masks": [
+          "UUVVUUVUUUUUVUVUVV",
+          "UUVVUUVUUUUUVVUUVV",
+          "UUVVUUVUUUUUVVVVUU",
+          "UUVVUUVUUUVVUUUUVV",
+          "UUVVUUVUUUVVUUVVUU",
+          "UUVVUUVUUUVVUVUVUU",
+          "UUVVUVUUUUUUVUVUVV",
+          "UUVVUVUUUUUUVVUUVV",
+          "UUVVUVUUUUUUVVVVUU",
+          "UUVVUVUUUUVVUUUUVV",
+          "UUVVUVUUUUVVUUVVUU",
+          "UUVVUVUUUUVVUVUVUU",
+          "UUVVVUUUUUUUVUVUVV",
+          "UUVVVUUUUUUUVVUUVV",
+          "UUVVVUUUUUUUVVVVUU",
+          "UUVVVUUUUUVVUUUUVV",
+          "UUVVVUUUUUVVUUVVUU",
+          "UUVVVUUUUUVVUVUVUU",
+          "VVUUUUVUUUUUVUVUVV",
+          "VVUUUUVUUUUUVVUUVV",
+          "VVUUUUVUUUUUVVVVUU",
+          "VVUUUUVUUUVVUUUUVV",
+          "VVUUUUVUUUVVUUVVUU",
+          "VVUUUUVUUUVVUVUVUU",
+          "VVUUUVUUUUUUVUVUVV",
+          "VVUUUVUUUUUUVVUUVV",
+          "VVUUUVUUUUUUVVVVUU",
+          "VVUUUVUUUUVVUUUUVV",
+          "VVUUUVUUUUVVUUVVUU",
+          "VVUUUVUUUUVVUVUVUU",
+          "VVUUVUUUUUUUVUVUVV",
+          "VVUUVUUUUUUUVVUUVV",
+          "VVUUVUUUUUUUVVVVUU",
+          "VVUUVUUUUUVVUUUUVV",
+          "VVUUVUUUUUVVUUVVUU",
+          "VVUUVUUUUUVVUVUVUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "L",
+        "bounds": [
+          10,
+          13,
+          14
+        ],
+        "separator_length": 1,
+        "word": "ABABAAABABAABAABAB",
+        "transported": "UUVVVUUUUVVUUUUUVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVUUUUVVVUUUUUUUVV"
+        ],
+        "all_masks": [
+          "UUVVUUVUUVUVUUUUVV",
+          "UUVVUUVUUVUVUUVVUU",
+          "UUVVUUVUUVUVUVUVUU",
+          "UUVVUUVUUVVUUUUUVV",
+          "UUVVUUVUUVVUUUVVUU",
+          "UUVVUUVUUVVUUVUVUU",
+          "UUVVUUVVVUUUUUUUVV",
+          "UUVVUUVVVUUUUUVVUU",
+          "UUVVUUVVVUUUUVUVUU",
+          "UUVVUVUUUVUVUUUUVV",
+          "UUVVUVUUUVUVUUVVUU",
+          "UUVVUVUUUVUVUVUVUU",
+          "UUVVUVUUUVVUUUUUVV",
+          "UUVVUVUUUVVUUUVVUU",
+          "UUVVUVUUUVVUUVUVUU",
+          "UUVVUVUVVUUUUUUUVV",
+          "UUVVUVUVVUUUUUVVUU",
+          "UUVVUVUVVUUUUVUVUU",
+          "UUVVVUUUUVUVUUUUVV",
+          "UUVVVUUUUVUVUUVVUU",
+          "UUVVVUUUUVUVUVUVUU",
+          "UUVVVUUUUVVUUUUUVV",
+          "UUVVVUUUUVVUUUVVUU",
+          "UUVVVUUUUVVUUVUVUU",
+          "UUVVVUUVVUUUUUUUVV",
+          "UUVVVUUVVUUUUUVVUU",
+          "UUVVVUUVVUUUUVUVUU",
+          "VVUUUUVUUVUVUUUUVV",
+          "VVUUUUVUUVUVUUVVUU",
+          "VVUUUUVUUVUVUVUVUU",
+          "VVUUUUVUUVVUUUUUVV",
+          "VVUUUUVUUVVUUUVVUU",
+          "VVUUUUVUUVVUUVUVUU",
+          "VVUUUUVVVUUUUUUUVV",
+          "VVUUUUVVVUUUUUVVUU",
+          "VVUUUUVVVUUUUVUVUU",
+          "VVUUUVUUUVUVUUUUVV",
+          "VVUUUVUUUVUVUUVVUU",
+          "VVUUUVUUUVUVUVUVUU",
+          "VVUUUVUUUVVUUUUUVV",
+          "VVUUUVUUUVVUUUVVUU",
+          "VVUUUVUUUVVUUVUVUU",
+          "VVUUUVUVVUUUUUUUVV",
+          "VVUUUVUVVUUUUUVVUU",
+          "VVUUUVUVVUUUUVUVUU",
+          "VVUUVUUUUVUVUUUUVV",
+          "VVUUVUUUUVUVUUVVUU",
+          "VVUUVUUUUVUVUVUVUU",
+          "VVUUVUUUUVVUUUUUVV",
+          "VVUUVUUUUVVUUUVVUU",
+          "VVUUVUUUUVVUUVUVUU",
+          "VVUUVUUVVUUUUUUUVV",
+          "VVUUVUUVVUUUUUVVUU",
+          "VVUUVUUVVUUUUVUVUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "R",
+        "bounds": [
+          13,
+          14,
+          16
+        ],
+        "separator_length": 1,
+        "word": "ABABAAABABABAABAAB",
+        "transported": "UUVVVUUUUVUUUUUVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVUUUVUUUUUUUU"
+        ],
+        "all_masks": [
+          "UUVVUUVUUVUUUUUVVV",
+          "UUVVUUVUUVUUVVVUUU",
+          "UUVVUUVVVUVVUUUUUU",
+          "UUVVUVUUUVUUUUUVVV",
+          "UUVVUVUUUVUUVVVUUU",
+          "UUVVUVUVVUVVUUUUUU",
+          "UUVVVUUUUVUUUUUVVV",
+          "UUVVVUUUUVUUVVVUUU",
+          "UUVVVUUVVUVVUUUUUU",
+          "VVUUUUVUUVUUUUUVVV",
+          "VVUUUUVUUVUUVVVUUU",
+          "VVUUUUVVVUVVUUUUUU",
+          "VVUUUVUUUVUUUUUVVV",
+          "VVUUUVUUUVUUVVVUUU",
+          "VVUUUVUVVUVVUUUUUU",
+          "VVUUVUUUUVUUUUUVVV",
+          "VVUUVUUUUVUUVVVUUU",
+          "VVUUVUUVVUVVUUUUUU",
+          "VVVVUVVUUVUUUUUUUU",
+          "VVVVVUVUUVUUUUUUUU",
+          "VVVVVVUUUVUUUUUUUU"
+        ],
+        "contiguous_u_remainders": []
+      }
+    ]
+  },
+  "last": {
+    "u": "ABABABBABAB",
+    "v": "ABABABBAB",
+    "w": "ABABABBABAABBABABABB",
+    "degree": 4,
+    "masks": [
+      "UUUUUUUVVUVUVVVUVVUV",
+      "UUUUUUUVVUVUVVVUVVVU",
+      "UUUUUUUVVUVVUVVUVVUV",
+      "UUUUUUUVVUVVUVVUVVVU",
+      "UUUUUUUVVVUUVVVUVVUV",
+      "UUUUUUUVVVUUVVVUVVVU",
+      "UUUUUUUVVVUVUVVUVVUV",
+      "UUUUUUUVVVUVUVVUVVVU"
+    ],
+    "mask_runs": [
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      5,
+      5
+    ],
+    "first": "UUUUUUUVVVUUVVVUVVUV",
+    "last": "UUUUUUUVVVUUVVVUVVVU",
+    "selected": "UUUUUUUVVVUUVVVUVVVU",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          0,
+          7,
+          10
+        ],
+        "separator_length": 3,
+        "word": "ABAABABABBABBABABABB",
+        "transported": "VVVUUUUUUUUUVVVUVVVU",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVUUUUUUVVVVVUUUUUV"
+        ],
+        "all_masks": [
+          "UUUVUUVVUUUUVVVUVVUV",
+          "UUUVUUVVUUUUVVVUVVVU",
+          "UUUVUUVVUUUVUVVUVVUV",
+          "UUUVUUVVUUUVUVVUVVVU",
+          "UUUVUUVVUVVUVUUUVVUV",
+          "UUUVUUVVUVVUVUUUVVVU",
+          "UUUVUUVVUVVUVUVVUUUV",
+          "UUUVUUVVUVVUVUVVUUVU",
+          "UUUVUUVVUVVVUUUUVVUV",
+          "UUUVUUVVUVVVUUUUVVVU",
+          "UUUVUUVVUVVVUUVVUUUV",
+          "UUUVUUVVUVVVUUVVUUVU",
+          "UUUVUUVVUVVVVVUUUUUV",
+          "UUUVUUVVUVVVVVUUUUVU",
+          "UUUVUUVVVUVUVUUUVVUV",
+          "UUUVUUVVVUVUVUUUVVVU",
+          "UUUVUUVVVUVUVUVVUUUV",
+          "UUUVUUVVVUVUVUVVUUVU",
+          "UUUVUUVVVUVVUUUUVVUV",
+          "UUUVUUVVVUVVUUUUVVVU",
+          "UUUVUUVVVUVVUUVVUUUV",
+          "UUUVUUVVVUVVUUVVUUVU",
+          "UUUVUUVVVUVVVVUUUUUV",
+          "UUUVUUVVVUVVVVUUUUVU",
+          "UUUVVVUUUUUUVVVUVVUV",
+          "UUUVVVUUUUUUVVVUVVVU",
+          "UUUVVVUUUUUVUVVUVVUV",
+          "UUUVVVUUUUUVUVVUVVVU",
+          "UUUVVVUUUVVUVUUUVVUV",
+          "UUUVVVUUUVVUVUUUVVVU",
+          "UUUVVVUUUVVUVUVVUUUV",
+          "UUUVVVUUUVVUVUVVUUVU",
+          "UUUVVVUUUVVVUUUUVVUV",
+          "UUUVVVUUUVVVUUUUVVVU",
+          "UUUVVVUUUVVVUUVVUUUV",
+          "UUUVVVUUUVVVUUVVUUVU",
+          "UUUVVVUUUVVVVVUUUUUV",
+          "UUUVVVUUUVVVVVUUUUVU",
+          "UUUVVVUUVUVUVUUUVVUV",
+          "UUUVVVUUVUVUVUUUVVVU",
+          "UUUVVVUUVUVUVUVVUUUV",
+          "UUUVVVUUVUVUVUVVUUVU",
+          "UUUVVVUUVUVVUUUUVVUV",
+          "UUUVVVUUVUVVUUUUVVVU",
+          "UUUVVVUUVUVVUUVVUUUV",
+          "UUUVVVUUVUVVUUVVUUVU",
+          "UUUVVVUUVUVVVVUUUUUV",
+          "UUUVVVUUVUVVVVUUUUVU",
+          "UUUVVVVVUVUUUUUUVVUV",
+          "UUUVVVVVUVUUUUUUVVVU",
+          "UUUVVVVVUVUUUUVVUUUV",
+          "UUUVVVVVUVUUUUVVUUVU",
+          "UUUVVVVVUVUUVVUUUUUV",
+          "UUUVVVVVUVUUVVUUUUVU",
+          "UUUVVVVVUVUVUVUUUUUV",
+          "UUUVVVVVUVUVUVUUUUVU",
+          "UUUVVVVVVUUUUUUUVVUV",
+          "UUUVVVVVVUUUUUUUVVVU",
+          "UUUVVVVVVUUUUUVVUUUV",
+          "UUUVVVVVVUUUUUVVUUVU",
+          "UUUVVVVVVUUUVVUUUUUV",
+          "UUUVVVVVVUUUVVUUUUVU",
+          "UUUVVVVVVUUVUVUUUUUV",
+          "UUUVVVVVVUUVUVUUUUVU",
+          "UUVUUUVVUUUUVVVUVVUV",
+          "UUVUUUVVUUUUVVVUVVVU",
+          "UUVUUUVVUUUVUVVUVVUV",
+          "UUVUUUVVUUUVUVVUVVVU",
+          "UUVUUUVVUVVUVUUUVVUV",
+          "UUVUUUVVUVVUVUUUVVVU",
+          "UUVUUUVVUVVUVUVVUUUV",
+          "UUVUUUVVUVVUVUVVUUVU",
+          "UUVUUUVVUVVVUUUUVVUV",
+          "UUVUUUVVUVVVUUUUVVVU",
+          "UUVUUUVVUVVVUUVVUUUV",
+          "UUVUUUVVUVVVUUVVUUVU",
+          "UUVUUUVVUVVVVVUUUUUV",
+          "UUVUUUVVUVVVVVUUUUVU",
+          "UUVUUUVVVUVUVUUUVVUV",
+          "UUVUUUVVVUVUVUUUVVVU",
+          "UUVUUUVVVUVUVUVVUUUV",
+          "UUVUUUVVVUVUVUVVUUVU",
+          "UUVUUUVVVUVVUUUUVVUV",
+          "UUVUUUVVVUVVUUUUVVVU",
+          "UUVUUUVVVUVVUUVVUUUV",
+          "UUVUUUVVVUVVUUVVUUVU",
+          "UUVUUUVVVUVVVVUUUUUV",
+          "UUVUUUVVVUVVVVUUUUVU",
+          "UUVUVVUUUUUUVVVUVVUV",
+          "UUVUVVUUUUUUVVVUVVVU",
+          "UUVUVVUUUUUVUVVUVVUV",
+          "UUVUVVUUUUUVUVVUVVVU",
+          "UUVUVVUUUVVUVUUUVVUV",
+          "UUVUVVUUUVVUVUUUVVVU",
+          "UUVUVVUUUVVUVUVVUUUV",
+          "UUVUVVUUUVVUVUVVUUVU",
+          "UUVUVVUUUVVVUUUUVVUV",
+          "UUVUVVUUUVVVUUUUVVVU",
+          "UUVUVVUUUVVVUUVVUUUV",
+          "UUVUVVUUUVVVUUVVUUVU",
+          "UUVUVVUUUVVVVVUUUUUV",
+          "UUVUVVUUUVVVVVUUUUVU",
+          "UUVUVVUUVUVUVUUUVVUV",
+          "UUVUVVUUVUVUVUUUVVVU",
+          "UUVUVVUUVUVUVUVVUUUV",
+          "UUVUVVUUVUVUVUVVUUVU",
+          "UUVUVVUUVUVVUUUUVVUV",
+          "UUVUVVUUVUVVUUUUVVVU",
+          "UUVUVVUUVUVVUUVVUUUV",
+          "UUVUVVUUVUVVUUVVUUVU",
+          "UUVUVVUUVUVVVVUUUUUV",
+          "UUVUVVUUVUVVVVUUUUVU",
+          "UUVUVVVVUVUUUUUUVVUV",
+          "UUVUVVVVUVUUUUUUVVVU",
+          "UUVUVVVVUVUUUUVVUUUV",
+          "UUVUVVVVUVUUUUVVUUVU",
+          "UUVUVVVVUVUUVVUUUUUV",
+          "UUVUVVVVUVUUVVUUUUVU",
+          "UUVUVVVVUVUVUVUUUUUV",
+          "UUVUVVVVUVUVUVUUUUVU",
+          "UUVUVVVVVUUUUUUUVVUV",
+          "UUVUVVVVVUUUUUUUVVVU",
+          "UUVUVVVVVUUUUUVVUUUV",
+          "UUVUVVVVVUUUUUVVUUVU",
+          "UUVUVVVVVUUUVVUUUUUV",
+          "UUVUVVVVVUUUVVUUUUVU",
+          "UUVUVVVVVUUVUVUUUUUV",
+          "UUVUVVVVVUUVUVUUUUVU",
+          "VVUVUUUUUUUUVVVUVVUV",
+          "VVUVUUUUUUUUVVVUVVVU",
+          "VVUVUUUUUUUVUVVUVVUV",
+          "VVUVUUUUUUUVUVVUVVVU",
+          "VVUVUUUUUVVUVUUUVVUV",
+          "VVUVUUUUUVVUVUUUVVVU",
+          "VVUVUUUUUVVUVUVVUUUV",
+          "VVUVUUUUUVVUVUVVUUVU",
+          "VVUVUUUUUVVVUUUUVVUV",
+          "VVUVUUUUUVVVUUUUVVVU",
+          "VVUVUUUUUVVVUUVVUUUV",
+          "VVUVUUUUUVVVUUVVUUVU",
+          "VVUVUUUUUVVVVVUUUUUV",
+          "VVUVUUUUUVVVVVUUUUVU",
+          "VVUVUUUUVUVUVUUUVVUV",
+          "VVUVUUUUVUVUVUUUVVVU",
+          "VVUVUUUUVUVUVUVVUUUV",
+          "VVUVUUUUVUVUVUVVUUVU",
+          "VVUVUUUUVUVVUUUUVVUV",
+          "VVUVUUUUVUVVUUUUVVVU",
+          "VVUVUUUUVUVVUUVVUUUV",
+          "VVUVUUUUVUVVUUVVUUVU",
+          "VVUVUUUUVUVVVVUUUUUV",
+          "VVUVUUUUVUVVVVUUUUVU",
+          "VVUVUUVVUVUUUUUUVVUV",
+          "VVUVUUVVUVUUUUUUVVVU",
+          "VVUVUUVVUVUUUUVVUUUV",
+          "VVUVUUVVUVUUUUVVUUVU",
+          "VVUVUUVVUVUUVVUUUUUV",
+          "VVUVUUVVUVUUVVUUUUVU",
+          "VVUVUUVVUVUVUVUUUUUV",
+          "VVUVUUVVUVUVUVUUUUVU",
+          "VVUVUUVVVUUUUUUUVVUV",
+          "VVUVUUVVVUUUUUUUVVVU",
+          "VVUVUUVVVUUUUUVVUUUV",
+          "VVUVUUVVVUUUUUVVUUVU",
+          "VVUVUUVVVUUUVVUUUUUV",
+          "VVUVUUVVVUUUVVUUUUVU",
+          "VVUVUUVVVUUVUVUUUUUV",
+          "VVUVUUVVVUUVUVUUUUVU",
+          "VVUVVVUUUVUUUUUUVVUV",
+          "VVUVVVUUUVUUUUUUVVVU",
+          "VVUVVVUUUVUUUUVVUUUV",
+          "VVUVVVUUUVUUUUVVUUVU",
+          "VVUVVVUUUVUUVVUUUUUV",
+          "VVUVVVUUUVUUVVUUUUVU",
+          "VVUVVVUUUVUVUVUUUUUV",
+          "VVUVVVUUUVUVUVUUUUVU",
+          "VVUVVVUUVUUUUUUUVVUV",
+          "VVUVVVUUVUUUUUUUVVVU",
+          "VVUVVVUUVUUUUUVVUUUV",
+          "VVUVVVUUVUUUUUVVUUVU",
+          "VVUVVVUUVUUUVVUUUUUV",
+          "VVUVVVUUVUUUVVUUUUVU",
+          "VVUVVVUUVUUVUVUUUUUV",
+          "VVUVVVUUVUUVUVUUUUVU",
+          "VVVUUUUUUUUUVVVUVVUV",
+          "VVVUUUUUUUUUVVVUVVVU",
+          "VVVUUUUUUUUVUVVUVVUV",
+          "VVVUUUUUUUUVUVVUVVVU",
+          "VVVUUUUUUVVUVUUUVVUV",
+          "VVVUUUUUUVVUVUUUVVVU",
+          "VVVUUUUUUVVUVUVVUUUV",
+          "VVVUUUUUUVVUVUVVUUVU",
+          "VVVUUUUUUVVVUUUUVVUV",
+          "VVVUUUUUUVVVUUUUVVVU",
+          "VVVUUUUUUVVVUUVVUUUV",
+          "VVVUUUUUUVVVUUVVUUVU",
+          "VVVUUUUUUVVVVVUUUUUV",
+          "VVVUUUUUUVVVVVUUUUVU",
+          "VVVUUUUUVUVUVUUUVVUV",
+          "VVVUUUUUVUVUVUUUVVVU",
+          "VVVUUUUUVUVUVUVVUUUV",
+          "VVVUUUUUVUVUVUVVUUVU",
+          "VVVUUUUUVUVVUUUUVVUV",
+          "VVVUUUUUVUVVUUUUVVVU",
+          "VVVUUUUUVUVVUUVVUUUV",
+          "VVVUUUUUVUVVUUVVUUVU",
+          "VVVUUUUUVUVVVVUUUUUV",
+          "VVVUUUUUVUVVVVUUUUVU",
+          "VVVUUUVVUVUUUUUUVVUV",
+          "VVVUUUVVUVUUUUUUVVVU",
+          "VVVUUUVVUVUUUUVVUUUV",
+          "VVVUUUVVUVUUUUVVUUVU",
+          "VVVUUUVVUVUUVVUUUUUV",
+          "VVVUUUVVUVUUVVUUUUVU",
+          "VVVUUUVVUVUVUVUUUUUV",
+          "VVVUUUVVUVUVUVUUUUVU",
+          "VVVUUUVVVUUUUUUUVVUV",
+          "VVVUUUVVVUUUUUUUVVVU",
+          "VVVUUUVVVUUUUUVVUUUV",
+          "VVVUUUVVVUUUUUVVUUVU",
+          "VVVUUUVVVUUUVVUUUUUV",
+          "VVVUUUVVVUUUVVUUUUVU",
+          "VVVUUUVVVUUVUVUUUUUV",
+          "VVVUUUVVVUUVUVUUUUVU",
+          "VVVUVVUUUVUUUUUUVVUV",
+          "VVVUVVUUUVUUUUUUVVVU",
+          "VVVUVVUUUVUUUUVVUUUV",
+          "VVVUVVUUUVUUUUVVUUVU",
+          "VVVUVVUUUVUUVVUUUUUV",
+          "VVVUVVUUUVUUVVUUUUVU",
+          "VVVUVVUUUVUVUVUUUUUV",
+          "VVVUVVUUUVUVUVUUUUVU",
+          "VVVUVVUUVUUUUUUUVVUV",
+          "VVVUVVUUVUUUUUUUVVVU",
+          "VVVUVVUUVUUUUUVVUUUV",
+          "VVVUVVUUVUUUUUVVUUVU",
+          "VVVUVVUUVUUUVVUUUUUV",
+          "VVVUVVUUVUUUVVUUUUVU",
+          "VVVUVVUUVUUVUVUUUUUV",
+          "VVVUVVUUVUUVUVUUUUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          7,
+          10,
+          12
+        ],
+        "separator_length": 3,
+        "word": "ABABABBABABABABABABB",
+        "transported": "UUUUUUUUUVVVVVVUVVVU",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVVUUUUUUVUUUUUV"
+        ],
+        "all_masks": [
+          "UUUUUUUUUVVVVVVUVVUV",
+          "UUUUUUUUUVVVVVVUVVVU",
+          "UUUUUUUVVUUVVVVUVVUV",
+          "UUUUUUUVVUUVVVVUVVVU",
+          "UUUUUUUVVVVUUVVUVVUV",
+          "UUUUUUUVVVVUUVVUVVVU",
+          "UUUUUUUVVVVVVUUUVVUV",
+          "UUUUUUUVVVVVVUUUVVVU",
+          "UUUUUUUVVVVVVUVVUUUV",
+          "UUUUUUUVVVVVVUVVUUVU",
+          "VVVVVVVUUUUUUVUUUUUV",
+          "VVVVVVVUUUUUUVUUUUVU"
+        ],
+        "contiguous_u_remainders": [
+          "ABABABABB"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          10,
+          12,
+          15
+        ],
+        "separator_length": 3,
+        "word": "ABABABBABABABABABABB",
+        "transported": "UUUUUUUVVVVVVUUUVVVU",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVVUUUUUUVUUUUUV"
+        ],
+        "all_masks": [
+          "UUUUUUUUUVVVVVVUVVUV",
+          "UUUUUUUUUVVVVVVUVVVU",
+          "UUUUUUUVVUUVVVVUVVUV",
+          "UUUUUUUVVUUVVVVUVVVU",
+          "UUUUUUUVVVVUUVVUVVUV",
+          "UUUUUUUVVVVUUVVUVVVU",
+          "UUUUUUUVVVVVVUUUVVUV",
+          "UUUUUUUVVVVVVUUUVVVU",
+          "UUUUUUUVVVVVVUVVUUUV",
+          "UUUUUUUVVVVVVUVVUUVU",
+          "VVVVVVVUUUUUUVUUUUUV",
+          "VVVVVVVUUUUUUVUUUUVU"
+        ],
+        "contiguous_u_remainders": [
+          "ABABABABB"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          12,
+          15,
+          16
+        ],
+        "separator_length": 3,
+        "word": "ABABABBABAABABABBABB",
+        "transported": "UUUUUUUVVVUUUVVVVVVU",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUUUUVVVVVVVVUV",
+          "UUUUUUUUUUVVVVVVVVVU"
+        ],
+        "all_masks": [
+          "UUUUUUUUUUVVVVVVVVUV",
+          "UUUUUUUUUUVVVVVVVVVU",
+          "UUUUUUUUUVUVVVVVVVUV",
+          "UUUUUUUUUVUVVVVVVVVU",
+          "UUUUUUUVVUVUUVVVVVUV",
+          "UUUUUUUVVUVUUVVVVVVU",
+          "UUUUUUUVVUVVVUUVVVUV",
+          "UUUUUUUVVUVVVUUVVVVU",
+          "UUUUUUUVVVUUUVVVVVUV",
+          "UUUUUUUVVVUUUVVVVVVU",
+          "UUUUUUUVVVUVVUUVVVUV",
+          "UUUUUUUVVVUVVUUVVVVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "L",
+        "bounds": [
+          15,
+          16,
+          19
+        ],
+        "separator_length": 3,
+        "word": "ABABABBABAABBABBABAB",
+        "transported": "UUUUUUUVVVUUVVVVVVUU",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVVUUUVVUUUUUUUU"
+        ],
+        "all_masks": [
+          "UUUUUUUVVUVUVVVVUUVV",
+          "UUUUUUUVVUVUVVVVVVUU",
+          "UUUUUUUVVUVVUVVVUUVV",
+          "UUUUUUUVVUVVUVVVVVUU",
+          "UUUUUUUVVVUUVVVVUUVV",
+          "UUUUUUUVVVUUVVVVVVUU",
+          "UUUUUUUVVVUVUVVVUUVV",
+          "UUUUUUUVVVUVUVVVVVUU",
+          "VVVVVVVUUUVUVUUUUUUU",
+          "VVVVVVVUUUVVUUUUUUUU",
+          "VVVVVVVUUVUUVUUUUUUU",
+          "VVVVVVVUUVUVUUUUUUUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "R",
+        "bounds": [
+          16,
+          19,
+          20
+        ],
+        "separator_length": 3,
+        "word": "ABABABBABAABBABABBAB",
+        "transported": "UUUUUUUVVVUUVVVUUVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUUUUVUVVVVVVVV",
+          "UUUUUUUUUUVVUVVVVVVV",
+          "UUUUUUUUUVUUVVVVVVVV"
+        ],
+        "all_masks": [
+          "UUUUUUUUUUVUVVVVVVVV",
+          "UUUUUUUUUUVVUVVVVVVV",
+          "UUUUUUUUUVUUVVVVVVVV",
+          "UUUUUUUUUVUVUVVVVVVV",
+          "UUUUUUUVVUVUVUUVVVVV",
+          "UUUUUUUVVUVUVVVUUVVV",
+          "UUUUUUUVVUVUVVVUVUVV",
+          "UUUUUUUVVUVVUUUVVVVV",
+          "UUUUUUUVVUVVUVVUUVVV",
+          "UUUUUUUVVUVVUVVUVUVV",
+          "UUUUUUUVVVUUVUUVVVVV",
+          "UUUUUUUVVVUUVVVUUVVV",
+          "UUUUUUUVVVUUVVVUVUVV",
+          "UUUUUUUVVVUVUUUVVVVV",
+          "UUUUUUUVVVUVUVVUUVVV",
+          "UUUUUUUVVVUVUVVUVUVV"
+        ],
+        "contiguous_u_remainders": []
+      }
+    ]
+  },
+  "last_first": {
+    "u": "ABABABBABAB",
+    "v": "ABABABBAB",
+    "w": "ABABABBABAABBABABABB",
+    "degree": 4,
+    "masks": [
+      "UUUUUUUVVUVUVVVUVVUV",
+      "UUUUUUUVVUVUVVVUVVVU",
+      "UUUUUUUVVUVVUVVUVVUV",
+      "UUUUUUUVVUVVUVVUVVVU",
+      "UUUUUUUVVVUUVVVUVVUV",
+      "UUUUUUUVVVUUVVVUVVVU",
+      "UUUUUUUVVVUVUVVUVVUV",
+      "UUUUUUUVVVUVUVVUVVVU"
+    ],
+    "mask_runs": [
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      5,
+      5
+    ],
+    "first": "UUUUUUUVVVUUVVVUVVUV",
+    "last": "UUUUUUUVVVUUVVVUVVVU",
+    "selected": "UUUUUUUVVVUUVVVUVVUV",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          0,
+          7,
+          10
+        ],
+        "separator_length": 3,
+        "word": "ABAABABABBABBABABABB",
+        "transported": "VVVUUUUUUUUUVVVUVVUV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVUUUUUUVVVVVUUUUUV"
+        ],
+        "all_masks": [
+          "UUUVUUVVUUUUVVVUVVUV",
+          "UUUVUUVVUUUUVVVUVVVU",
+          "UUUVUUVVUUUVUVVUVVUV",
+          "UUUVUUVVUUUVUVVUVVVU",
+          "UUUVUUVVUVVUVUUUVVUV",
+          "UUUVUUVVUVVUVUUUVVVU",
+          "UUUVUUVVUVVUVUVVUUUV",
+          "UUUVUUVVUVVUVUVVUUVU",
+          "UUUVUUVVUVVVUUUUVVUV",
+          "UUUVUUVVUVVVUUUUVVVU",
+          "UUUVUUVVUVVVUUVVUUUV",
+          "UUUVUUVVUVVVUUVVUUVU",
+          "UUUVUUVVUVVVVVUUUUUV",
+          "UUUVUUVVUVVVVVUUUUVU",
+          "UUUVUUVVVUVUVUUUVVUV",
+          "UUUVUUVVVUVUVUUUVVVU",
+          "UUUVUUVVVUVUVUVVUUUV",
+          "UUUVUUVVVUVUVUVVUUVU",
+          "UUUVUUVVVUVVUUUUVVUV",
+          "UUUVUUVVVUVVUUUUVVVU",
+          "UUUVUUVVVUVVUUVVUUUV",
+          "UUUVUUVVVUVVUUVVUUVU",
+          "UUUVUUVVVUVVVVUUUUUV",
+          "UUUVUUVVVUVVVVUUUUVU",
+          "UUUVVVUUUUUUVVVUVVUV",
+          "UUUVVVUUUUUUVVVUVVVU",
+          "UUUVVVUUUUUVUVVUVVUV",
+          "UUUVVVUUUUUVUVVUVVVU",
+          "UUUVVVUUUVVUVUUUVVUV",
+          "UUUVVVUUUVVUVUUUVVVU",
+          "UUUVVVUUUVVUVUVVUUUV",
+          "UUUVVVUUUVVUVUVVUUVU",
+          "UUUVVVUUUVVVUUUUVVUV",
+          "UUUVVVUUUVVVUUUUVVVU",
+          "UUUVVVUUUVVVUUVVUUUV",
+          "UUUVVVUUUVVVUUVVUUVU",
+          "UUUVVVUUUVVVVVUUUUUV",
+          "UUUVVVUUUVVVVVUUUUVU",
+          "UUUVVVUUVUVUVUUUVVUV",
+          "UUUVVVUUVUVUVUUUVVVU",
+          "UUUVVVUUVUVUVUVVUUUV",
+          "UUUVVVUUVUVUVUVVUUVU",
+          "UUUVVVUUVUVVUUUUVVUV",
+          "UUUVVVUUVUVVUUUUVVVU",
+          "UUUVVVUUVUVVUUVVUUUV",
+          "UUUVVVUUVUVVUUVVUUVU",
+          "UUUVVVUUVUVVVVUUUUUV",
+          "UUUVVVUUVUVVVVUUUUVU",
+          "UUUVVVVVUVUUUUUUVVUV",
+          "UUUVVVVVUVUUUUUUVVVU",
+          "UUUVVVVVUVUUUUVVUUUV",
+          "UUUVVVVVUVUUUUVVUUVU",
+          "UUUVVVVVUVUUVVUUUUUV",
+          "UUUVVVVVUVUUVVUUUUVU",
+          "UUUVVVVVUVUVUVUUUUUV",
+          "UUUVVVVVUVUVUVUUUUVU",
+          "UUUVVVVVVUUUUUUUVVUV",
+          "UUUVVVVVVUUUUUUUVVVU",
+          "UUUVVVVVVUUUUUVVUUUV",
+          "UUUVVVVVVUUUUUVVUUVU",
+          "UUUVVVVVVUUUVVUUUUUV",
+          "UUUVVVVVVUUUVVUUUUVU",
+          "UUUVVVVVVUUVUVUUUUUV",
+          "UUUVVVVVVUUVUVUUUUVU",
+          "UUVUUUVVUUUUVVVUVVUV",
+          "UUVUUUVVUUUUVVVUVVVU",
+          "UUVUUUVVUUUVUVVUVVUV",
+          "UUVUUUVVUUUVUVVUVVVU",
+          "UUVUUUVVUVVUVUUUVVUV",
+          "UUVUUUVVUVVUVUUUVVVU",
+          "UUVUUUVVUVVUVUVVUUUV",
+          "UUVUUUVVUVVUVUVVUUVU",
+          "UUVUUUVVUVVVUUUUVVUV",
+          "UUVUUUVVUVVVUUUUVVVU",
+          "UUVUUUVVUVVVUUVVUUUV",
+          "UUVUUUVVUVVVUUVVUUVU",
+          "UUVUUUVVUVVVVVUUUUUV",
+          "UUVUUUVVUVVVVVUUUUVU",
+          "UUVUUUVVVUVUVUUUVVUV",
+          "UUVUUUVVVUVUVUUUVVVU",
+          "UUVUUUVVVUVUVUVVUUUV",
+          "UUVUUUVVVUVUVUVVUUVU",
+          "UUVUUUVVVUVVUUUUVVUV",
+          "UUVUUUVVVUVVUUUUVVVU",
+          "UUVUUUVVVUVVUUVVUUUV",
+          "UUVUUUVVVUVVUUVVUUVU",
+          "UUVUUUVVVUVVVVUUUUUV",
+          "UUVUUUVVVUVVVVUUUUVU",
+          "UUVUVVUUUUUUVVVUVVUV",
+          "UUVUVVUUUUUUVVVUVVVU",
+          "UUVUVVUUUUUVUVVUVVUV",
+          "UUVUVVUUUUUVUVVUVVVU",
+          "UUVUVVUUUVVUVUUUVVUV",
+          "UUVUVVUUUVVUVUUUVVVU",
+          "UUVUVVUUUVVUVUVVUUUV",
+          "UUVUVVUUUVVUVUVVUUVU",
+          "UUVUVVUUUVVVUUUUVVUV",
+          "UUVUVVUUUVVVUUUUVVVU",
+          "UUVUVVUUUVVVUUVVUUUV",
+          "UUVUVVUUUVVVUUVVUUVU",
+          "UUVUVVUUUVVVVVUUUUUV",
+          "UUVUVVUUUVVVVVUUUUVU",
+          "UUVUVVUUVUVUVUUUVVUV",
+          "UUVUVVUUVUVUVUUUVVVU",
+          "UUVUVVUUVUVUVUVVUUUV",
+          "UUVUVVUUVUVUVUVVUUVU",
+          "UUVUVVUUVUVVUUUUVVUV",
+          "UUVUVVUUVUVVUUUUVVVU",
+          "UUVUVVUUVUVVUUVVUUUV",
+          "UUVUVVUUVUVVUUVVUUVU",
+          "UUVUVVUUVUVVVVUUUUUV",
+          "UUVUVVUUVUVVVVUUUUVU",
+          "UUVUVVVVUVUUUUUUVVUV",
+          "UUVUVVVVUVUUUUUUVVVU",
+          "UUVUVVVVUVUUUUVVUUUV",
+          "UUVUVVVVUVUUUUVVUUVU",
+          "UUVUVVVVUVUUVVUUUUUV",
+          "UUVUVVVVUVUUVVUUUUVU",
+          "UUVUVVVVUVUVUVUUUUUV",
+          "UUVUVVVVUVUVUVUUUUVU",
+          "UUVUVVVVVUUUUUUUVVUV",
+          "UUVUVVVVVUUUUUUUVVVU",
+          "UUVUVVVVVUUUUUVVUUUV",
+          "UUVUVVVVVUUUUUVVUUVU",
+          "UUVUVVVVVUUUVVUUUUUV",
+          "UUVUVVVVVUUUVVUUUUVU",
+          "UUVUVVVVVUUVUVUUUUUV",
+          "UUVUVVVVVUUVUVUUUUVU",
+          "VVUVUUUUUUUUVVVUVVUV",
+          "VVUVUUUUUUUUVVVUVVVU",
+          "VVUVUUUUUUUVUVVUVVUV",
+          "VVUVUUUUUUUVUVVUVVVU",
+          "VVUVUUUUUVVUVUUUVVUV",
+          "VVUVUUUUUVVUVUUUVVVU",
+          "VVUVUUUUUVVUVUVVUUUV",
+          "VVUVUUUUUVVUVUVVUUVU",
+          "VVUVUUUUUVVVUUUUVVUV",
+          "VVUVUUUUUVVVUUUUVVVU",
+          "VVUVUUUUUVVVUUVVUUUV",
+          "VVUVUUUUUVVVUUVVUUVU",
+          "VVUVUUUUUVVVVVUUUUUV",
+          "VVUVUUUUUVVVVVUUUUVU",
+          "VVUVUUUUVUVUVUUUVVUV",
+          "VVUVUUUUVUVUVUUUVVVU",
+          "VVUVUUUUVUVUVUVVUUUV",
+          "VVUVUUUUVUVUVUVVUUVU",
+          "VVUVUUUUVUVVUUUUVVUV",
+          "VVUVUUUUVUVVUUUUVVVU",
+          "VVUVUUUUVUVVUUVVUUUV",
+          "VVUVUUUUVUVVUUVVUUVU",
+          "VVUVUUUUVUVVVVUUUUUV",
+          "VVUVUUUUVUVVVVUUUUVU",
+          "VVUVUUVVUVUUUUUUVVUV",
+          "VVUVUUVVUVUUUUUUVVVU",
+          "VVUVUUVVUVUUUUVVUUUV",
+          "VVUVUUVVUVUUUUVVUUVU",
+          "VVUVUUVVUVUUVVUUUUUV",
+          "VVUVUUVVUVUUVVUUUUVU",
+          "VVUVUUVVUVUVUVUUUUUV",
+          "VVUVUUVVUVUVUVUUUUVU",
+          "VVUVUUVVVUUUUUUUVVUV",
+          "VVUVUUVVVUUUUUUUVVVU",
+          "VVUVUUVVVUUUUUVVUUUV",
+          "VVUVUUVVVUUUUUVVUUVU",
+          "VVUVUUVVVUUUVVUUUUUV",
+          "VVUVUUVVVUUUVVUUUUVU",
+          "VVUVUUVVVUUVUVUUUUUV",
+          "VVUVUUVVVUUVUVUUUUVU",
+          "VVUVVVUUUVUUUUUUVVUV",
+          "VVUVVVUUUVUUUUUUVVVU",
+          "VVUVVVUUUVUUUUVVUUUV",
+          "VVUVVVUUUVUUUUVVUUVU",
+          "VVUVVVUUUVUUVVUUUUUV",
+          "VVUVVVUUUVUUVVUUUUVU",
+          "VVUVVVUUUVUVUVUUUUUV",
+          "VVUVVVUUUVUVUVUUUUVU",
+          "VVUVVVUUVUUUUUUUVVUV",
+          "VVUVVVUUVUUUUUUUVVVU",
+          "VVUVVVUUVUUUUUVVUUUV",
+          "VVUVVVUUVUUUUUVVUUVU",
+          "VVUVVVUUVUUUVVUUUUUV",
+          "VVUVVVUUVUUUVVUUUUVU",
+          "VVUVVVUUVUUVUVUUUUUV",
+          "VVUVVVUUVUUVUVUUUUVU",
+          "VVVUUUUUUUUUVVVUVVUV",
+          "VVVUUUUUUUUUVVVUVVVU",
+          "VVVUUUUUUUUVUVVUVVUV",
+          "VVVUUUUUUUUVUVVUVVVU",
+          "VVVUUUUUUVVUVUUUVVUV",
+          "VVVUUUUUUVVUVUUUVVVU",
+          "VVVUUUUUUVVUVUVVUUUV",
+          "VVVUUUUUUVVUVUVVUUVU",
+          "VVVUUUUUUVVVUUUUVVUV",
+          "VVVUUUUUUVVVUUUUVVVU",
+          "VVVUUUUUUVVVUUVVUUUV",
+          "VVVUUUUUUVVVUUVVUUVU",
+          "VVVUUUUUUVVVVVUUUUUV",
+          "VVVUUUUUUVVVVVUUUUVU",
+          "VVVUUUUUVUVUVUUUVVUV",
+          "VVVUUUUUVUVUVUUUVVVU",
+          "VVVUUUUUVUVUVUVVUUUV",
+          "VVVUUUUUVUVUVUVVUUVU",
+          "VVVUUUUUVUVVUUUUVVUV",
+          "VVVUUUUUVUVVUUUUVVVU",
+          "VVVUUUUUVUVVUUVVUUUV",
+          "VVVUUUUUVUVVUUVVUUVU",
+          "VVVUUUUUVUVVVVUUUUUV",
+          "VVVUUUUUVUVVVVUUUUVU",
+          "VVVUUUVVUVUUUUUUVVUV",
+          "VVVUUUVVUVUUUUUUVVVU",
+          "VVVUUUVVUVUUUUVVUUUV",
+          "VVVUUUVVUVUUUUVVUUVU",
+          "VVVUUUVVUVUUVVUUUUUV",
+          "VVVUUUVVUVUUVVUUUUVU",
+          "VVVUUUVVUVUVUVUUUUUV",
+          "VVVUUUVVUVUVUVUUUUVU",
+          "VVVUUUVVVUUUUUUUVVUV",
+          "VVVUUUVVVUUUUUUUVVVU",
+          "VVVUUUVVVUUUUUVVUUUV",
+          "VVVUUUVVVUUUUUVVUUVU",
+          "VVVUUUVVVUUUVVUUUUUV",
+          "VVVUUUVVVUUUVVUUUUVU",
+          "VVVUUUVVVUUVUVUUUUUV",
+          "VVVUUUVVVUUVUVUUUUVU",
+          "VVVUVVUUUVUUUUUUVVUV",
+          "VVVUVVUUUVUUUUUUVVVU",
+          "VVVUVVUUUVUUUUVVUUUV",
+          "VVVUVVUUUVUUUUVVUUVU",
+          "VVVUVVUUUVUUVVUUUUUV",
+          "VVVUVVUUUVUUVVUUUUVU",
+          "VVVUVVUUUVUVUVUUUUUV",
+          "VVVUVVUUUVUVUVUUUUVU",
+          "VVVUVVUUVUUUUUUUVVUV",
+          "VVVUVVUUVUUUUUUUVVVU",
+          "VVVUVVUUVUUUUUVVUUUV",
+          "VVVUVVUUVUUUUUVVUUVU",
+          "VVVUVVUUVUUUVVUUUUUV",
+          "VVVUVVUUVUUUVVUUUUVU",
+          "VVVUVVUUVUUVUVUUUUUV",
+          "VVVUVVUUVUUVUVUUUUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          7,
+          10,
+          12
+        ],
+        "separator_length": 3,
+        "word": "ABABABBABABABABABABB",
+        "transported": "UUUUUUUUUVVVVVVUVVUV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVVUUUUUUVUUUUUV"
+        ],
+        "all_masks": [
+          "UUUUUUUUUVVVVVVUVVUV",
+          "UUUUUUUUUVVVVVVUVVVU",
+          "UUUUUUUVVUUVVVVUVVUV",
+          "UUUUUUUVVUUVVVVUVVVU",
+          "UUUUUUUVVVVUUVVUVVUV",
+          "UUUUUUUVVVVUUVVUVVVU",
+          "UUUUUUUVVVVVVUUUVVUV",
+          "UUUUUUUVVVVVVUUUVVVU",
+          "UUUUUUUVVVVVVUVVUUUV",
+          "UUUUUUUVVVVVVUVVUUVU",
+          "VVVVVVVUUUUUUVUUUUUV",
+          "VVVVVVVUUUUUUVUUUUVU"
+        ],
+        "contiguous_u_remainders": [
+          "ABABABABB"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          10,
+          12,
+          15
+        ],
+        "separator_length": 3,
+        "word": "ABABABBABABABABABABB",
+        "transported": "UUUUUUUVVVVVVUUUVVUV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVVUUUUUUVUUUUUV"
+        ],
+        "all_masks": [
+          "UUUUUUUUUVVVVVVUVVUV",
+          "UUUUUUUUUVVVVVVUVVVU",
+          "UUUUUUUVVUUVVVVUVVUV",
+          "UUUUUUUVVUUVVVVUVVVU",
+          "UUUUUUUVVVVUUVVUVVUV",
+          "UUUUUUUVVVVUUVVUVVVU",
+          "UUUUUUUVVVVVVUUUVVUV",
+          "UUUUUUUVVVVVVUUUVVVU",
+          "UUUUUUUVVVVVVUVVUUUV",
+          "UUUUUUUVVVVVVUVVUUVU",
+          "VVVVVVVUUUUUUVUUUUUV",
+          "VVVVVVVUUUUUUVUUUUVU"
+        ],
+        "contiguous_u_remainders": [
+          "ABABABABB"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          12,
+          15,
+          16
+        ],
+        "separator_length": 3,
+        "word": "ABABABBABAABABABBABB",
+        "transported": "UUUUUUUVVVUUUVVVVVUV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUUUUVVVVVVVVUV",
+          "UUUUUUUUUUVVVVVVVVVU"
+        ],
+        "all_masks": [
+          "UUUUUUUUUUVVVVVVVVUV",
+          "UUUUUUUUUUVVVVVVVVVU",
+          "UUUUUUUUUVUVVVVVVVUV",
+          "UUUUUUUUUVUVVVVVVVVU",
+          "UUUUUUUVVUVUUVVVVVUV",
+          "UUUUUUUVVUVUUVVVVVVU",
+          "UUUUUUUVVUVVVUUVVVUV",
+          "UUUUUUUVVUVVVUUVVVVU",
+          "UUUUUUUVVVUUUVVVVVUV",
+          "UUUUUUUVVVUUUVVVVVVU",
+          "UUUUUUUVVVUVVUUVVVUV",
+          "UUUUUUUVVVUVVUUVVVVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "L",
+        "bounds": [
+          15,
+          16,
+          18
+        ],
+        "separator_length": 2,
+        "word": "ABABABBABAABBABBAABB",
+        "transported": "UUUUUUUVVVUUVVVVVUUV",
+        "degree": 3,
+        "minimum_masks": [
+          "UUUUUUUVVVUUVVVVVUUV"
+        ],
+        "all_masks": [
+          "UUUUUUUVVUVUVVVVUVUV",
+          "UUUUUUUVVUVUVVVVUVVU",
+          "UUUUUUUVVUVUVVVVVUUV",
+          "UUUUUUUVVUVUVVVVVUVU",
+          "UUUUUUUVVUVVUVVVUVUV",
+          "UUUUUUUVVUVVUVVVUVVU",
+          "UUUUUUUVVUVVUVVVVUUV",
+          "UUUUUUUVVUVVUVVVVUVU",
+          "UUUUUUUVVVUUVVVVUVUV",
+          "UUUUUUUVVVUUVVVVUVVU",
+          "UUUUUUUVVVUUVVVVVUUV",
+          "UUUUUUUVVVUUVVVVVUVU",
+          "UUUUUUUVVVUVUVVVUVUV",
+          "UUUUUUUVVVUVUVVVUVVU",
+          "UUUUUUUVVVUVUVVVVUUV",
+          "UUUUUUUVVVUVUVVVVUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "R",
+        "bounds": [
+          16,
+          18,
+          19
+        ],
+        "separator_length": 2,
+        "word": "ABABABBABAABBABABBAB",
+        "transported": "UUUUUUUVVVUUVVVUUVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUUUUVUVVVVVVVV",
+          "UUUUUUUUUUVVUVVVVVVV",
+          "UUUUUUUUUVUUVVVVVVVV"
+        ],
+        "all_masks": [
+          "UUUUUUUUUUVUVVVVVVVV",
+          "UUUUUUUUUUVVUVVVVVVV",
+          "UUUUUUUUUVUUVVVVVVVV",
+          "UUUUUUUUUVUVUVVVVVVV",
+          "UUUUUUUVVUVUVUUVVVVV",
+          "UUUUUUUVVUVUVVVUUVVV",
+          "UUUUUUUVVUVUVVVUVUVV",
+          "UUUUUUUVVUVVUUUVVVVV",
+          "UUUUUUUVVUVVUVVUUVVV",
+          "UUUUUUUVVUVVUVVUVUVV",
+          "UUUUUUUVVVUUVUUVVVVV",
+          "UUUUUUUVVVUUVVVUUVVV",
+          "UUUUUUUVVVUUVVVUVUVV",
+          "UUUUUUUVVVUVUUUVVVVV",
+          "UUUUUUUVVVUVUVVUUVVV",
+          "UUUUUUUVVVUVUVVUVUVV"
+        ],
+        "contiguous_u_remainders": []
+      }
+    ]
+  },
+  "last_exact_successor": {
+    "u": "ABABABBABAB",
+    "v": "ABABABBAB",
+    "w": "ABABABBABAABBABBAABB",
+    "degree": 3,
+    "masks": [
+      "UUUUUUUVVUVUVVVVUVUV",
+      "UUUUUUUVVUVUVVVVUVVU",
+      "UUUUUUUVVUVUVVVVVUUV",
+      "UUUUUUUVVUVUVVVVVUVU",
+      "UUUUUUUVVUVVUVVVUVUV",
+      "UUUUUUUVVUVVUVVVUVVU",
+      "UUUUUUUVVUVVUVVVVUUV",
+      "UUUUUUUVVUVVUVVVVUVU",
+      "UUUUUUUVVVUUVVVVUVUV",
+      "UUUUUUUVVVUUVVVVUVVU",
+      "UUUUUUUVVVUUVVVVVUUV",
+      "UUUUUUUVVVUUVVVVVUVU",
+      "UUUUUUUVVVUVUVVVUVUV",
+      "UUUUUUUVVVUVUVVVUVVU",
+      "UUUUUUUVVVUVUVVVVUUV",
+      "UUUUUUUVVVUVUVVVVUVU"
+    ],
+    "mask_runs": [
+      5,
+      5,
+      4,
+      5,
+      5,
+      5,
+      4,
+      5,
+      4,
+      4,
+      3,
+      4,
+      5,
+      5,
+      4,
+      5
+    ],
+    "first": "UUUUUUUVVVUUVVVVVUUV",
+    "last": "UUUUUUUVVVUUVVVVVUUV",
+    "selected": "UUUUUUUVVVUUVVVVVUUV",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          0,
+          7,
+          10
+        ],
+        "separator_length": 3,
+        "word": "ABAABABABBABBABBAABB",
+        "transported": "VVVUUUUUUUUUVVVVVUUV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVUUUUUUUUUVVVVVUUV"
+        ],
+        "all_masks": [
+          "UUUVUUVVUUUUVVVVUVUV",
+          "UUUVUUVVUUUUVVVVUVVU",
+          "UUUVUUVVUUUUVVVVVUUV",
+          "UUUVUUVVUUUUVVVVVUVU",
+          "UUUVUUVVUUUVUVVVUVUV",
+          "UUUVUUVVUUUVUVVVUVVU",
+          "UUUVUUVVUUUVUVVVVUUV",
+          "UUUVUUVVUUUVUVVVVUVU",
+          "UUUVUUVVUVVUVUUVUVUV",
+          "UUUVUUVVUVVUVUUVUVVU",
+          "UUUVUUVVUVVUVUUVVUUV",
+          "UUUVUUVVUVVUVUUVVUVU",
+          "UUUVUUVVUVVUVUVUUVUV",
+          "UUUVUUVVUVVUVUVUUVVU",
+          "UUUVUUVVUVVUVUVUVUUV",
+          "UUUVUUVVUVVUVUVUVUVU",
+          "UUUVUUVVUVVVUUUVUVUV",
+          "UUUVUUVVUVVVUUUVUVVU",
+          "UUUVUUVVUVVVUUUVVUUV",
+          "UUUVUUVVUVVVUUUVVUVU",
+          "UUUVUUVVUVVVUUVUUVUV",
+          "UUUVUUVVUVVVUUVUUVVU",
+          "UUUVUUVVUVVVUUVUVUUV",
+          "UUUVUUVVUVVVUUVUVUVU",
+          "UUUVUUVVVUVUVUUVUVUV",
+          "UUUVUUVVVUVUVUUVUVVU",
+          "UUUVUUVVVUVUVUUVVUUV",
+          "UUUVUUVVVUVUVUUVVUVU",
+          "UUUVUUVVVUVUVUVUUVUV",
+          "UUUVUUVVVUVUVUVUUVVU",
+          "UUUVUUVVVUVUVUVUVUUV",
+          "UUUVUUVVVUVUVUVUVUVU",
+          "UUUVUUVVVUVVUUUVUVUV",
+          "UUUVUUVVVUVVUUUVUVVU",
+          "UUUVUUVVVUVVUUUVVUUV",
+          "UUUVUUVVVUVVUUUVVUVU",
+          "UUUVUUVVVUVVUUVUUVUV",
+          "UUUVUUVVVUVVUUVUUVVU",
+          "UUUVUUVVVUVVUUVUVUUV",
+          "UUUVUUVVVUVVUUVUVUVU",
+          "UUUVVVUUUUUUVVVVUVUV",
+          "UUUVVVUUUUUUVVVVUVVU",
+          "UUUVVVUUUUUUVVVVVUUV",
+          "UUUVVVUUUUUUVVVVVUVU",
+          "UUUVVVUUUUUVUVVVUVUV",
+          "UUUVVVUUUUUVUVVVUVVU",
+          "UUUVVVUUUUUVUVVVVUUV",
+          "UUUVVVUUUUUVUVVVVUVU",
+          "UUUVVVUUUVVUVUUVUVUV",
+          "UUUVVVUUUVVUVUUVUVVU",
+          "UUUVVVUUUVVUVUUVVUUV",
+          "UUUVVVUUUVVUVUUVVUVU",
+          "UUUVVVUUUVVUVUVUUVUV",
+          "UUUVVVUUUVVUVUVUUVVU",
+          "UUUVVVUUUVVUVUVUVUUV",
+          "UUUVVVUUUVVUVUVUVUVU",
+          "UUUVVVUUUVVVUUUVUVUV",
+          "UUUVVVUUUVVVUUUVUVVU",
+          "UUUVVVUUUVVVUUUVVUUV",
+          "UUUVVVUUUVVVUUUVVUVU",
+          "UUUVVVUUUVVVUUVUUVUV",
+          "UUUVVVUUUVVVUUVUUVVU",
+          "UUUVVVUUUVVVUUVUVUUV",
+          "UUUVVVUUUVVVUUVUVUVU",
+          "UUUVVVUUVUVUVUUVUVUV",
+          "UUUVVVUUVUVUVUUVUVVU",
+          "UUUVVVUUVUVUVUUVVUUV",
+          "UUUVVVUUVUVUVUUVVUVU",
+          "UUUVVVUUVUVUVUVUUVUV",
+          "UUUVVVUUVUVUVUVUUVVU",
+          "UUUVVVUUVUVUVUVUVUUV",
+          "UUUVVVUUVUVUVUVUVUVU",
+          "UUUVVVUUVUVVUUUVUVUV",
+          "UUUVVVUUVUVVUUUVUVVU",
+          "UUUVVVUUVUVVUUUVVUUV",
+          "UUUVVVUUVUVVUUUVVUVU",
+          "UUUVVVUUVUVVUUVUUVUV",
+          "UUUVVVUUVUVVUUVUUVVU",
+          "UUUVVVUUVUVVUUVUVUUV",
+          "UUUVVVUUVUVVUUVUVUVU",
+          "UUUVVVVVUVUUUUUVUVUV",
+          "UUUVVVVVUVUUUUUVUVVU",
+          "UUUVVVVVUVUUUUUVVUUV",
+          "UUUVVVVVUVUUUUUVVUVU",
+          "UUUVVVVVUVUUUUVUUVUV",
+          "UUUVVVVVUVUUUUVUUVVU",
+          "UUUVVVVVUVUUUUVUVUUV",
+          "UUUVVVVVUVUUUUVUVUVU",
+          "UUUVVVVVVUUUUUUVUVUV",
+          "UUUVVVVVVUUUUUUVUVVU",
+          "UUUVVVVVVUUUUUUVVUUV",
+          "UUUVVVVVVUUUUUUVVUVU",
+          "UUUVVVVVVUUUUUVUUVUV",
+          "UUUVVVVVVUUUUUVUUVVU",
+          "UUUVVVVVVUUUUUVUVUUV",
+          "UUUVVVVVVUUUUUVUVUVU",
+          "UUVUUUVVUUUUVVVVUVUV",
+          "UUVUUUVVUUUUVVVVUVVU",
+          "UUVUUUVVUUUUVVVVVUUV",
+          "UUVUUUVVUUUUVVVVVUVU",
+          "UUVUUUVVUUUVUVVVUVUV",
+          "UUVUUUVVUUUVUVVVUVVU",
+          "UUVUUUVVUUUVUVVVVUUV",
+          "UUVUUUVVUUUVUVVVVUVU",
+          "UUVUUUVVUVVUVUUVUVUV",
+          "UUVUUUVVUVVUVUUVUVVU",
+          "UUVUUUVVUVVUVUUVVUUV",
+          "UUVUUUVVUVVUVUUVVUVU",
+          "UUVUUUVVUVVUVUVUUVUV",
+          "UUVUUUVVUVVUVUVUUVVU",
+          "UUVUUUVVUVVUVUVUVUUV",
+          "UUVUUUVVUVVUVUVUVUVU",
+          "UUVUUUVVUVVVUUUVUVUV",
+          "UUVUUUVVUVVVUUUVUVVU",
+          "UUVUUUVVUVVVUUUVVUUV",
+          "UUVUUUVVUVVVUUUVVUVU",
+          "UUVUUUVVUVVVUUVUUVUV",
+          "UUVUUUVVUVVVUUVUUVVU",
+          "UUVUUUVVUVVVUUVUVUUV",
+          "UUVUUUVVUVVVUUVUVUVU",
+          "UUVUUUVVVUVUVUUVUVUV",
+          "UUVUUUVVVUVUVUUVUVVU",
+          "UUVUUUVVVUVUVUUVVUUV",
+          "UUVUUUVVVUVUVUUVVUVU",
+          "UUVUUUVVVUVUVUVUUVUV",
+          "UUVUUUVVVUVUVUVUUVVU",
+          "UUVUUUVVVUVUVUVUVUUV",
+          "UUVUUUVVVUVUVUVUVUVU",
+          "UUVUUUVVVUVVUUUVUVUV",
+          "UUVUUUVVVUVVUUUVUVVU",
+          "UUVUUUVVVUVVUUUVVUUV",
+          "UUVUUUVVVUVVUUUVVUVU",
+          "UUVUUUVVVUVVUUVUUVUV",
+          "UUVUUUVVVUVVUUVUUVVU",
+          "UUVUUUVVVUVVUUVUVUUV",
+          "UUVUUUVVVUVVUUVUVUVU",
+          "UUVUVVUUUUUUVVVVUVUV",
+          "UUVUVVUUUUUUVVVVUVVU",
+          "UUVUVVUUUUUUVVVVVUUV",
+          "UUVUVVUUUUUUVVVVVUVU",
+          "UUVUVVUUUUUVUVVVUVUV",
+          "UUVUVVUUUUUVUVVVUVVU",
+          "UUVUVVUUUUUVUVVVVUUV",
+          "UUVUVVUUUUUVUVVVVUVU",
+          "UUVUVVUUUVVUVUUVUVUV",
+          "UUVUVVUUUVVUVUUVUVVU",
+          "UUVUVVUUUVVUVUUVVUUV",
+          "UUVUVVUUUVVUVUUVVUVU",
+          "UUVUVVUUUVVUVUVUUVUV",
+          "UUVUVVUUUVVUVUVUUVVU",
+          "UUVUVVUUUVVUVUVUVUUV",
+          "UUVUVVUUUVVUVUVUVUVU",
+          "UUVUVVUUUVVVUUUVUVUV",
+          "UUVUVVUUUVVVUUUVUVVU",
+          "UUVUVVUUUVVVUUUVVUUV",
+          "UUVUVVUUUVVVUUUVVUVU",
+          "UUVUVVUUUVVVUUVUUVUV",
+          "UUVUVVUUUVVVUUVUUVVU",
+          "UUVUVVUUUVVVUUVUVUUV",
+          "UUVUVVUUUVVVUUVUVUVU",
+          "UUVUVVUUVUVUVUUVUVUV",
+          "UUVUVVUUVUVUVUUVUVVU",
+          "UUVUVVUUVUVUVUUVVUUV",
+          "UUVUVVUUVUVUVUUVVUVU",
+          "UUVUVVUUVUVUVUVUUVUV",
+          "UUVUVVUUVUVUVUVUUVVU",
+          "UUVUVVUUVUVUVUVUVUUV",
+          "UUVUVVUUVUVUVUVUVUVU",
+          "UUVUVVUUVUVVUUUVUVUV",
+          "UUVUVVUUVUVVUUUVUVVU",
+          "UUVUVVUUVUVVUUUVVUUV",
+          "UUVUVVUUVUVVUUUVVUVU",
+          "UUVUVVUUVUVVUUVUUVUV",
+          "UUVUVVUUVUVVUUVUUVVU",
+          "UUVUVVUUVUVVUUVUVUUV",
+          "UUVUVVUUVUVVUUVUVUVU",
+          "UUVUVVVVUVUUUUUVUVUV",
+          "UUVUVVVVUVUUUUUVUVVU",
+          "UUVUVVVVUVUUUUUVVUUV",
+          "UUVUVVVVUVUUUUUVVUVU",
+          "UUVUVVVVUVUUUUVUUVUV",
+          "UUVUVVVVUVUUUUVUUVVU",
+          "UUVUVVVVUVUUUUVUVUUV",
+          "UUVUVVVVUVUUUUVUVUVU",
+          "UUVUVVVVVUUUUUUVUVUV",
+          "UUVUVVVVVUUUUUUVUVVU",
+          "UUVUVVVVVUUUUUUVVUUV",
+          "UUVUVVVVVUUUUUUVVUVU",
+          "UUVUVVVVVUUUUUVUUVUV",
+          "UUVUVVVVVUUUUUVUUVVU",
+          "UUVUVVVVVUUUUUVUVUUV",
+          "UUVUVVVVVUUUUUVUVUVU",
+          "VVUVUUUUUUUUVVVVUVUV",
+          "VVUVUUUUUUUUVVVVUVVU",
+          "VVUVUUUUUUUUVVVVVUUV",
+          "VVUVUUUUUUUUVVVVVUVU",
+          "VVUVUUUUUUUVUVVVUVUV",
+          "VVUVUUUUUUUVUVVVUVVU",
+          "VVUVUUUUUUUVUVVVVUUV",
+          "VVUVUUUUUUUVUVVVVUVU",
+          "VVUVUUUUUVVUVUUVUVUV",
+          "VVUVUUUUUVVUVUUVUVVU",
+          "VVUVUUUUUVVUVUUVVUUV",
+          "VVUVUUUUUVVUVUUVVUVU",
+          "VVUVUUUUUVVUVUVUUVUV",
+          "VVUVUUUUUVVUVUVUUVVU",
+          "VVUVUUUUUVVUVUVUVUUV",
+          "VVUVUUUUUVVUVUVUVUVU",
+          "VVUVUUUUUVVVUUUVUVUV",
+          "VVUVUUUUUVVVUUUVUVVU",
+          "VVUVUUUUUVVVUUUVVUUV",
+          "VVUVUUUUUVVVUUUVVUVU",
+          "VVUVUUUUUVVVUUVUUVUV",
+          "VVUVUUUUUVVVUUVUUVVU",
+          "VVUVUUUUUVVVUUVUVUUV",
+          "VVUVUUUUUVVVUUVUVUVU",
+          "VVUVUUUUVUVUVUUVUVUV",
+          "VVUVUUUUVUVUVUUVUVVU",
+          "VVUVUUUUVUVUVUUVVUUV",
+          "VVUVUUUUVUVUVUUVVUVU",
+          "VVUVUUUUVUVUVUVUUVUV",
+          "VVUVUUUUVUVUVUVUUVVU",
+          "VVUVUUUUVUVUVUVUVUUV",
+          "VVUVUUUUVUVUVUVUVUVU",
+          "VVUVUUUUVUVVUUUVUVUV",
+          "VVUVUUUUVUVVUUUVUVVU",
+          "VVUVUUUUVUVVUUUVVUUV",
+          "VVUVUUUUVUVVUUUVVUVU",
+          "VVUVUUUUVUVVUUVUUVUV",
+          "VVUVUUUUVUVVUUVUUVVU",
+          "VVUVUUUUVUVVUUVUVUUV",
+          "VVUVUUUUVUVVUUVUVUVU",
+          "VVUVUUVVUVUUUUUVUVUV",
+          "VVUVUUVVUVUUUUUVUVVU",
+          "VVUVUUVVUVUUUUUVVUUV",
+          "VVUVUUVVUVUUUUUVVUVU",
+          "VVUVUUVVUVUUUUVUUVUV",
+          "VVUVUUVVUVUUUUVUUVVU",
+          "VVUVUUVVUVUUUUVUVUUV",
+          "VVUVUUVVUVUUUUVUVUVU",
+          "VVUVUUVVVUUUUUUVUVUV",
+          "VVUVUUVVVUUUUUUVUVVU",
+          "VVUVUUVVVUUUUUUVVUUV",
+          "VVUVUUVVVUUUUUUVVUVU",
+          "VVUVUUVVVUUUUUVUUVUV",
+          "VVUVUUVVVUUUUUVUUVVU",
+          "VVUVUUVVVUUUUUVUVUUV",
+          "VVUVUUVVVUUUUUVUVUVU",
+          "VVUVVVUUUVUUUUUVUVUV",
+          "VVUVVVUUUVUUUUUVUVVU",
+          "VVUVVVUUUVUUUUUVVUUV",
+          "VVUVVVUUUVUUUUUVVUVU",
+          "VVUVVVUUUVUUUUVUUVUV",
+          "VVUVVVUUUVUUUUVUUVVU",
+          "VVUVVVUUUVUUUUVUVUUV",
+          "VVUVVVUUUVUUUUVUVUVU",
+          "VVUVVVUUVUUUUUUVUVUV",
+          "VVUVVVUUVUUUUUUVUVVU",
+          "VVUVVVUUVUUUUUUVVUUV",
+          "VVUVVVUUVUUUUUUVVUVU",
+          "VVUVVVUUVUUUUUVUUVUV",
+          "VVUVVVUUVUUUUUVUUVVU",
+          "VVUVVVUUVUUUUUVUVUUV",
+          "VVUVVVUUVUUUUUVUVUVU",
+          "VVVUUUUUUUUUVVVVUVUV",
+          "VVVUUUUUUUUUVVVVUVVU",
+          "VVVUUUUUUUUUVVVVVUUV",
+          "VVVUUUUUUUUUVVVVVUVU",
+          "VVVUUUUUUUUVUVVVUVUV",
+          "VVVUUUUUUUUVUVVVUVVU",
+          "VVVUUUUUUUUVUVVVVUUV",
+          "VVVUUUUUUUUVUVVVVUVU",
+          "VVVUUUUUUVVUVUUVUVUV",
+          "VVVUUUUUUVVUVUUVUVVU",
+          "VVVUUUUUUVVUVUUVVUUV",
+          "VVVUUUUUUVVUVUUVVUVU",
+          "VVVUUUUUUVVUVUVUUVUV",
+          "VVVUUUUUUVVUVUVUUVVU",
+          "VVVUUUUUUVVUVUVUVUUV",
+          "VVVUUUUUUVVUVUVUVUVU",
+          "VVVUUUUUUVVVUUUVUVUV",
+          "VVVUUUUUUVVVUUUVUVVU",
+          "VVVUUUUUUVVVUUUVVUUV",
+          "VVVUUUUUUVVVUUUVVUVU",
+          "VVVUUUUUUVVVUUVUUVUV",
+          "VVVUUUUUUVVVUUVUUVVU",
+          "VVVUUUUUUVVVUUVUVUUV",
+          "VVVUUUUUUVVVUUVUVUVU",
+          "VVVUUUUUVUVUVUUVUVUV",
+          "VVVUUUUUVUVUVUUVUVVU",
+          "VVVUUUUUVUVUVUUVVUUV",
+          "VVVUUUUUVUVUVUUVVUVU",
+          "VVVUUUUUVUVUVUVUUVUV",
+          "VVVUUUUUVUVUVUVUUVVU",
+          "VVVUUUUUVUVUVUVUVUUV",
+          "VVVUUUUUVUVUVUVUVUVU",
+          "VVVUUUUUVUVVUUUVUVUV",
+          "VVVUUUUUVUVVUUUVUVVU",
+          "VVVUUUUUVUVVUUUVVUUV",
+          "VVVUUUUUVUVVUUUVVUVU",
+          "VVVUUUUUVUVVUUVUUVUV",
+          "VVVUUUUUVUVVUUVUUVVU",
+          "VVVUUUUUVUVVUUVUVUUV",
+          "VVVUUUUUVUVVUUVUVUVU",
+          "VVVUUUVVUVUUUUUVUVUV",
+          "VVVUUUVVUVUUUUUVUVVU",
+          "VVVUUUVVUVUUUUUVVUUV",
+          "VVVUUUVVUVUUUUUVVUVU",
+          "VVVUUUVVUVUUUUVUUVUV",
+          "VVVUUUVVUVUUUUVUUVVU",
+          "VVVUUUVVUVUUUUVUVUUV",
+          "VVVUUUVVUVUUUUVUVUVU",
+          "VVVUUUVVVUUUUUUVUVUV",
+          "VVVUUUVVVUUUUUUVUVVU",
+          "VVVUUUVVVUUUUUUVVUUV",
+          "VVVUUUVVVUUUUUUVVUVU",
+          "VVVUUUVVVUUUUUVUUVUV",
+          "VVVUUUVVVUUUUUVUUVVU",
+          "VVVUUUVVVUUUUUVUVUUV",
+          "VVVUUUVVVUUUUUVUVUVU",
+          "VVVUVVUUUVUUUUUVUVUV",
+          "VVVUVVUUUVUUUUUVUVVU",
+          "VVVUVVUUUVUUUUUVVUUV",
+          "VVVUVVUUUVUUUUUVVUVU",
+          "VVVUVVUUUVUUUUVUUVUV",
+          "VVVUVVUUUVUUUUVUUVVU",
+          "VVVUVVUUUVUUUUVUVUUV",
+          "VVVUVVUUUVUUUUVUVUVU",
+          "VVVUVVUUVUUUUUUVUVUV",
+          "VVVUVVUUVUUUUUUVUVVU",
+          "VVVUVVUUVUUUUUUVVUUV",
+          "VVVUVVUUVUUUUUUVVUVU",
+          "VVVUVVUUVUUUUUVUUVUV",
+          "VVVUVVUUVUUUUUVUUVVU",
+          "VVVUVVUUVUUUUUVUVUUV",
+          "VVVUVVUUVUUUUUVUVUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          7,
+          10,
+          12
+        ],
+        "separator_length": 3,
+        "word": "ABABABBABABABABBAABB",
+        "transported": "UUUUUUUUUVVVVVVVVUUV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUUUVVVVVVVVUUV"
+        ],
+        "all_masks": [
+          "UUUUUUUUUVVVVVVVUVUV",
+          "UUUUUUUUUVVVVVVVUVVU",
+          "UUUUUUUUUVVVVVVVVUUV",
+          "UUUUUUUUUVVVVVVVVUVU",
+          "UUUUUUUVVUUVVVVVUVUV",
+          "UUUUUUUVVUUVVVVVUVVU",
+          "UUUUUUUVVUUVVVVVVUUV",
+          "UUUUUUUVVUUVVVVVVUVU",
+          "UUUUUUUVVVVUUVVVUVUV",
+          "UUUUUUUVVVVUUVVVUVVU",
+          "UUUUUUUVVVVUUVVVVUUV",
+          "UUUUUUUVVVVUUVVVVUVU",
+          "UUUUUUUVVVVVVUUVUVUV",
+          "UUUUUUUVVVVVVUUVUVVU",
+          "UUUUUUUVVVVVVUUVVUUV",
+          "UUUUUUUVVVVVVUUVVUVU",
+          "UUUUUUUVVVVVVUVUUVUV",
+          "UUUUUUUVVVVVVUVUUVVU",
+          "UUUUUUUVVVVVVUVUVUUV",
+          "UUUUUUUVVVVVVUVUVUVU"
+        ],
+        "contiguous_u_remainders": [
+          "ABABBAABB"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          10,
+          12,
+          17
+        ],
+        "separator_length": 5,
+        "word": "ABABABBABABABBAABABB",
+        "transported": "UUUUUUUVVVVVVVVUUUUV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUVVVVVVVVUUUUV",
+          "VVVVVVVUUUUUUUUVUUUV",
+          "VVVVVVVUUUUUUUVUUUUV"
+        ],
+        "all_masks": [
+          "UUUUUUUVVVVVVVUVUUUV",
+          "UUUUUUUVVVVVVVUVUUVU",
+          "UUUUUUUVVVVVVVVUUUUV",
+          "UUUUUUUVVVVVVVVUUUVU",
+          "VVVVVVVUUUUUUUUVUUUV",
+          "VVVVVVVUUUUUUUUVUUVU",
+          "VVVVVVVUUUUUUUVUUUUV",
+          "VVVVVVVUUUUUUUVUUUVU"
+        ],
+        "contiguous_u_remainders": [
+          "ABBAABABB"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          12,
+          17,
+          19
+        ],
+        "separator_length": 5,
+        "word": "ABABABBABAABABBABBAB",
+        "transported": "UUUUUUUVVVUUUUVVVVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUUUUVVVUVVVVVV",
+          "UUUUUUUUUUVVVVUVVVVV",
+          "UUUUUUUVVVUUUUVVVVVV"
+        ],
+        "all_masks": [
+          "UUUUUUUUUUVVVUVVVVVV",
+          "UUUUUUUUUUVVVVUVVVVV",
+          "UUUUUUUUUVUVVUVVVVVV",
+          "UUUUUUUUUVUVVVUVVVVV",
+          "UUUUUUUVVUVUUUVVVVVV",
+          "UUUUUUUVVUVUUVUVVVVV",
+          "UUUUUUUVVUVVVUVUUVVV",
+          "UUUUUUUVVUVVVUVUVUVV",
+          "UUUUUUUVVUVVVVUUUVVV",
+          "UUUUUUUVVUVVVVUUVUVV",
+          "UUUUUUUVVUVVVVVVUVUU",
+          "UUUUUUUVVUVVVVVVVUUU",
+          "UUUUUUUVVVUUUUVVVVVV",
+          "UUUUUUUVVVUUUVUVVVVV",
+          "UUUUUUUVVVUVVUVUUVVV",
+          "UUUUUUUVVVUVVUVUVUVV",
+          "UUUUUUUVVVUVVVUUUVVV",
+          "UUUUUUUVVVUVVVUUVUVV",
+          "UUUUUUUVVVUVVVVVUVUU",
+          "UUUUUUUVVVUVVVVVVUUU",
+          "VVVVVVVUUUVUUUUUUVUU",
+          "VVVVVVVUUUVUUUUUVUUU",
+          "VVVVVVVUUVUUUUUUUVUU",
+          "VVVVVVVUUVUUUUUUVUUU"
+        ],
+        "contiguous_u_remainders": []
+      }
+    ]
+  },
+  "packed": {
+    "u": "ABBAABBA",
+    "v": "ABBABABBA",
+    "w": "ABBABABABABABABBA",
+    "degree": 4,
+    "masks": [
+      "UUUVVUVUUVUUVVVVV",
+      "UUUVVUVUUVVVUUVVV",
+      "UUUVVUVVVUUVUUVVV",
+      "UUUVVUVVVVVUVVUUU",
+      "VVVUUVUUVUUVUUVVV",
+      "VVVUUVUUVVVUVVUUU",
+      "VVVUUVVVUUVUVVUUU",
+      "VVVVVUUVUUVUVVUUU"
+    ],
+    "mask_runs": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "first": "UUUVVUVUUVUUVVVVV",
+    "last": "VVVVVUUVUUVUVVUUU",
+    "selected": "VVVUUVUUVUUVUUVVV",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          3,
+          5,
+          6
+        ],
+        "separator_length": 1,
+        "word": "ABBAABBABABABABBA",
+        "transported": "VVVVUUUUVUUVUUVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUVVUVVVVVVV"
+        ],
+        "all_masks": [
+          "UUUUUUUVVUVVVVVVV",
+          "UUUUVVVUUVUUVVVVV",
+          "UUUUVVVUUVVVUUVVV",
+          "UUUUVVVVVUUVUUVVV",
+          "UUUUVVVVVVVUVVUUU",
+          "UUUVUVVUUVUUVVVVV",
+          "UUUVUVVUUVVVUUVVV",
+          "UUUVUVVVVUUVUUVVV",
+          "UUUVUVVVVVVUVVUUU",
+          "VVVUVUUUVUUVUUVVV",
+          "VVVUVUUUVVVUVVUUU",
+          "VVVUVUVVUUVUVVUUU",
+          "VVVUVVUVUUVUVVUUU",
+          "VVVVUUUUVUUVUUVVV",
+          "VVVVUUUUVVVUVVUUU",
+          "VVVVUUVVUUVUVVUUU",
+          "VVVVUVUVUUVUVVUUU"
+        ],
+        "contiguous_u_remainders": [
+          "BABABABBA"
+        ]
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          5,
+          6,
+          8
+        ],
+        "separator_length": 1,
+        "word": "ABBABBAABABABABBA",
+        "transported": "VVVUUUUVVUUVUUVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVUUUUUUVUUVVVVV",
+          "VVVUUUUUUVVVUUVVV"
+        ],
+        "all_masks": [
+          "UUUVVVUUUVUUVVVVV",
+          "UUUVVVUUUVVVUUVVV",
+          "UUUVVVUVVUUVUUVVV",
+          "UUUVVVUVVVVUVVUUU",
+          "UUUVVVVUVUUVUUVVV",
+          "UUUVVVVUVVVUVVUUU",
+          "VVVUUUUUUVUUVVVVV",
+          "VVVUUUUUUVVVUUVVV",
+          "VVVUUUUVVUUVUUVVV",
+          "VVVUUUUVVVVUVVUUU",
+          "VVVUUUVUVUUVUUVVV",
+          "VVVUUUVUVVVUVVUUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          6,
+          8,
+          9
+        ],
+        "separator_length": 1,
+        "word": "ABBABABBAABABABBA",
+        "transported": "VVVUUVVUUUUVUUVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVUUUUUUVUUVVV"
+        ],
+        "all_masks": [
+          "VVVUUVUVUUUVUUVVV",
+          "VVVUUVUVUVVUVVUUU",
+          "VVVUUVUVVUVUVVUUU",
+          "VVVUUVVUUUUVUUVVV",
+          "VVVUUVVUUVVUVVUUU",
+          "VVVUUVVUVUVUVVUUU",
+          "VVVVVUUUUUUVUUVVV",
+          "VVVVVUUUUVVUVVUUU",
+          "VVVVVUUUVUVUVVUUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          8,
+          9,
+          11
+        ],
+        "separator_length": 1,
+        "word": "ABBABABAABBABABBA",
+        "transported": "VVVUUVUUUUVVUUVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVUUVUUUUUUVVVVV"
+        ],
+        "all_masks": [
+          "UUUVVUVUVUUUVVVVV",
+          "UUUVVUVUVUVVUUVVV",
+          "UUUVVUVUVVUVUUVVV",
+          "UUUVVUVVUUUUVVVVV",
+          "UUUVVUVVUUVVUUVVV",
+          "UUUVVUVVUVUVUUVVV",
+          "VVVUUVUUUUUUVVVVV",
+          "VVVUUVUUUUVVUUVVV",
+          "VVVUUVUUUVUVUUVVV"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "L",
+        "bounds": [
+          9,
+          11,
+          12
+        ],
+        "separator_length": 1,
+        "word": "ABBABABABAABBABBA",
+        "transported": "VVVUUVUUVVUUUUVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVUUVVVUUUUUUVVV",
+          "VVVVVUUVUUUUUUVVV"
+        ],
+        "all_masks": [
+          "UUUVVUVVVUVUUUVVV",
+          "UUUVVUVVVUVVVVUUU",
+          "UUUVVUVVVVUUUUVVV",
+          "UUUVVUVVVVUVVVUUU",
+          "VVVUUVUUVUVUUUVVV",
+          "VVVUUVUUVUVVVVUUU",
+          "VVVUUVUUVVUUUUVVV",
+          "VVVUUVUUVVUVVVUUU",
+          "VVVUUVVVUUUUUUVVV",
+          "VVVUUVVVUUUVVVUUU",
+          "VVVVVUUVUUUUUUVVV",
+          "VVVVVUUVUUUVVVUUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "R",
+        "bounds": [
+          11,
+          12,
+          14
+        ],
+        "separator_length": 1,
+        "word": "ABBABABABABBAABBA",
+        "transported": "VVVUUVUUVUUUUVVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVVUVVUUUUUUU"
+        ],
+        "all_masks": [
+          "UUUVVUVUUVUVUVVVV",
+          "UUUVVUVUUVUVVUVVV",
+          "UUUVVUVUUVVUUVVVV",
+          "UUUVVUVUUVVUVUVVV",
+          "UUUVVUVVVUUUUVVVV",
+          "UUUVVUVVVUUUVUVVV",
+          "UUUVVUVVVVVVUVUUU",
+          "UUUVVUVVVVVVVUUUU",
+          "VVVUUVUUVUUUUVVVV",
+          "VVVUUVUUVUUUVUVVV",
+          "VVVUUVUUVVVVUVUUU",
+          "VVVUUVUUVVVVVUUUU",
+          "VVVUUVVVUUVVUVUUU",
+          "VVVUUVVVUUVVVUUUU",
+          "VVVVVUUVUUVVUVUUU",
+          "VVVVVUUVUUVVVUUUU",
+          "VVVVVVVUVVUUUUUUU"
+        ],
+        "contiguous_u_remainders": [
+          "ABBABABAB"
+        ]
+      }
+    ]
+  },
+  "packed_first": {
+    "u": "ABBAABBA",
+    "v": "ABBABABBA",
+    "w": "ABBABABABABABABBA",
+    "degree": 4,
+    "masks": [
+      "UUUVVUVUUVUUVVVVV",
+      "UUUVVUVUUVVVUUVVV",
+      "UUUVVUVVVUUVUUVVV",
+      "UUUVVUVVVVVUVVUUU",
+      "VVVUUVUUVUUVUUVVV",
+      "VVVUUVUUVVVUVVUUU",
+      "VVVUUVVVUUVUVVUUU",
+      "VVVVVUUVUUVUVVUUU"
+    ],
+    "mask_runs": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "first": "UUUVVUVUUVUUVVVVV",
+    "last": "VVVVVUUVUUVUVVUUU",
+    "selected": "UUUVVUVUUVUUVVVVV",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          0,
+          3,
+          5
+        ],
+        "separator_length": 2,
+        "word": "ABABBABABABABABBA",
+        "transported": "VVUUUUVUUVUUVVVVV",
+        "degree": 3,
+        "minimum_masks": [
+          "VVUUUUVUUVUUVVVVV",
+          "VVUUUUVUUVVVUUVVV",
+          "VVUUUUVVVUUVUUVVV",
+          "VVUUUUVVVVVUVVUUU"
+        ],
+        "all_masks": [
+          "UUVUVUVUUVUUVVVVV",
+          "UUVUVUVUUVVVUUVVV",
+          "UUVUVUVVVUUVUUVVV",
+          "UUVUVUVVVVVUVVUUU",
+          "UUVVUUVUUVUUVVVVV",
+          "UUVVUUVUUVVVUUVVV",
+          "UUVVUUVVVUUVUUVVV",
+          "UUVVUUVVVVVUVVUUU",
+          "UUVVVVUUVUUVUUVVV",
+          "UUVVVVUUVVVUVVUUU",
+          "UUVVVVVVUUVUVVUUU",
+          "VVUUUUVUUVUUVVVVV",
+          "VVUUUUVUUVVVUUVVV",
+          "VVUUUUVVVUUVUUVVV",
+          "VVUUUUVVVVVUVVUUU",
+          "VVUUVVUUVUUVUUVVV",
+          "VVUUVVUUVVVUVVUUU",
+          "VVUUVVVVUUVUVVUUU",
+          "VVUVUVUUVUUVUUVVV",
+          "VVUVUVUUVVVUVVUUU",
+          "VVUVUVVVUUVUVVUUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          3,
+          5,
+          6
+        ],
+        "separator_length": 2,
+        "word": "ABBAABBABABABABBA",
+        "transported": "UUUUVVVUUVUUVVVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUUUUVVUVVVVVVV"
+        ],
+        "all_masks": [
+          "UUUUUUUVVUVVVVVVV",
+          "UUUUVVVUUVUUVVVVV",
+          "UUUUVVVUUVVVUUVVV",
+          "UUUUVVVVVUUVUUVVV",
+          "UUUUVVVVVVVUVVUUU",
+          "UUUVUVVUUVUUVVVVV",
+          "UUUVUVVUUVVVUUVVV",
+          "UUUVUVVVVUUVUUVVV",
+          "UUUVUVVVVVVUVVUUU",
+          "VVVUVUUUVUUVUUVVV",
+          "VVVUVUUUVVVUVVUUU",
+          "VVVUVUVVUUVUVVUUU",
+          "VVVUVVUVUUVUVVUUU",
+          "VVVVUUUUVUUVUUVVV",
+          "VVVVUUUUVVVUVVUUU",
+          "VVVVUUVVUUVUVVUUU",
+          "VVVVUVUVUUVUVVUUU"
+        ],
+        "contiguous_u_remainders": [
+          "BABABABBA"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          5,
+          6,
+          7
+        ],
+        "separator_length": 1,
+        "word": "ABBABBAABABABABBA",
+        "transported": "UUUVVVUUUVUUVVVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVUUUUUUVUUVVVVV",
+          "VVVUUUUUUVVVUUVVV"
+        ],
+        "all_masks": [
+          "UUUVVVUUUVUUVVVVV",
+          "UUUVVVUUUVVVUUVVV",
+          "UUUVVVUVVUUVUUVVV",
+          "UUUVVVUVVVVUVVUUU",
+          "UUUVVVVUVUUVUUVVV",
+          "UUUVVVVUVVVUVVUUU",
+          "VVVUUUUUUVUUVVVVV",
+          "VVVUUUUUUVVVUUVVV",
+          "VVVUUUUVVUUVUUVVV",
+          "VVVUUUUVVVVUVVUUU",
+          "VVVUUUVUVUUVUUVVV",
+          "VVVUUUVUVVVUVVUUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          6,
+          7,
+          9
+        ],
+        "separator_length": 1,
+        "word": "ABBABAABBABABABBA",
+        "transported": "UUUVVUUUVVUUVVVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUVVUUUUUVVVVVVV"
+        ],
+        "all_masks": [
+          "UUUVVUUUUUVVVVVVV",
+          "UUUVVUUUVVUUVVVVV",
+          "UUUVVUUUVVVVUUVVV",
+          "UUUVVUUVUVUUVVVVV",
+          "UUUVVUUVUVVVUUVVV",
+          "VVVVVUVUUUVUVVUUU",
+          "VVVVVVUUUUVUVVUUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "L",
+        "bounds": [
+          7,
+          9,
+          10
+        ],
+        "separator_length": 1,
+        "word": "ABBABABAABBABABBA",
+        "transported": "UUUVVUVVUUUUVVVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVUUVUUUUUUVVVVV"
+        ],
+        "all_masks": [
+          "UUUVVUVUVUUUVVVVV",
+          "UUUVVUVUVUVVUUVVV",
+          "UUUVVUVUVVUVUUVVV",
+          "UUUVVUVVUUUUVVVVV",
+          "UUUVVUVVUUVVUUVVV",
+          "UUUVVUVVUVUVUUVVV",
+          "VVVUUVUUUUUUVVVVV",
+          "VVVUUVUUUUVVUUVVV",
+          "VVVUUVUUUVUVUUVVV"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "R",
+        "bounds": [
+          9,
+          10,
+          12
+        ],
+        "separator_length": 1,
+        "word": "ABBABABABBAABABBA",
+        "transported": "UUUVVUVUUUUVVVVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVVVVVUUUUUVVUUU"
+        ],
+        "all_masks": [
+          "UUUVVUVUUUUVVVVVV",
+          "UUUVVUVUUUVUVVVVV",
+          "VVVUUVVVUVUUVVUUU",
+          "VVVUUVVVVUUUVVUUU",
+          "VVVVVUUVUVUUVVUUU",
+          "VVVVVUUVVUUUVVUUU",
+          "VVVVVVVUUUUUVVUUU"
+        ],
+        "contiguous_u_remainders": []
+      }
+    ]
+  },
+  "packed_exact_successor": {
+    "u": "ABBAABBA",
+    "v": "ABBABABBA",
+    "w": "ABABBABABABABABBA",
+    "degree": 3,
+    "masks": [
+      "UUVUVUVUUVUUVVVVV",
+      "UUVUVUVUUVVVUUVVV",
+      "UUVUVUVVVUUVUUVVV",
+      "UUVUVUVVVVVUVVUUU",
+      "UUVVUUVUUVUUVVVVV",
+      "UUVVUUVUUVVVUUVVV",
+      "UUVVUUVVVUUVUUVVV",
+      "UUVVUUVVVVVUVVUUU",
+      "UUVVVVUUVUUVUUVVV",
+      "UUVVVVUUVVVUVVUUU",
+      "UUVVVVVVUUVUVVUUU",
+      "VVUUUUVUUVUUVVVVV",
+      "VVUUUUVUUVVVUUVVV",
+      "VVUUUUVVVUUVUUVVV",
+      "VVUUUUVVVVVUVVUUU",
+      "VVUUVVUUVUUVUUVVV",
+      "VVUUVVUUVVVUVVUUU",
+      "VVUUVVVVUUVUVVUUU",
+      "VVUVUVUUVUUVUUVVV",
+      "VVUVUVUUVVVUVVUUU",
+      "VVUVUVVVUUVUVVUUU"
+    ],
+    "mask_runs": [
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5
+    ],
+    "first": "VVUUUUVUUVUUVVVVV",
+    "last": "VVUUUUVVVVVUVVUUU",
+    "selected": "VVUUUUVUUVUUVVVVV",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          2,
+          6,
+          7
+        ],
+        "separator_length": 1,
+        "word": "ABBABBAABABABABBA",
+        "transported": "VVVUUUUUUVUUVVVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVVUUUUUUVUUVVVVV",
+          "VVVUUUUUUVVVUUVVV"
+        ],
+        "all_masks": [
+          "UUUVVVUUUVUUVVVVV",
+          "UUUVVVUUUVVVUUVVV",
+          "UUUVVVUVVUUVUUVVV",
+          "UUUVVVUVVVVUVVUUU",
+          "UUUVVVVUVUUVUUVVV",
+          "UUUVVVVUVVVUVVUUU",
+          "VVVUUUUUUVUUVVVVV",
+          "VVVUUUUUUVVVUUVVV",
+          "VVVUUUUVVUUVUUVVV",
+          "VVVUUUUVVVVUVVUUU",
+          "VVVUUUVUVUUVUUVVV",
+          "VVVUUUVUVVVUVVUUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          6,
+          7,
+          9
+        ],
+        "separator_length": 1,
+        "word": "ABABBAABBABABABBA",
+        "transported": "VVUUUUUUVVUUVVVVV",
+        "degree": 1,
+        "minimum_masks": [
+          "VVUUUUUUUUVVVVVVV"
+        ],
+        "all_masks": [
+          "UUVUVUUUUUVVVVVVV",
+          "UUVUVUUUVVUUVVVVV",
+          "UUVUVUUUVVVVUUVVV",
+          "UUVUVUUVUVUUVVVVV",
+          "UUVUVUUVUVVVUUVVV",
+          "UUVVUUUUUUVVVVVVV",
+          "UUVVUUUUVVUUVVVVV",
+          "UUVVUUUUVVVVUUVVV",
+          "UUVVUUUVUVUUVVVVV",
+          "UUVVUUUVUVVVUUVVV",
+          "VVUUUUUUUUVVVVVVV",
+          "VVUUUUUUVVUUVVVVV",
+          "VVUUUUUUVVVVUUVVV",
+          "VVUUUUUVUVUUVVVVV",
+          "VVUUUUUVUVVVUUVVV"
+        ],
+        "contiguous_u_remainders": [
+          "ABBABABBA"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          7,
+          9,
+          10
+        ],
+        "separator_length": 1,
+        "word": "ABABBABAABBABABBA",
+        "transported": "VVUUUUVVUUUUVVVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UUVVVVUUUUUUVVVVV",
+          "VVUUUUVVUUUUVVVVV",
+          "VVUUVVUUUUUUVVVVV"
+        ],
+        "all_masks": [
+          "UUVUVUVUVUUUVVVVV",
+          "UUVUVUVUVUVVUUVVV",
+          "UUVUVUVUVVUVUUVVV",
+          "UUVUVUVVUUUUVVVVV",
+          "UUVUVUVVUUVVUUVVV",
+          "UUVUVUVVUVUVUUVVV",
+          "UUVVUUVUVUUUVVVVV",
+          "UUVVUUVUVUVVUUVVV",
+          "UUVVUUVUVVUVUUVVV",
+          "UUVVUUVVUUUUVVVVV",
+          "UUVVUUVVUUVVUUVVV",
+          "UUVVUUVVUVUVUUVVV",
+          "UUVVVVUUUUUUVVVVV",
+          "UUVVVVUUUUVVUUVVV",
+          "UUVVVVUUUVUVUUVVV",
+          "VVUUUUVUVUUUVVVVV",
+          "VVUUUUVUVUVVUUVVV",
+          "VVUUUUVUVVUVUUVVV",
+          "VVUUUUVVUUUUVVVVV",
+          "VVUUUUVVUUVVUUVVV",
+          "VVUUUUVVUVUVUUVVV",
+          "VVUUVVUUUUUUVVVVV",
+          "VVUUVVUUUUVVUUVVV",
+          "VVUUVVUUUVUVUUVVV",
+          "VVUVUVUUUUUUVVVVV",
+          "VVUVUVUUUUVVUUVVV",
+          "VVUVUVUUUVUVUUVVV"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          9,
+          10,
+          12
+        ],
+        "separator_length": 1,
+        "word": "ABABBABABBAABABBA",
+        "transported": "VVUUUUVUUUUVVVVVV",
+        "degree": 2,
+        "minimum_masks": [
+          "VVUUUUVUUUUVVVVVV"
+        ],
+        "all_masks": [
+          "UUVUVUVUUUUVVVVVV",
+          "UUVUVUVUUUVUVVVVV",
+          "UUVVUUVUUUUVVVVVV",
+          "UUVVUUVUUUVUVVVVV",
+          "UUVVVVVVUVUUVVUUU",
+          "UUVVVVVVVUUUVVUUU",
+          "VVUUUUVUUUUVVVVVV",
+          "VVUUUUVUUUVUVVVVV",
+          "VVUUVVVVUVUUVVUUU",
+          "VVUUVVVVVUUUVVUUU",
+          "VVUVUVVVUVUUVVUUU",
+          "VVUVUVVVVUUUVVUUU"
+        ],
+        "contiguous_u_remainders": []
+      }
+    ]
+  },
+  "both_ends": {
+    "u": "01201Y34534",
+    "v": "201XZ345",
+    "w": "02101201XYZ34534354",
+    "degree": 7,
+    "masks": [
+      "UVUVVUUUVUVUUUVVUVU"
+    ],
+    "mask_runs": [
+      7
+    ],
+    "first": "UVUVVUUUVUVUUUVVUVU",
+    "last": "UVUVVUUUVUVUUUVVUVU",
+    "selected": "UVUVVUUUVUVUUUVVUVU",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          0,
+          1,
+          2
+        ],
+        "separator_length": 1,
+        "word": "20101201XYZ34534354",
+        "transported": "VUUVVUUUVUVUUUVVUVU",
+        "degree": 5,
+        "minimum_masks": [
+          "VVVUUUUUVUVUUUVVUVU"
+        ],
+        "all_masks": [
+          "VUUVVUUUVUVUUUVVUVU",
+          "VVVUUUUUVUVUUUVVUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          1,
+          2,
+          3
+        ],
+        "separator_length": 1,
+        "word": "01201201XYZ34534354",
+        "transported": "UUVVVUUUVUVUUUVVUVU",
+        "degree": 5,
+        "minimum_masks": [
+          "UUUUUVVVVUVUUUVVUVU"
+        ],
+        "all_masks": [
+          "UUUUUVVVVUVUUUVVUVU",
+          "UUVVVUUUVUVUUUVVUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          2,
+          3,
+          5
+        ],
+        "separator_length": 2,
+        "word": "02011201XYZ34534354",
+        "transported": "UVVVUUUUVUVUUUVVUVU",
+        "degree": 6,
+        "minimum_masks": [
+          "UVVVUUUUVUVUUUVVUVU"
+        ],
+        "all_masks": [
+          "UVVUVUUUVUVUUUVVUVU",
+          "UVVVUUUUVUVUUUVVUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          3,
+          5,
+          8
+        ],
+        "separator_length": 2,
+        "word": "02120101XYZ34534354",
+        "transported": "UVUUUUVVVUVUUUVVUVU",
+        "degree": 6,
+        "minimum_masks": [
+          "UVUUUUVVVUVUUUVVUVU"
+        ],
+        "all_masks": [
+          "UVUUUUVVVUVUUUVVUVU",
+          "UVUUVVUUVUVUUUVVUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "L",
+        "bounds": [
+          5,
+          8,
+          9
+        ],
+        "separator_length": 1,
+        "word": "02101X201YZ34534354",
+        "transported": "UVUVVVUUUUVUUUVVUVU",
+        "degree": 6,
+        "minimum_masks": [
+          "UVUVVVUUUUVUUUVVUVU"
+        ],
+        "all_masks": [
+          "UVUVVVUUUUVUUUVVUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 3,
+        "direction": "R",
+        "bounds": [
+          8,
+          9,
+          10
+        ],
+        "separator_length": 1,
+        "word": "02101201YXZ34534354",
+        "transported": "UVUVVUUUUVVUUUVVUVU",
+        "degree": 6,
+        "minimum_masks": [
+          "UVUVVUUUUVVUUUVVUVU"
+        ],
+        "all_masks": [
+          "UVUVVUUUUVVUUUVVUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 4,
+        "direction": "L",
+        "bounds": [
+          9,
+          10,
+          11
+        ],
+        "separator_length": 1,
+        "word": "02101201XZY34534354",
+        "transported": "UVUVVUUUVVUUUUVVUVU",
+        "degree": 6,
+        "minimum_masks": [
+          "UVUVVUUUVVUUUUVVUVU"
+        ],
+        "all_masks": [
+          "UVUVVUUUVVUUUUVVUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 4,
+        "direction": "R",
+        "bounds": [
+          10,
+          11,
+          14
+        ],
+        "separator_length": 1,
+        "word": "02101201XY345Z34354",
+        "transported": "UVUVVUUUVUUUUVVVUVU",
+        "degree": 6,
+        "minimum_masks": [
+          "UVUVVUUUVUUUUVVVUVU"
+        ],
+        "all_masks": [
+          "UVUVVUUUVUUUUVVVUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 5,
+        "direction": "L",
+        "bounds": [
+          11,
+          14,
+          16
+        ],
+        "separator_length": 2,
+        "word": "02101201XYZ34345354",
+        "transported": "UVUVVUUUVUVVVUUUUVU",
+        "degree": 6,
+        "minimum_masks": [
+          "UVUVVUUUVUVVVUUUUVU"
+        ],
+        "all_masks": [
+          "UVUVVUUUVUVUUVVUUVU",
+          "UVUVVUUUVUVVVUUUUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 5,
+        "direction": "R",
+        "bounds": [
+          14,
+          16,
+          17
+        ],
+        "separator_length": 2,
+        "word": "02101201XYZ34533454",
+        "transported": "UVUVVUUUVUVUUUUVVVU",
+        "degree": 6,
+        "minimum_masks": [
+          "UVUVVUUUVUVUUUUVVVU"
+        ],
+        "all_masks": [
+          "UVUVVUUUVUVUUUUVVVU",
+          "UVUVVUUUVUVUUUVUVVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 6,
+        "direction": "L",
+        "bounds": [
+          16,
+          17,
+          18
+        ],
+        "separator_length": 1,
+        "word": "02101201XYZ34534534",
+        "transported": "UVUVVUUUVUVUUUVVVUU",
+        "degree": 5,
+        "minimum_masks": [
+          "UVUVVUUUVUVVVVUUUUU"
+        ],
+        "all_masks": [
+          "UVUVVUUUVUVUUUVVVUU",
+          "UVUVVUUUVUVVVVUUUUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 6,
+        "direction": "R",
+        "bounds": [
+          17,
+          18,
+          19
+        ],
+        "separator_length": 1,
+        "word": "02101201XYZ34534345",
+        "transported": "UVUVVUUUVUVUUUVVUUV",
+        "degree": 5,
+        "minimum_masks": [
+          "UVUVVUUUVUVUUUUUVVV"
+        ],
+        "all_masks": [
+          "UVUVVUUUVUVUUUUUVVV",
+          "UVUVVUUUVUVUUUVVUUV"
+        ],
+        "contiguous_u_remainders": []
+      }
+    ]
+  },
+  "left_gadget": {
+    "u": "01201",
+    "v": "201",
+    "w": "02101201",
+    "degree": 3,
+    "masks": [
+      "UVUVVUUU"
+    ],
+    "mask_runs": [
+      3
+    ],
+    "first": "UVUVVUUU",
+    "last": "UVUVVUUU",
+    "selected": "UVUVVUUU",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          0,
+          1,
+          2
+        ],
+        "separator_length": 1,
+        "word": "20101201",
+        "transported": "VUUVVUUU",
+        "degree": 1,
+        "minimum_masks": [
+          "VVVUUUUU"
+        ],
+        "all_masks": [
+          "VUUVVUUU",
+          "VVVUUUUU"
+        ],
+        "contiguous_u_remainders": [
+          "201"
+        ]
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          1,
+          2,
+          3
+        ],
+        "separator_length": 1,
+        "word": "01201201",
+        "transported": "UUVVVUUU",
+        "degree": 1,
+        "minimum_masks": [
+          "UUUUUVVV"
+        ],
+        "all_masks": [
+          "UUUUUVVV",
+          "UUVVVUUU"
+        ],
+        "contiguous_u_remainders": [
+          "201",
+          "012"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          2,
+          3,
+          5
+        ],
+        "separator_length": 2,
+        "word": "02011201",
+        "transported": "UVVVUUUU",
+        "degree": 2,
+        "minimum_masks": [
+          "UVVVUUUU"
+        ],
+        "all_masks": [
+          "UVVUVUUU",
+          "UVVVUUUU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          3,
+          5,
+          8
+        ],
+        "separator_length": 2,
+        "word": "02120101",
+        "transported": "UVUUUUVV",
+        "degree": 2,
+        "minimum_masks": [
+          "UVUUUUVV"
+        ],
+        "all_masks": [
+          "UVUUUUVV",
+          "UVUUVVUU"
+        ],
+        "contiguous_u_remainders": []
+      }
+    ]
+  },
+  "right_gadget": {
+    "u": "34534",
+    "v": "345",
+    "w": "34534354",
+    "degree": 3,
+    "masks": [
+      "UUUVVUVU"
+    ],
+    "mask_runs": [
+      3
+    ],
+    "first": "UUUVVUVU",
+    "last": "UUUVVUVU",
+    "selected": "UUUVVUVU",
+    "moves": [
+      {
+        "separator": 1,
+        "direction": "L",
+        "bounds": [
+          0,
+          3,
+          5
+        ],
+        "separator_length": 2,
+        "word": "34345354",
+        "transported": "VVUUUUVU",
+        "degree": 2,
+        "minimum_masks": [
+          "VVUUUUVU"
+        ],
+        "all_masks": [
+          "UUVVUUVU",
+          "VVUUUUVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 1,
+        "direction": "R",
+        "bounds": [
+          3,
+          5,
+          6
+        ],
+        "separator_length": 2,
+        "word": "34533454",
+        "transported": "UUUUVVVU",
+        "degree": 2,
+        "minimum_masks": [
+          "UUUUVVVU"
+        ],
+        "all_masks": [
+          "UUUUVVVU",
+          "UUUVUVVU"
+        ],
+        "contiguous_u_remainders": []
+      },
+      {
+        "separator": 2,
+        "direction": "L",
+        "bounds": [
+          5,
+          6,
+          7
+        ],
+        "separator_length": 1,
+        "word": "34534534",
+        "transported": "UUUVVVUU",
+        "degree": 1,
+        "minimum_masks": [
+          "VVVUUUUU"
+        ],
+        "all_masks": [
+          "UUUVVVUU",
+          "VVVUUUUU"
+        ],
+        "contiguous_u_remainders": [
+          "534",
+          "345"
+        ]
+      },
+      {
+        "separator": 2,
+        "direction": "R",
+        "bounds": [
+          6,
+          7,
+          8
+        ],
+        "separator_length": 1,
+        "word": "34534345",
+        "transported": "UUUVVUUV",
+        "degree": 1,
+        "minimum_masks": [
+          "UUUUUVVV"
+        ],
+        "all_masks": [
+          "UUUUUVVV",
+          "UUUVVUUV"
+        ],
+        "contiguous_u_remainders": [
+          "345"
+        ]
+      }
+    ]
+  },
+  "family": [
+    {
+      "k": 2,
+      "ell": 2,
+      "masks": [
+        "UUVVVVVUVVVVVUUVV",
+        "UUVVVVVUVVVVVVVUU",
+        "UUVVVVVVUVVVVUUVV",
+        "UUVVVVVVUVVVVVVUU",
+        "UUVVVVVVVUVVVUUVV",
+        "UUVVVVVVVUVVVVVUU",
+        "VVUUVVVUVVVVVUUVV",
+        "VVUUVVVUVVVVVVVUU",
+        "VVUUVVVVUVVVVUUVV",
+        "VVUUVVVVUVVVVVVUU",
+        "VVUUVVVVVUVVVUUVV",
+        "VVUUVVVVVUVVVVVUU"
+      ],
+      "first": "UUVVVVVUVVVVVUUVV",
+      "exact": "ABAABABAAABAABABA"
+    },
+    {
+      "k": 2,
+      "ell": 3,
+      "masks": [
+        "UUVVVVVUVVVVVVVVUUVV",
+        "UUVVVVVUVVVVVVVVVVUU",
+        "UUVVVVVVUVVVVVVVUUVV",
+        "UUVVVVVVUVVVVVVVVVUU",
+        "UUVVVVVVVUVVVVVVUUVV",
+        "UUVVVVVVVUVVVVVVVVUU",
+        "VVUUVVVUVVVVVVVVUUVV",
+        "VVUUVVVUVVVVVVVVVVUU",
+        "VVUUVVVVUVVVVVVVUUVV",
+        "VVUUVVVVUVVVVVVVVVUU",
+        "VVUUVVVVVUVVVVVVUUVV",
+        "VVUUVVVVVUVVVVVVVVUU"
+      ],
+      "first": "UUVVVVVUVVVVVVVVUUVV",
+      "exact": "ABAABABAAABAABAABABA"
+    },
+    {
+      "k": 2,
+      "ell": 4,
+      "masks": [
+        "UUVVVVVUVVVVVVVVVVVUUVV",
+        "UUVVVVVUVVVVVVVVVVVVVUU",
+        "UUVVVVVVUVVVVVVVVVVUUVV",
+        "UUVVVVVVUVVVVVVVVVVVVUU",
+        "UUVVVVVVVUVVVVVVVVVUUVV",
+        "UUVVVVVVVUVVVVVVVVVVVUU",
+        "VVUUVVVUVVVVVVVVVVVUUVV",
+        "VVUUVVVUVVVVVVVVVVVVVUU",
+        "VVUUVVVVUVVVVVVVVVVUUVV",
+        "VVUUVVVVUVVVVVVVVVVVVUU",
+        "VVUUVVVVVUVVVVVVVVVUUVV",
+        "VVUUVVVVVUVVVVVVVVVVVUU"
+      ],
+      "first": "UUVVVVVUVVVVVVVVVVVUUVV",
+      "exact": "ABAABABAAABAABAABAABABA"
+    },
+    {
+      "k": 3,
+      "ell": 2,
+      "masks": [
+        "UUVVVVVVVVUVVVVVUUVV",
+        "UUVVVVVVVVUVVVVVVVUU",
+        "UUVVVVVVVVVUVVVVUUVV",
+        "UUVVVVVVVVVUVVVVVVUU",
+        "UUVVVVVVVVVVUVVVUUVV",
+        "UUVVVVVVVVVVUVVVVVUU",
+        "VVUUVVVVVVUVVVVVUUVV",
+        "VVUUVVVVVVUVVVVVVVUU",
+        "VVUUVVVVVVVUVVVVUUVV",
+        "VVUUVVVVVVVUVVVVVVUU",
+        "VVUUVVVVVVVVUVVVUUVV",
+        "VVUUVVVVVVVVUVVVVVUU"
+      ],
+      "first": "UUVVVVVVVVUVVVVVUUVV",
+      "exact": "ABAABAABABAAABAABABA"
+    },
+    {
+      "k": 3,
+      "ell": 3,
+      "masks": [
+        "UUVVVVVVVVUVVVVVVVVUUVV",
+        "UUVVVVVVVVUVVVVVVVVVVUU",
+        "UUVVVVVVVVVUVVVVVVVUUVV",
+        "UUVVVVVVVVVUVVVVVVVVVUU",
+        "UUVVVVVVVVVVUVVVVVVUUVV",
+        "UUVVVVVVVVVVUVVVVVVVVUU",
+        "VVUUVVVVVVUVVVVVVVVUUVV",
+        "VVUUVVVVVVUVVVVVVVVVVUU",
+        "VVUUVVVVVVVUVVVVVVVUUVV",
+        "VVUUVVVVVVVUVVVVVVVVVUU",
+        "VVUUVVVVVVVVUVVVVVVUUVV",
+        "VVUUVVVVVVVVUVVVVVVVVUU"
+      ],
+      "first": "UUVVVVVVVVUVVVVVVVVUUVV",
+      "exact": "ABAABAABABAAABAABAABABA"
+    },
+    {
+      "k": 3,
+      "ell": 4,
+      "masks": [
+        "UUVVVVVVVVUVVVVVVVVVVVUUVV",
+        "UUVVVVVVVVUVVVVVVVVVVVVVUU",
+        "UUVVVVVVVVVUVVVVVVVVVVUUVV",
+        "UUVVVVVVVVVUVVVVVVVVVVVVUU",
+        "UUVVVVVVVVVVUVVVVVVVVVUUVV",
+        "UUVVVVVVVVVVUVVVVVVVVVVVUU",
+        "VVUUVVVVVVUVVVVVVVVVVVUUVV",
+        "VVUUVVVVVVUVVVVVVVVVVVVVUU",
+        "VVUUVVVVVVVUVVVVVVVVVVUUVV",
+        "VVUUVVVVVVVUVVVVVVVVVVVVUU",
+        "VVUUVVVVVVVVUVVVVVVVVVUUVV",
+        "VVUUVVVVVVVVUVVVVVVVVVVVUU"
+      ],
+      "first": "UUVVVVVVVVUVVVVVVVVVVVUUVV",
+      "exact": "ABAABAABABAAABAABAABAABABA"
+    },
+    {
+      "k": 4,
+      "ell": 2,
+      "masks": [
+        "UUVVVVVVVVVVVUVVVVVUUVV",
+        "UUVVVVVVVVVVVUVVVVVVVUU",
+        "UUVVVVVVVVVVVVUVVVVUUVV",
+        "UUVVVVVVVVVVVVUVVVVVVUU",
+        "UUVVVVVVVVVVVVVUVVVUUVV",
+        "UUVVVVVVVVVVVVVUVVVVVUU",
+        "VVUUVVVVVVVVVUVVVVVUUVV",
+        "VVUUVVVVVVVVVUVVVVVVVUU",
+        "VVUUVVVVVVVVVVUVVVVUUVV",
+        "VVUUVVVVVVVVVVUVVVVVVUU",
+        "VVUUVVVVVVVVVVVUVVVUUVV",
+        "VVUUVVVVVVVVVVVUVVVVVUU"
+      ],
+      "first": "UUVVVVVVVVVVVUVVVVVUUVV",
+      "exact": "ABAABAABAABABAAABAABABA"
+    },
+    {
+      "k": 4,
+      "ell": 3,
+      "masks": [
+        "UUVVVVVVVVVVVUVVVVVVVVUUVV",
+        "UUVVVVVVVVVVVUVVVVVVVVVVUU",
+        "UUVVVVVVVVVVVVUVVVVVVVUUVV",
+        "UUVVVVVVVVVVVVUVVVVVVVVVUU",
+        "UUVVVVVVVVVVVVVUVVVVVVUUVV",
+        "UUVVVVVVVVVVVVVUVVVVVVVVUU",
+        "VVUUVVVVVVVVVUVVVVVVVVUUVV",
+        "VVUUVVVVVVVVVUVVVVVVVVVVUU",
+        "VVUUVVVVVVVVVVUVVVVVVVUUVV",
+        "VVUUVVVVVVVVVVUVVVVVVVVVUU",
+        "VVUUVVVVVVVVVVVUVVVVVVUUVV",
+        "VVUUVVVVVVVVVVVUVVVVVVVVUU"
+      ],
+      "first": "UUVVVVVVVVVVVUVVVVVVVVUUVV",
+      "exact": "ABAABAABAABABAAABAABAABABA"
+    },
+    {
+      "k": 4,
+      "ell": 4,
+      "masks": [
+        "UUVVVVVVVVVVVUVVVVVVVVVVVUUVV",
+        "UUVVVVVVVVVVVUVVVVVVVVVVVVVUU",
+        "UUVVVVVVVVVVVVUVVVVVVVVVVUUVV",
+        "UUVVVVVVVVVVVVUVVVVVVVVVVVVUU",
+        "UUVVVVVVVVVVVVVUVVVVVVVVVUUVV",
+        "UUVVVVVVVVVVVVVUVVVVVVVVVVVUU",
+        "VVUUVVVVVVVVVUVVVVVVVVVVVUUVV",
+        "VVUUVVVVVVVVVUVVVVVVVVVVVVVUU",
+        "VVUUVVVVVVVVVVUVVVVVVVVVVUUVV",
+        "VVUUVVVVVVVVVVUVVVVVVVVVVVVUU",
+        "VVUUVVVVVVVVVVVUVVVVVVVVVUUVV",
+        "VVUUVVVVVVVVVVVUVVVVVVVVVVVUU"
+      ],
+      "first": "UUVVVVVVVVVVVUVVVVVVVVVVVUUVV",
+      "exact": "ABAABAABAABABAAABAABAABAABABA"
+    }
+  ],
+  "literal_tables": {
+    "table1_masks": 16,
+    "table2_remainders": 7,
+    "tab:successors_witness_rows": 4,
+    "tab:firstfailure_witness_rows": 5,
+    "tab:lastfailure_witness_rows": 5,
+    "tab:lastcert_complete_mask_entries": 24,
+    "tab:packedcert_complete_mask_entries": 29,
+    "packed_successor_rows": 6,
+    "separator_rule_rows": 4
+  },
+  "core_binary_through6": {
+    "unary_gap_formula_checks": 1904,
+    "outputs": 2338,
+    "alternative_masks": 6172,
+    "criterion_and_constrained_dp_exchanges": 2832,
+    "unary_exchanges": 1936,
+    "empty_segment_states": 18,
+    "boundary_assignments": 64
+  },
+  "prefix_profile": {
+    "counts": {
+      "failed_triples": 168,
+      "with_successful_candidate": 116,
+      "successful_profile": 94,
+      "without_successful_candidate": 52,
+      "ordinary_profile_without_candidate": 52
+    },
+    "triples": [
+      {
+        "u": "0010",
+        "v": "0101",
+        "w": "00100110",
+        "failed_position": 7,
+        "successful_positions": [
+          2,
+          3,
+          5
+        ],
+        "exact_positions": [
+          2,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0010",
+        "v": "1001",
+        "w": "01010010",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0011",
+        "v": "0110",
+        "w": "00110101",
+        "failed_position": 7,
+        "successful_positions": [],
+        "exact_positions": [
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0011",
+        "v": "1001",
+        "w": "01010011",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0100",
+        "v": "1001",
+        "w": "01001010",
+        "failed_position": 7,
+        "successful_positions": [],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0100",
+        "v": "1010",
+        "w": "01100100",
+        "failed_position": 1,
+        "successful_positions": [
+          3,
+          5,
+          6
+        ],
+        "exact_positions": [
+          3,
+          5,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "0101",
+        "v": "1010",
+        "w": "01100101",
+        "failed_position": 1,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "0101",
+        "v": "1010",
+        "w": "01011001",
+        "failed_position": 7,
+        "successful_positions": [
+          5
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1010",
+        "v": "0101",
+        "w": "10011010",
+        "failed_position": 1,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "1010",
+        "v": "0101",
+        "w": "10100110",
+        "failed_position": 7,
+        "successful_positions": [
+          5
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1011",
+        "v": "0101",
+        "w": "10011011",
+        "failed_position": 1,
+        "successful_positions": [
+          3,
+          5,
+          6
+        ],
+        "exact_positions": [
+          3,
+          5,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "1011",
+        "v": "0110",
+        "w": "10110101",
+        "failed_position": 7,
+        "successful_positions": [],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1100",
+        "v": "0110",
+        "w": "10101100",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1100",
+        "v": "1001",
+        "w": "11001010",
+        "failed_position": 7,
+        "successful_positions": [],
+        "exact_positions": [
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1101",
+        "v": "0110",
+        "w": "10101101",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1101",
+        "v": "1010",
+        "w": "11011001",
+        "failed_position": 7,
+        "successful_positions": [
+          2,
+          3,
+          5
+        ],
+        "exact_positions": [
+          2,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00011",
+        "v": "011",
+        "w": "00101011",
+        "failed_position": 3,
+        "successful_positions": [
+          2,
+          4
+        ],
+        "exact_positions": [
+          2,
+          4,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00101",
+        "v": "101",
+        "w": "01001101",
+        "failed_position": 2,
+        "successful_positions": [
+          1,
+          4
+        ],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00110",
+        "v": "110",
+        "w": "01010110",
+        "failed_position": 2,
+        "successful_positions": [
+          1
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00111",
+        "v": "001",
+        "w": "00101011",
+        "failed_position": 5,
+        "successful_positions": [
+          4,
+          6
+        ],
+        "exact_positions": [
+          3,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01011",
+        "v": "010",
+        "w": "01001101",
+        "failed_position": 6,
+        "successful_positions": [
+          4,
+          7
+        ],
+        "exact_positions": [
+          2,
+          4,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01100",
+        "v": "011",
+        "w": "01101010",
+        "failed_position": 6,
+        "successful_positions": [
+          7
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10011",
+        "v": "100",
+        "w": "10010101",
+        "failed_position": 6,
+        "successful_positions": [
+          7
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10100",
+        "v": "101",
+        "w": "10110010",
+        "failed_position": 6,
+        "successful_positions": [
+          4,
+          7
+        ],
+        "exact_positions": [
+          2,
+          4,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11000",
+        "v": "110",
+        "w": "11010100",
+        "failed_position": 5,
+        "successful_positions": [
+          4,
+          6
+        ],
+        "exact_positions": [
+          3,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11001",
+        "v": "001",
+        "w": "10101001",
+        "failed_position": 2,
+        "successful_positions": [
+          1
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11010",
+        "v": "010",
+        "w": "10110010",
+        "failed_position": 2,
+        "successful_positions": [
+          1,
+          4
+        ],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11100",
+        "v": "100",
+        "w": "11010100",
+        "failed_position": 3,
+        "successful_positions": [
+          2,
+          4
+        ],
+        "exact_positions": [
+          2,
+          4,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0010",
+        "v": "00101",
+        "w": "000100110",
+        "failed_position": 8,
+        "successful_positions": [
+          3,
+          4,
+          6
+        ],
+        "exact_positions": [
+          3,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0010",
+        "v": "01010",
+        "w": "001001100",
+        "failed_position": 7,
+        "successful_positions": [
+          2,
+          3,
+          5
+        ],
+        "exact_positions": [
+          2,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0010",
+        "v": "01011",
+        "w": "001001101",
+        "failed_position": 7,
+        "successful_positions": [
+          2,
+          3,
+          5
+        ],
+        "exact_positions": [
+          2,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0010",
+        "v": "10010",
+        "w": "010100100",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0010",
+        "v": "10011",
+        "w": "010100101",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0010",
+        "v": "10101",
+        "w": "100100110",
+        "failed_position": 8,
+        "successful_positions": [
+          3,
+          4,
+          6
+        ],
+        "exact_positions": [
+          3,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0010",
+        "v": "11001",
+        "w": "101010010",
+        "failed_position": 2,
+        "successful_positions": [],
+        "exact_positions": [
+          3,
+          5,
+          8
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0011",
+        "v": "00110",
+        "w": "000110101",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0011",
+        "v": "01100",
+        "w": "001101010",
+        "failed_position": 7,
+        "successful_positions": [],
+        "exact_positions": [
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0011",
+        "v": "10010",
+        "w": "010100110",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0011",
+        "v": "10011",
+        "w": "010100111",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0011",
+        "v": "10110",
+        "w": "100110101",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0011",
+        "v": "11001",
+        "w": "101010011",
+        "failed_position": 2,
+        "successful_positions": [],
+        "exact_positions": [
+          3,
+          5
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0100",
+        "v": "01001",
+        "w": "001001010",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0100",
+        "v": "01010",
+        "w": "001100100",
+        "failed_position": 2,
+        "successful_positions": [
+          4,
+          6,
+          7
+        ],
+        "exact_positions": [
+          4,
+          6,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "0100",
+        "v": "10011",
+        "w": "010010101",
+        "failed_position": 7,
+        "successful_positions": [],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0100",
+        "v": "10100",
+        "w": "011001000",
+        "failed_position": 1,
+        "successful_positions": [
+          3,
+          5,
+          6
+        ],
+        "exact_positions": [
+          3,
+          5,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0100",
+        "v": "10101",
+        "w": "011001001",
+        "failed_position": 1,
+        "successful_positions": [
+          3,
+          5,
+          6
+        ],
+        "exact_positions": [
+          3,
+          5,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0100",
+        "v": "11001",
+        "w": "101001010",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0100",
+        "v": "11010",
+        "w": "101100100",
+        "failed_position": 2,
+        "successful_positions": [
+          4,
+          6,
+          7
+        ],
+        "exact_positions": [
+          4,
+          6,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "0101",
+        "v": "01010",
+        "w": "001100101",
+        "failed_position": 2,
+        "successful_positions": [
+          4
+        ],
+        "exact_positions": [
+          4,
+          6,
+          8
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "0101",
+        "v": "01010",
+        "w": "001011001",
+        "failed_position": 8,
+        "successful_positions": [
+          6
+        ],
+        "exact_positions": [
+          2,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0101",
+        "v": "10100",
+        "w": "011001010",
+        "failed_position": 1,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0101",
+        "v": "10100",
+        "w": "010110010",
+        "failed_position": 7,
+        "successful_positions": [
+          5
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0101",
+        "v": "10101",
+        "w": "011001011",
+        "failed_position": 1,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0101",
+        "v": "10101",
+        "w": "010110011",
+        "failed_position": 7,
+        "successful_positions": [
+          5
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "0101",
+        "v": "11010",
+        "w": "101100101",
+        "failed_position": 2,
+        "successful_positions": [
+          4
+        ],
+        "exact_positions": [
+          4,
+          6,
+          8
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "0101",
+        "v": "11010",
+        "w": "101011001",
+        "failed_position": 8,
+        "successful_positions": [
+          6
+        ],
+        "exact_positions": [
+          2,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1010",
+        "v": "00101",
+        "w": "010011010",
+        "failed_position": 2,
+        "successful_positions": [
+          4
+        ],
+        "exact_positions": [
+          4,
+          6,
+          8
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "1010",
+        "v": "00101",
+        "w": "010100110",
+        "failed_position": 8,
+        "successful_positions": [
+          6
+        ],
+        "exact_positions": [
+          2,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1010",
+        "v": "01010",
+        "w": "100110100",
+        "failed_position": 1,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1010",
+        "v": "01010",
+        "w": "101001100",
+        "failed_position": 7,
+        "successful_positions": [
+          5
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1010",
+        "v": "01011",
+        "w": "100110101",
+        "failed_position": 1,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1010",
+        "v": "01011",
+        "w": "101001101",
+        "failed_position": 7,
+        "successful_positions": [
+          5
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1010",
+        "v": "10101",
+        "w": "110011010",
+        "failed_position": 2,
+        "successful_positions": [
+          4
+        ],
+        "exact_positions": [
+          4,
+          6,
+          8
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "1010",
+        "v": "10101",
+        "w": "110100110",
+        "failed_position": 8,
+        "successful_positions": [
+          6
+        ],
+        "exact_positions": [
+          2,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1011",
+        "v": "00101",
+        "w": "010011011",
+        "failed_position": 2,
+        "successful_positions": [
+          4,
+          6,
+          7
+        ],
+        "exact_positions": [
+          4,
+          6,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "1011",
+        "v": "00110",
+        "w": "010110101",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1011",
+        "v": "01010",
+        "w": "100110110",
+        "failed_position": 1,
+        "successful_positions": [
+          3,
+          5,
+          6
+        ],
+        "exact_positions": [
+          3,
+          5,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1011",
+        "v": "01011",
+        "w": "100110111",
+        "failed_position": 1,
+        "successful_positions": [
+          3,
+          5,
+          6
+        ],
+        "exact_positions": [
+          3,
+          5,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1011",
+        "v": "01100",
+        "w": "101101010",
+        "failed_position": 7,
+        "successful_positions": [],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1011",
+        "v": "10101",
+        "w": "110011011",
+        "failed_position": 2,
+        "successful_positions": [
+          4,
+          6,
+          7
+        ],
+        "exact_positions": [
+          4,
+          6,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "1011",
+        "v": "10110",
+        "w": "110110101",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1100",
+        "v": "00110",
+        "w": "010101100",
+        "failed_position": 2,
+        "successful_positions": [],
+        "exact_positions": [
+          3,
+          5
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1100",
+        "v": "01001",
+        "w": "011001010",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1100",
+        "v": "01100",
+        "w": "101011000",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1100",
+        "v": "01101",
+        "w": "101011001",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1100",
+        "v": "10011",
+        "w": "110010101",
+        "failed_position": 7,
+        "successful_positions": [],
+        "exact_positions": [
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1100",
+        "v": "11001",
+        "w": "111001010",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1101",
+        "v": "00110",
+        "w": "010101101",
+        "failed_position": 2,
+        "successful_positions": [],
+        "exact_positions": [
+          3,
+          5,
+          8
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1101",
+        "v": "01010",
+        "w": "011011001",
+        "failed_position": 8,
+        "successful_positions": [
+          3,
+          4,
+          6
+        ],
+        "exact_positions": [
+          3,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1101",
+        "v": "01100",
+        "w": "101011010",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1101",
+        "v": "01101",
+        "w": "101011011",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1101",
+        "v": "10100",
+        "w": "110110010",
+        "failed_position": 7,
+        "successful_positions": [
+          2,
+          3,
+          5
+        ],
+        "exact_positions": [
+          2,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1101",
+        "v": "10101",
+        "w": "110110011",
+        "failed_position": 7,
+        "successful_positions": [
+          2,
+          3,
+          5
+        ],
+        "exact_positions": [
+          2,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "1101",
+        "v": "11010",
+        "w": "111011001",
+        "failed_position": 8,
+        "successful_positions": [
+          3,
+          4,
+          6
+        ],
+        "exact_positions": [
+          3,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00010",
+        "v": "0101",
+        "w": "000100110",
+        "failed_position": 8,
+        "successful_positions": [
+          4,
+          6
+        ],
+        "exact_positions": [
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00011",
+        "v": "0110",
+        "w": "000110101",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00011",
+        "v": "0110",
+        "w": "001010110",
+        "failed_position": 3,
+        "successful_positions": [
+          2,
+          4
+        ],
+        "exact_positions": [
+          2,
+          4,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00011",
+        "v": "0111",
+        "w": "001010111",
+        "failed_position": 3,
+        "successful_positions": [
+          2,
+          4
+        ],
+        "exact_positions": [
+          2,
+          4,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00011",
+        "v": "1011",
+        "w": "100101011",
+        "failed_position": 4,
+        "successful_positions": [
+          3,
+          5
+        ],
+        "exact_positions": [
+          3,
+          5,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00100",
+        "v": "1001",
+        "w": "001001010",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00100",
+        "v": "1001",
+        "w": "010100100",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00101",
+        "v": "1001",
+        "w": "010100101",
+        "failed_position": 1,
+        "successful_positions": [
+          6
+        ],
+        "exact_positions": [
+          2,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00101",
+        "v": "1010",
+        "w": "001011001",
+        "failed_position": 8,
+        "successful_positions": [
+          6
+        ],
+        "exact_positions": [
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00101",
+        "v": "1010",
+        "w": "010011010",
+        "failed_position": 2,
+        "successful_positions": [
+          1,
+          4
+        ],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00101",
+        "v": "1011",
+        "w": "010011011",
+        "failed_position": 2,
+        "successful_positions": [
+          1,
+          4
+        ],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00101",
+        "v": "1101",
+        "w": "101001101",
+        "failed_position": 3,
+        "successful_positions": [
+          2,
+          5
+        ],
+        "exact_positions": [
+          2,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00110",
+        "v": "1001",
+        "w": "010100110",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00110",
+        "v": "1100",
+        "w": "010101100",
+        "failed_position": 2,
+        "successful_positions": [
+          1
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00110",
+        "v": "1101",
+        "w": "010101101",
+        "failed_position": 2,
+        "successful_positions": [
+          1
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00110",
+        "v": "1110",
+        "w": "101010110",
+        "failed_position": 3,
+        "successful_positions": [
+          2
+        ],
+        "exact_positions": [
+          2,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00111",
+        "v": "0001",
+        "w": "000101011",
+        "failed_position": 6,
+        "successful_positions": [
+          5,
+          7
+        ],
+        "exact_positions": [
+          4,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00111",
+        "v": "0010",
+        "w": "001010110",
+        "failed_position": 5,
+        "successful_positions": [
+          4,
+          6
+        ],
+        "exact_positions": [
+          3,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00111",
+        "v": "1001",
+        "w": "010100111",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "00111",
+        "v": "1001",
+        "w": "100101011",
+        "failed_position": 6,
+        "successful_positions": [
+          5,
+          7
+        ],
+        "exact_positions": [
+          4,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01000",
+        "v": "1010",
+        "w": "011001000",
+        "failed_position": 1,
+        "successful_positions": [
+          3,
+          5
+        ],
+        "exact_positions": [
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01001",
+        "v": "1010",
+        "w": "011001001",
+        "failed_position": 1,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5,
+          8
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01011",
+        "v": "0010",
+        "w": "001001101",
+        "failed_position": 7,
+        "successful_positions": [
+          5,
+          8
+        ],
+        "exact_positions": [
+          3,
+          5,
+          8
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01011",
+        "v": "0100",
+        "w": "010011010",
+        "failed_position": 6,
+        "successful_positions": [
+          4,
+          7
+        ],
+        "exact_positions": [
+          2,
+          4,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01011",
+        "v": "0110",
+        "w": "010110101",
+        "failed_position": 8,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01011",
+        "v": "1010",
+        "w": "011001011",
+        "failed_position": 1,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01011",
+        "v": "1010",
+        "w": "101001101",
+        "failed_position": 7,
+        "successful_positions": [
+          5,
+          8
+        ],
+        "exact_positions": [
+          3,
+          5,
+          8
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01100",
+        "v": "0011",
+        "w": "001101010",
+        "failed_position": 7,
+        "successful_positions": [
+          8
+        ],
+        "exact_positions": [
+          4,
+          6,
+          8
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01100",
+        "v": "0111",
+        "w": "011010101",
+        "failed_position": 6,
+        "successful_positions": [
+          7
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01100",
+        "v": "1001",
+        "w": "011001010",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01100",
+        "v": "1011",
+        "w": "101101010",
+        "failed_position": 7,
+        "successful_positions": [
+          8
+        ],
+        "exact_positions": [
+          4,
+          6,
+          8
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "01101",
+        "v": "1010",
+        "w": "011011001",
+        "failed_position": 8,
+        "successful_positions": [
+          6
+        ],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10010",
+        "v": "0101",
+        "w": "100100110",
+        "failed_position": 8,
+        "successful_positions": [
+          6
+        ],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10011",
+        "v": "0100",
+        "w": "010010101",
+        "failed_position": 7,
+        "successful_positions": [
+          8
+        ],
+        "exact_positions": [
+          4,
+          6,
+          8
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10011",
+        "v": "0110",
+        "w": "100110101",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10011",
+        "v": "1000",
+        "w": "100101010",
+        "failed_position": 6,
+        "successful_positions": [
+          7
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10011",
+        "v": "1100",
+        "w": "110010101",
+        "failed_position": 7,
+        "successful_positions": [
+          8
+        ],
+        "exact_positions": [
+          4,
+          6,
+          8
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10100",
+        "v": "0101",
+        "w": "100110100",
+        "failed_position": 1,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10100",
+        "v": "0101",
+        "w": "010110010",
+        "failed_position": 7,
+        "successful_positions": [
+          5,
+          8
+        ],
+        "exact_positions": [
+          3,
+          5,
+          8
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10100",
+        "v": "1001",
+        "w": "101001010",
+        "failed_position": 8,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10100",
+        "v": "1011",
+        "w": "101100101",
+        "failed_position": 6,
+        "successful_positions": [
+          4,
+          7
+        ],
+        "exact_positions": [
+          2,
+          4,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10100",
+        "v": "1101",
+        "w": "110110010",
+        "failed_position": 7,
+        "successful_positions": [
+          5,
+          8
+        ],
+        "exact_positions": [
+          3,
+          5,
+          8
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10110",
+        "v": "0101",
+        "w": "100110110",
+        "failed_position": 1,
+        "successful_positions": [
+          3
+        ],
+        "exact_positions": [
+          3,
+          5,
+          8
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "10111",
+        "v": "0101",
+        "w": "100110111",
+        "failed_position": 1,
+        "successful_positions": [
+          3,
+          5
+        ],
+        "exact_positions": [
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11000",
+        "v": "0110",
+        "w": "101011000",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11000",
+        "v": "0110",
+        "w": "011010100",
+        "failed_position": 6,
+        "successful_positions": [
+          5,
+          7
+        ],
+        "exact_positions": [
+          4,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11000",
+        "v": "1101",
+        "w": "110101001",
+        "failed_position": 5,
+        "successful_positions": [
+          4,
+          6
+        ],
+        "exact_positions": [
+          3,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11000",
+        "v": "1110",
+        "w": "111010100",
+        "failed_position": 6,
+        "successful_positions": [
+          5,
+          7
+        ],
+        "exact_positions": [
+          4,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11001",
+        "v": "0001",
+        "w": "010101001",
+        "failed_position": 3,
+        "successful_positions": [
+          2
+        ],
+        "exact_positions": [
+          2,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11001",
+        "v": "0010",
+        "w": "101010010",
+        "failed_position": 2,
+        "successful_positions": [
+          1
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11001",
+        "v": "0011",
+        "w": "101010011",
+        "failed_position": 2,
+        "successful_positions": [
+          1
+        ],
+        "exact_positions": [
+          1,
+          3,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11001",
+        "v": "0110",
+        "w": "101011001",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11010",
+        "v": "0010",
+        "w": "010110010",
+        "failed_position": 3,
+        "successful_positions": [
+          2,
+          5
+        ],
+        "exact_positions": [
+          2,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11010",
+        "v": "0100",
+        "w": "101100100",
+        "failed_position": 2,
+        "successful_positions": [
+          1,
+          4
+        ],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11010",
+        "v": "0101",
+        "w": "110100110",
+        "failed_position": 8,
+        "successful_positions": [
+          6
+        ],
+        "exact_positions": [
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11010",
+        "v": "0101",
+        "w": "101100101",
+        "failed_position": 2,
+        "successful_positions": [
+          1,
+          4
+        ],
+        "exact_positions": [
+          1,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11010",
+        "v": "0110",
+        "w": "101011010",
+        "failed_position": 1,
+        "successful_positions": [
+          6
+        ],
+        "exact_positions": [
+          2,
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11011",
+        "v": "0110",
+        "w": "110110101",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11011",
+        "v": "0110",
+        "w": "101011011",
+        "failed_position": 1,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11100",
+        "v": "0100",
+        "w": "011010100",
+        "failed_position": 4,
+        "successful_positions": [
+          3,
+          5
+        ],
+        "exact_positions": [
+          3,
+          5,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11100",
+        "v": "1000",
+        "w": "110101000",
+        "failed_position": 3,
+        "successful_positions": [
+          2,
+          4
+        ],
+        "exact_positions": [
+          2,
+          4,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11100",
+        "v": "1001",
+        "w": "111001010",
+        "failed_position": 8,
+        "successful_positions": [],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11100",
+        "v": "1001",
+        "w": "110101001",
+        "failed_position": 3,
+        "successful_positions": [
+          2,
+          4
+        ],
+        "exact_positions": [
+          2,
+          4,
+          5
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "11101",
+        "v": "1010",
+        "w": "111011001",
+        "failed_position": 8,
+        "successful_positions": [
+          4,
+          6
+        ],
+        "exact_positions": [
+          4,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "000011",
+        "v": "011",
+        "w": "000101011",
+        "failed_position": 4,
+        "successful_positions": [
+          5
+        ],
+        "exact_positions": [
+          5,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "000101",
+        "v": "101",
+        "w": "001001101",
+        "failed_position": 3,
+        "successful_positions": [
+          5
+        ],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "000110",
+        "v": "110",
+        "w": "001010110",
+        "failed_position": 3,
+        "successful_positions": [],
+        "exact_positions": [
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "001111",
+        "v": "001",
+        "w": "001010111",
+        "failed_position": 5,
+        "successful_positions": [
+          4
+        ],
+        "exact_positions": [
+          3,
+          4
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "010101",
+        "v": "010",
+        "w": "010011001",
+        "failed_position": 6,
+        "successful_positions": [
+          4,
+          8
+        ],
+        "exact_positions": [
+          2,
+          4,
+          8
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "010101",
+        "v": "101",
+        "w": "011001101",
+        "failed_position": 3,
+        "successful_positions": [
+          1,
+          5
+        ],
+        "exact_positions": [
+          1,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "010111",
+        "v": "010",
+        "w": "010011011",
+        "failed_position": 6,
+        "successful_positions": [
+          4
+        ],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "011000",
+        "v": "011",
+        "w": "011010100",
+        "failed_position": 6,
+        "successful_positions": [],
+        "exact_positions": [
+          3,
+          5
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "011001",
+        "v": "001",
+        "w": "010101001",
+        "failed_position": 3,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "011001",
+        "v": "011",
+        "w": "011010101",
+        "failed_position": 6,
+        "successful_positions": [],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "100110",
+        "v": "100",
+        "w": "100101010",
+        "failed_position": 6,
+        "successful_positions": [],
+        "exact_positions": [
+          3,
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "100110",
+        "v": "110",
+        "w": "101010110",
+        "failed_position": 3,
+        "successful_positions": [],
+        "exact_positions": [
+          2,
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "100111",
+        "v": "100",
+        "w": "100101011",
+        "failed_position": 6,
+        "successful_positions": [],
+        "exact_positions": [
+          3,
+          5
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "101000",
+        "v": "101",
+        "w": "101100100",
+        "failed_position": 6,
+        "successful_positions": [
+          4
+        ],
+        "exact_positions": [
+          2,
+          4
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "101010",
+        "v": "010",
+        "w": "100110010",
+        "failed_position": 3,
+        "successful_positions": [
+          1,
+          5
+        ],
+        "exact_positions": [
+          1,
+          5,
+          7
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "101010",
+        "v": "101",
+        "w": "101100110",
+        "failed_position": 6,
+        "successful_positions": [
+          4,
+          8
+        ],
+        "exact_positions": [
+          2,
+          4,
+          8
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "110000",
+        "v": "110",
+        "w": "110101000",
+        "failed_position": 5,
+        "successful_positions": [
+          4
+        ],
+        "exact_positions": [
+          3,
+          4
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      },
+      {
+        "u": "111001",
+        "v": "001",
+        "w": "110101001",
+        "failed_position": 3,
+        "successful_positions": [],
+        "exact_positions": [
+          4,
+          6
+        ],
+        "successful_profile": false,
+        "ordinary_profile": true
+      },
+      {
+        "u": "111010",
+        "v": "010",
+        "w": "110110010",
+        "failed_position": 3,
+        "successful_positions": [
+          5
+        ],
+        "exact_positions": [
+          5,
+          7
+        ],
+        "successful_profile": false,
+        "ordinary_profile": false
+      },
+      {
+        "u": "111100",
+        "v": "100",
+        "w": "111010100",
+        "failed_position": 4,
+        "successful_positions": [
+          5
+        ],
+        "exact_positions": [
+          5,
+          6
+        ],
+        "successful_profile": true,
+        "ordinary_profile": true
+      }
+    ]
+  },
+  "elapsed_seconds": 3.054
+}

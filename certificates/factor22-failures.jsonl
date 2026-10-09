@@ -1,0 +1,10 @@
+{"rule":"bad_mask_no_equal_shift","u":"0101010","v":"0101010101","w":"00101011010100110","degree":4,"mask":"UVVVVVVUUUVVVUUVU"}
+{"rule":"bad_mask_no_equal_shift","u":"1010101","v":"1010101010","w":"11010100101011001","degree":4,"mask":"UVVVVVVUUUVVVUUVU"}
+{"rule":"bad_mask_no_equal_shift","u":"0101010","v":"01010101010","w":"001010110101001100","degree":4,"mask":"UVVVVVVUUUVVVUUVUV"}
+{"rule":"bad_mask_no_equal_shift","u":"0101010","v":"01010101011","w":"001010110101001101","degree":4,"mask":"UVVVVVVUUUVVVUUVUV"}
+{"rule":"bad_mask_no_equal_shift","u":"0101010","v":"10101010101","w":"100101011010100110","degree":4,"mask":"VUVVVVVVUUUVVVUUVU"}
+{"rule":"bad_mask_no_equal_shift","u":"01010101010","v":"0101010","w":"001101010010101100","degree":4,"mask":"UVVUUUVVVUUUUUUVUV"}
+{"rule":"bad_mask_no_equal_shift","u":"1010101","v":"01010101010","w":"011010100101011001","degree":4,"mask":"VUVVVVVVUUUVVVUUVU"}
+{"rule":"bad_mask_no_equal_shift","u":"1010101","v":"10101010100","w":"110101001010110010","degree":4,"mask":"UVVVVVVUUUVVVUUVUV"}
+{"rule":"bad_mask_no_equal_shift","u":"1010101","v":"10101010101","w":"110101001010110011","degree":4,"mask":"UVVVVVVUUUVVVUUVUV"}
+{"rule":"bad_mask_no_equal_shift","u":"10101010101","v":"1010101","w":"110010101101010011","degree":4,"mask":"UVVUUUVVVUUUUUUVUV"}

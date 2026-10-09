@@ -1,0 +1,28 @@
+{
+  "symbolic_through20": {
+    "final_counts": {
+      "length": 20,
+      "masks": 54264,
+      "nodes": 2243278,
+      "pruned": 2114583,
+      "bad": 6,
+      "total_masks": 170544,
+      "total_nodes": 5816923,
+      "total_bad": 12,
+      "elapsed": 6.00254
+    },
+    "independently_generated_leaves": 12,
+    "exact_leaf_match": true,
+    "brute_force_shift_checks": 12
+  },
+  "all_supplied30_certificates": {
+    "rows": 1512,
+    "distinct_instances": 896,
+    "vectors": {
+      "(2, 1, 1, 2)": 896
+    },
+    "lower_witnesses": 6048,
+    "coarsening_cuts": 41244
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "counts": {
+    "failed_triples": 168,
+    "with_successful_candidate": 116,
+    "successful_profile": 94,
+    "without_successful_candidate": 52,
+    "ordinary_profile_without_candidate": 52
+  }
+}

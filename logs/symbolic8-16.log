@@ -1,0 +1,2 @@
+{"length":15,"degree":8,"masks":1,"nodes":6378,"pruned_low":6378,"pruned_earlier":0,"bad":0,"total_masks":1,"total_nodes":6378,"total_bad":0,"elapsed":0.00858425}
+{"length":16,"degree":8,"masks":17,"nodes":430107,"pruned_low":430089,"pruned_earlier":0,"bad":0,"total_masks":18,"total_nodes":436485,"total_bad":0,"elapsed":0.380505}

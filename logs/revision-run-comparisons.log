@@ -1,0 +1,53 @@
+{
+  "runs/independent-symbolic20.log": {
+    "status": "PASS",
+    "rows": 16
+  },
+  "runs/smoke-binary6.log": {
+    "status": "PASS",
+    "rows": 5
+  },
+  "runs/smoke-first3.log": {
+    "status": "PASS",
+    "rows": 5
+  },
+  "runs/smoke-memo3.log": {
+    "status": "PASS",
+    "rows": 5
+  },
+  "runs/smoke-last3.log": {
+    "status": "PASS",
+    "rows": 5
+  },
+  "runs/smoke-arbitrary3.log": {
+    "status": "PASS",
+    "rows": 16
+  },
+  "runs/smoke-fresh3.log": {
+    "status": "PASS",
+    "rows": 16
+  },
+  "structured": {
+    "status": "PASS",
+    "pairs": 70710,
+    "outputs": 20001166,
+    "degree_three_minimum_masks": 33306824
+  },
+  "coarsenings": {
+    "status": "PASS",
+    "combinations": 8110169
+  },
+  "independent_leaves": {
+    "status": "PASS",
+    "tuples": 12
+  },
+  "smoke-arbitrary3_leaves": {
+    "status": "PASS",
+    "tuples": 12
+  },
+  "smoke-fresh3_leaves": {
+    "status": "PASS",
+    "tuples": 12
+  },
+  "status": "PASS"
+}

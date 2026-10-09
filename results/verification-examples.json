@@ -1,0 +1,114 @@
+{
+  "first_mask": {
+    "u": "ABAABAABAAB",
+    "v": "ABABAAB",
+    "w": "ABABAAABABABAAABAB",
+    "degree": 4,
+    "total_masks": 36,
+    "minimum_masks": [
+      "UUVVVUUUUVUUUUVUVV",
+      "UUVVVUUUUVUUUVUUVV",
+      "UUVVVUUUUVUUUVVVUU",
+      "UUVVVUUUUVUUVUUUVV",
+      "VVUUUUVUUVUUUUVUVV",
+      "VVUUUUVUUVUUUVUUVV",
+      "VVUUUUVUUVUUUVVVUU",
+      "VVUUUUVUUVUUVUUUVV",
+      "VVUUUVUUUVUUUUVUVV",
+      "VVUUUVUUUVUUUVUUVV",
+      "VVUUUVUUUVUUUVVVUU",
+      "VVUUUVUUUVUUVUUUVV",
+      "VVUUVUUUUVUUUUVUVV",
+      "VVUUVUUUUVUUUVUUVV",
+      "VVUUVUUUUVUUUVVVUU",
+      "VVUUVUUUUVUUVUUUVV"
+    ],
+    "selected_mask": "UUVVVUUUUVUUUUVUVV",
+    "selected_degrees": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_moves": 24
+  },
+  "last_mask": {
+    "u": "ABABABBABAB",
+    "v": "ABABABBAB",
+    "w": "ABABABBABAABBABABABB",
+    "degree": 4,
+    "total_masks": 8,
+    "minimum_masks": [
+      "UUUUUUUVVVUUVVVUVVUV",
+      "UUUUUUUVVVUUVVVUVVVU"
+    ],
+    "selected_mask": "UUUUUUUVVVUUVVVUVVVU",
+    "selected_degrees": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_moves": 1
+  },
+  "whole_factor_shift": {
+    "u": "ABBAABBA",
+    "v": "ABBABABBA",
+    "w": "ABBABABABABABABBA",
+    "degree": 4,
+    "total_masks": 8,
+    "minimum_masks": [
+      "UUUVVUVUUVUUVVVVV",
+      "UUUVVUVUUVVVUUVVV",
+      "UUUVVUVVVUUVUUVVV",
+      "UUUVVUVVVVVUVVUUU",
+      "VVVUUVUUVUUVUUVVV",
+      "VVVUUVUUVVVUVVUUU",
+      "VVVUUVVVUUVUVVUUU",
+      "VVVVVUUVUUVUVVUUU"
+    ],
+    "selected_mask": "VVVUUVUUVUUVUUVVV",
+    "selected_degrees": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "exact_moves": 12
+  },
+  "both_end_separators": {
+    "u": "01201Y34534",
+    "v": "201XZ345",
+    "w": "02101201XYZ34534354",
+    "degree": 7,
+    "total_masks": 1,
+    "minimum_masks": [
+      "UVUVVUUUVUVUUUVVUVU"
+    ],
+    "selected_mask": "UVUVVUUUVUVUUUVVUVU",
+    "selected_degrees": [
+      5,
+      5,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      5,
+      5
+    ],
+    "exact_moves": 8
+  },
+  "degree_three_bad_branches_dp_checked": 305,
+  "degree_three_period_observations_checked": 305,
+  "binary_first_mask_padding_instances": 40
+}

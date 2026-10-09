@@ -1,0 +1,10 @@
+{
+  "domain": "primitive binary T lengths 3..8; every proper nonempty border b; h,j,p,q in 1..3",
+  "total": 32400,
+  "degree_counts": {
+    "2": 28800,
+    "3": 3600
+  },
+  "failures": [],
+  "elapsed_seconds": 8.962250917000347
+}

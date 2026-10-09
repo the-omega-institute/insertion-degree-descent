@@ -1,0 +1,5 @@
+{"length":5,"degree":3,"masks":1,"nodes":3,"pruned_low":3,"pruned_later":0,"duplicates":0,"bad":0,"total_masks":1,"total_nodes":3,"total_bad":0,"elapsed":0.000299083}
+{"length":6,"degree":3,"masks":7,"nodes":29,"pruned_low":25,"pruned_later":1,"duplicates":2,"bad":0,"total_masks":8,"total_nodes":32,"total_bad":0,"elapsed":0.000395625}
+{"length":7,"degree":3,"masks":28,"nodes":140,"pruned_low":119,"pruned_later":4,"duplicates":12,"bad":0,"total_masks":36,"total_nodes":172,"total_bad":0,"elapsed":0.000529708}
+{"length":8,"degree":3,"masks":84,"nodes":504,"pruned_low":410,"pruned_later":18,"duplicates":56,"bad":0,"total_masks":120,"total_nodes":676,"total_bad":0,"elapsed":0.00088925}
+{"length":9,"degree":3,"masks":210,"nodes":1484,"pruned_low":1159,"pruned_later":58,"duplicates":206,"bad":0,"total_masks":330,"total_nodes":2160,"total_bad":0,"elapsed":0.00194971}

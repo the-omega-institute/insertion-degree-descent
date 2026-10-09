@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "cases": 1539,
+  "cases_where_original_degree_three": 222,
+  "degree_counts": {
+    "('B', 2)": 1101,
+    "('B', 3)": 195,
+    "('BB', 2)": 72,
+    "('BB', 3)": 9,
+    "('BC', 2)": 72,
+    "('BC', 3)": 9,
+    "('BCB', 2)": 72,
+    "('BCB', 3)": 9
+  },
+  "all_periodic_repaired_outputs_have_degree_two": true,
+  "independent_position_combination_checks": 15,
+  "elapsed_seconds": 0.544
+}

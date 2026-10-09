@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "archived_witness_tuples": 305,
+  "distinct_source_output_mask_instances": 221,
+  "archive_sha256": "431669ea454609eac39190f0c4f70df217e7ec46a6b2cb6eda1bb711961fe28b",
+  "shifted_degree_vector": [
+    2,
+    1,
+    1,
+    2
+  ],
+  "position_combination_cross_checks": 12,
+  "maximum_recorded_length": 26,
+  "elapsed_seconds": 0.456
+}

@@ -1,0 +1,16 @@
+{"length":5,"masks":1,"nodes":3,"pruned":3,"bad":0,"total_masks":1,"total_nodes":3,"total_bad":0,"elapsed":1.9625e-05}
+{"length":6,"masks":7,"nodes":33,"pruned":31,"bad":0,"total_masks":8,"total_nodes":36,"total_bad":0,"elapsed":0.00027525}
+{"length":7,"masks":28,"nodes":159,"pruned":150,"bad":0,"total_masks":36,"total_nodes":195,"total_bad":0,"elapsed":0.000566959}
+{"length":8,"masks":84,"nodes":597,"pruned":559,"bad":0,"total_masks":120,"total_nodes":792,"total_bad":0,"elapsed":0.00137137}
+{"length":9,"masks":210,"nodes":1826,"pruned":1706,"bad":0,"total_masks":330,"total_nodes":2618,"total_bad":0,"elapsed":0.00374775}
+{"length":10,"masks":462,"nodes":4857,"pruned":4525,"bad":0,"total_masks":792,"total_nodes":7475,"total_bad":0,"elapsed":0.00932117}
+{"length":11,"masks":924,"nodes":11450,"pruned":10678,"bad":0,"total_masks":1716,"total_nodes":18925,"total_bad":0,"elapsed":0.0222568}
+{"length":12,"masks":1716,"nodes":25217,"pruned":23498,"bad":0,"total_masks":3432,"total_nodes":44142,"total_bad":0,"elapsed":0.0439025}
+{"length":13,"masks":3003,"nodes":51216,"pruned":47802,"bad":0,"total_masks":6435,"total_nodes":95358,"total_bad":0,"elapsed":0.0824202}
+{"length":14,"masks":5005,"nodes":99521,"pruned":92911,"bad":0,"total_masks":11440,"total_nodes":194879,"total_bad":0,"elapsed":0.158071}
+{"length":15,"masks":8008,"nodes":182407,"pruned":170584,"bad":0,"total_masks":19448,"total_nodes":377286,"total_bad":0,"elapsed":0.305515}
+{"length":16,"masks":12376,"nodes":321226,"pruned":300852,"bad":0,"total_masks":31824,"total_nodes":698512,"total_bad":0,"elapsed":0.579821}
+{"length":17,"masks":18564,"nodes":543992,"pruned":510430,"bad":1,"total_masks":50388,"total_nodes":1242504,"total_bad":1,"elapsed":1.08061}
+{"length":18,"masks":27132,"nodes":897392,"pruned":843224,"bad":2,"total_masks":77520,"total_nodes":2139896,"total_bad":3,"elapsed":1.96099}
+{"length":19,"masks":38760,"nodes":1433749,"pruned":1349537,"bad":3,"total_masks":116280,"total_nodes":3573645,"total_bad":6,"elapsed":3.47384}
+{"length":20,"masks":54264,"nodes":2243278,"pruned":2114583,"bad":6,"total_masks":170544,"total_nodes":5816923,"total_bad":12,"elapsed":6.00254}

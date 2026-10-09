@@ -1,0 +1,14 @@
+{"length":17,"degree":3,"masks":18564,"nodes":363001,"pruned_low":331821,"pruned_earlier":14123,"bad":0,"total_masks":18564,"total_nodes":363001,"total_bad":0,"elapsed":0.54323}
+{"length":18,"degree":3,"masks":27132,"nodes":579777,"pruned_low":529714,"pruned_earlier":23374,"bad":0,"total_masks":45696,"total_nodes":942778,"total_bad":0,"elapsed":1.51079}
+{"length":19,"degree":3,"masks":38760,"nodes":900712,"pruned_low":823104,"pruned_earlier":37120,"bad":0,"total_masks":84456,"total_nodes":1843490,"total_bad":0,"elapsed":3.19544}
+{"length":20,"degree":3,"masks":54264,"nodes":1368826,"pruned_low":1250760,"pruned_earlier":57784,"bad":0,"total_masks":138720,"total_nodes":3212316,"total_bad":0,"elapsed":5.99744}
+{"length":21,"degree":3,"masks":74613,"nodes":2034770,"pruned_low":1860385,"pruned_earlier":86802,"bad":0,"total_masks":213333,"total_nodes":5247086,"total_bad":0,"elapsed":10.6935}
+{"length":22,"degree":3,"masks":100947,"nodes":2967022,"pruned_low":2713789,"pruned_earlier":128277,"bad":0,"total_masks":314280,"total_nodes":8214108,"total_bad":0,"elapsed":18.1942}
+{"length":23,"degree":3,"masks":134596,"nodes":4250586,"pruned_low":3890687,"pruned_earlier":184882,"bad":0,"total_masks":448876,"total_nodes":12464694,"total_bad":0,"elapsed":29.9497}
+{"length":24,"degree":3,"masks":177100,"nodes":6003514,"pruned_low":5497706,"pruned_earlier":263464,"bad":0,"total_masks":625976,"total_nodes":18468208,"total_bad":0,"elapsed":48.146}
+{"length":25,"degree":3,"masks":230230,"nodes":8351735,"pruned_low":7654790,"pruned_earlier":366930,"bad":0,"total_masks":856206,"total_nodes":26819943,"total_bad":0,"elapsed":76.1462}
+{"length":26,"degree":3,"masks":296010,"nodes":11469098,"pruned_low":10519184,"pruned_earlier":505791,"bad":0,"total_masks":1152216,"total_nodes":38289041,"total_bad":0,"elapsed":117.783}
+{"length":27,"degree":3,"masks":376740,"nodes":15560614,"pruned_low":14284885,"pruned_earlier":685225,"bad":0,"total_masks":1528956,"total_nodes":53849655,"total_bad":0,"elapsed":183.065}
+{"length":28,"degree":3,"masks":475020,"nodes":20880397,"pruned_low":19183370,"pruned_earlier":920009,"bad":0,"total_masks":2003976,"total_nodes":74730052,"total_bad":0,"elapsed":272.964}
+{"length":29,"degree":3,"masks":593775,"nodes":27716738,"pruned_low":25488424,"pruned_earlier":1217339,"bad":0,"total_masks":2597751,"total_nodes":102446790,"total_bad":0,"elapsed":402.879}
+{"length":30,"degree":3,"masks":736281,"nodes":36459965,"pruned_low":33556331,"pruned_earlier":1598426,"bad":0,"total_masks":3334032,"total_nodes":138906755,"total_bad":0,"elapsed":592.102}
